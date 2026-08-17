@@ -1,0 +1,176 @@
+{
+  "code": "AG0",
+  "theo": {
+    "longReturn": 14.98404686740954,
+    "shortReturn": 12.241349794314837
+  },
+  "baseline": {
+    "short": {
+      "trades": 200,
+      "winRate": 0.705,
+      "pf": 4.7092813029983045,
+      "pnl": 463675,
+      "priceReturn": 7.299793385325457
+    },
+    "capture": 0.5963225876214768
+  },
+  "bestShort": {
+    "stopAtrMult": 2.9375,
+    "targetAtrMult": 4.40625,
+    "maxHoldDays": 44.0625,
+    "cooldownBars": 5.166666666666667,
+    "trendFilter": true,
+    "minSignalGrade": "L2"
+  },
+  "bestShortStats": {
+    "trades": 186,
+    "winRate": 0.7419354838709677,
+    "pf": 5.521285645924534,
+    "pnl": 510209,
+    "priceReturn": 7.915527787277677
+  },
+  "bestShortCapture": 0.6466221389208099,
+  "bestTotalPnl": 4432930,
+  "yearly": [
+    {
+      "year": "2012",
+      "long": 45200,
+      "short": -2164,
+      "longW": 9,
+      "shortW": 1,
+      "longL": 8,
+      "shortL": 1
+    },
+    {
+      "year": "2013",
+      "long": 0,
+      "short": 315810,
+      "longW": 0,
+      "shortW": 44,
+      "longL": 0,
+      "shortL": 3
+    },
+    {
+      "year": "2014",
+      "long": -1133,
+      "short": 81422,
+      "longW": 0,
+      "shortW": 32,
+      "longL": 1,
+      "shortL": 8
+    },
+    {
+      "year": "2015",
+      "long": 0,
+      "short": 1760,
+      "longW": 0,
+      "shortW": 8,
+      "longL": 0,
+      "shortL": 5
+    },
+    {
+      "year": "2016",
+      "long": 78069,
+      "short": 0,
+      "longW": 28,
+      "shortW": 0,
+      "longL": 13,
+      "shortL": 0
+    },
+    {
+      "year": "2017",
+      "long": -7396,
+      "short": 16102,
+      "longW": 0,
+      "shortW": 11,
+      "longL": 5,
+      "shortL": 3
+    },
+    {
+      "year": "2018",
+      "long": -601,
+      "short": -5648,
+      "longW": 0,
+      "shortW": 10,
+      "longL": 1,
+      "shortL": 17
+    },
+    {
+      "year": "2019",
+      "long": 59978,
+      "short": -1487,
+      "longW": 19,
+      "shortW": 4,
+      "longL": 14,
+      "shortL": 5
+    },
+    {
+      "year": "2020",
+      "long": 71627,
+      "short": -17638,
+      "longW": 18,
+      "shortW": 0,
+      "longL": 8,
+      "shortL": 1
+    },
+    {
+      "year": "2021",
+      "long": -8073,
+      "short": 16300,
+      "longW": 2,
+      "shortW": 9,
+      "longL": 3,
+      "shortL": 2
+    },
+    {
+      "year": "2022",
+      "long": 57422,
+      "short": 108461,
+      "longW": 14,
+      "shortW": 19,
+      "longL": 5,
+      "shortL": 2
+    },
+    {
+      "year": "2023",
+      "long": 39652,
+      "short": -2709,
+      "longW": 23,
+      "shortW": 0,
+      "longL": 17,
+      "shortL": 1
+    },
+    {
+      "year": "2024",
+      "long": 109768,
+      "short": 0,
+      "longW": 19,
+      "shortW": 0,
+      "longL": 11,
+      "shortL": 0
+    },
+    {
+      "year": "2025",
+      "long": 2280829,
+      "short": 0,
+      "longW": 102,
+      "shortW": 0,
+      "longL": 3,
+      "shortL": 0
+    },
+    {
+      "year": "2026",
+      "long": 1197379,
+      "short": 0,
+      "longW": 14,
+      "shortW": 0,
+      "longL": 2,
+      "shortL": 0
+    }
+  ],
+  "conclusion": {
+    "shortPositiveYears": 6,
+    "longPositiveYears": 9,
+    "totalYears": 15
+  }
+}

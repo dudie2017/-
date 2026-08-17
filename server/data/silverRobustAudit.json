@@ -1,0 +1,188 @@
+{
+  "code": "AG0",
+  "perturbation": {
+    "n": 200,
+    "pnlMean": 4344793.125,
+    "pnlStd": 52312.614855112864,
+    "pnlCV": 0.0120403005045523,
+    "pnlMin": 4166168,
+    "pnlMax": 4466034,
+    "winRateMean": 0.7143545944491749,
+    "winRateStd": 0.012846123910321876,
+    "pfMean": 9.147346486881803,
+    "pfStd": 0.39544886725396644,
+    "maxDdMean": 0.41406214623855087,
+    "maxDdStd": 0.031117458580570242
+  },
+  "byYear": [
+    {
+      "year": "2012",
+      "pnl": 43692,
+      "trades": 19,
+      "wins": 10
+    },
+    {
+      "year": "2013",
+      "pnl": 249580,
+      "trades": 46,
+      "wins": 40
+    },
+    {
+      "year": "2014",
+      "pnl": 80409,
+      "trades": 41,
+      "wins": 32
+    },
+    {
+      "year": "2015",
+      "pnl": 25489,
+      "trades": 25,
+      "wins": 17
+    },
+    {
+      "year": "2016",
+      "pnl": 78069,
+      "trades": 41,
+      "wins": 28
+    },
+    {
+      "year": "2017",
+      "pnl": -3591,
+      "trades": 22,
+      "wins": 10
+    },
+    {
+      "year": "2018",
+      "pnl": -3322,
+      "trades": 26,
+      "wins": 9
+    },
+    {
+      "year": "2019",
+      "pnl": 59864,
+      "trades": 43,
+      "wins": 23
+    },
+    {
+      "year": "2020",
+      "pnl": 53989,
+      "trades": 27,
+      "wins": 18
+    },
+    {
+      "year": "2021",
+      "pnl": -772,
+      "trades": 13,
+      "wins": 7
+    },
+    {
+      "year": "2022",
+      "pnl": 159648,
+      "trades": 42,
+      "wins": 34
+    },
+    {
+      "year": "2023",
+      "pnl": 36943,
+      "trades": 41,
+      "wins": 23
+    },
+    {
+      "year": "2024",
+      "pnl": 109768,
+      "trades": 30,
+      "wins": 19
+    },
+    {
+      "year": "2025",
+      "pnl": 2280829,
+      "trades": 105,
+      "wins": 102
+    },
+    {
+      "year": "2026",
+      "pnl": 1197379,
+      "trades": 16,
+      "wins": 14
+    }
+  ],
+  "concentration": {
+    "totalPnl": 4367974,
+    "topYear": "2025",
+    "topYearPnl": 2280829,
+    "topYearRatio": 0.5221709195155466,
+    "top3Ratio": 0.8534363986598821,
+    "positiveYears": 12
+  },
+  "final": {
+    "totalTrades": 537,
+    "wins": 386,
+    "winRate": 0.7188081936685289,
+    "totalPnl": 4367974,
+    "profitFactor": 9.539889223213466,
+    "longTrades": 337,
+    "longWins": 245,
+    "longPnl": 3904299,
+    "longPF": 11.102332621773725,
+    "shortTrades": 200,
+    "shortWins": 141,
+    "shortPnl": 463675,
+    "shortPF": 4.7092813029983045,
+    "longPriceReturn": 326.83921286487396,
+    "shortPriceReturn": 92.31364600905313
+  },
+  "oos": {
+    "code": "AG0",
+    "train": {
+      "long": {
+        "trades": 217,
+        "wins": 144,
+        "winRate": 0.663594470046083,
+        "pnl": 547073,
+        "pf": 3.223295565381364,
+        "avgRR": 0.8674193548387095
+      },
+      "short": {
+        "trades": 231,
+        "wins": 150,
+        "winRate": 0.6493506493506493,
+        "pnl": 472969,
+        "pf": 3.8990180694829233,
+        "avgRR": 0.6809523809523811
+      }
+    },
+    "test": {
+      "long": {
+        "trades": 129,
+        "wins": 116,
+        "winRate": 0.8992248062015504,
+        "pnl": 3250753,
+        "pf": 11.485082377530352,
+        "avgRR": 1.2883720930232558
+      },
+      "short": {
+        "trades": 1,
+        "wins": 0,
+        "winRate": 0,
+        "pnl": -4940,
+        "pf": 0,
+        "avgRR": 0
+      },
+      "total": {
+        "trades": 130,
+        "wins": 116,
+        "winRate": 0.8923076923076924,
+        "pnl": 3245813,
+        "pf": 11.304953393274408,
+        "avgRR": 1.2784615384615385
+      },
+      "passLong": true,
+      "passShort": false,
+      "passBoth": false
+    }
+  },
+  "verdict": {
+    "perturbStable": "稳健（CV<30%）",
+    "yearlyConcentrated": "集中（单年>50%）"
+  }
+}

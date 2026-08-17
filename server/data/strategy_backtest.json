@@ -1,0 +1,36 @@
+{
+  "sectorRotation": {
+    "strategy": "板块动量轮动",
+    "totalReturn": 420279.5212987015,
+    "winRate": 0.65,
+    "trades": 4
+  },
+  "arbitrage": {
+    "strategy": "跨品种套利",
+    "totalReturn": 72000,
+    "winRate": 0.6,
+    "trades": 40,
+    "pairs": [
+      {
+        "code1": "CF0",
+        "code2": "RU0",
+        "corr": 0.761
+      },
+      {
+        "code1": "CU0",
+        "code2": "RU0",
+        "corr": 0.743
+      },
+      {
+        "code1": "RB0",
+        "code2": "HC0",
+        "corr": 0.729
+      },
+      {
+        "code1": "CF0",
+        "code2": "CU0",
+        "corr": 0.705
+      }
+    ]
+  }
+}

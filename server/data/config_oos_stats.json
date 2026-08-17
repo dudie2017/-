@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-08-16T09:10:15.295Z",
+  "nBootstrap": 1000,
+  "trainSize": 500,
+  "topRatio": 0.2,
+  "shrinkAlpha": 0.5,
+  "schemes": {
+    "equalWeight": {
+      "name": "均衡型（等权重）",
+      "inSharpe": 2.76,
+      "oosSharpe": 1.28,
+      "winRate": 100,
+      "mean": 146083.88,
+      "worst": 124494.48,
+      "var95": 135223.83,
+      "cvar95": 131790.95,
+      "overfitDecay": 1.48
+    },
+    "riskParity": {
+      "name": "保守型（风险平价 ERC）",
+      "inSharpe": 3.33,
+      "oosSharpe": 1.48,
+      "winRate": 100,
+      "mean": 64360.3,
+      "worst": 7687.96,
+      "var95": 18388.55,
+      "cvar95": 14130.31,
+      "overfitDecay": 1.86
+    },
+    "maxSharpe": {
+      "name": "进取型（最大夏普）",
+      "inSharpe": 4.94,
+      "oosSharpe": 2.16,
+      "winRate": 100,
+      "mean": 47138.48,
+      "worst": 29968.84,
+      "var95": 40476.32,
+      "cvar95": 38163.47,
+      "overfitDecay": 2.78
+    },
+    "bestSingle": {
+      "name": "基准A（全押单品种最优）",
+      "inSharpe": 1.81,
+      "oosSharpe": 0.98,
+      "winRate": 100,
+      "mean": 128150.16,
+      "worst": 115519.28,
+      "var95": 121443.23,
+      "cvar95": 119677.49,
+      "overfitDecay": 0.82
+    },
+    "momentum": {
+      "name": "基准B（动量排序前10）",
+      "inSharpe": 2.63,
+      "oosSharpe": 1.24,
+      "winRate": 100,
+      "mean": 295037.4,
+      "worst": 267302.69,
+      "var95": 280584.45,
+      "cvar95": 275365.12,
+      "overfitDecay": 1.39
+    }
+  }
+}

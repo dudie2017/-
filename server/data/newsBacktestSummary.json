@@ -1,0 +1,51 @@
+{
+  "varietyCount": 60,
+  "totalShocks": 1055,
+  "avgShocksPerVariety": 17.583333333333332,
+  "upShocks": 620,
+  "downShocks": 435,
+  "after": {
+    "3": {
+      "n": 3,
+      "count": 59,
+      "mean": 0.6562596297692861,
+      "median": 0.2239131069532416,
+      "winRate": 0.6101694915254238,
+      "avgMaxDD": -2.325437551586801
+    },
+    "5": {
+      "n": 5,
+      "count": 59,
+      "mean": 0.874804378714325,
+      "median": 0.5002227822902076,
+      "winRate": 0.6440677966101694,
+      "avgMaxDD": -2.8785449820836004
+    },
+    "10": {
+      "n": 10,
+      "count": 59,
+      "mean": 0.9163232849998064,
+      "median": 0.5160029998651701,
+      "winRate": 0.6610169491525424,
+      "avgMaxDD": -3.834534567764771
+    },
+    "20": {
+      "n": 20,
+      "count": 59,
+      "mean": 0.7670343636904018,
+      "median": 0.40823304792323434,
+      "winRate": 0.6101694915254238,
+      "avgMaxDD": -5.250012860162746
+    }
+  },
+  "breakdownRate": 0.046445497630331754,
+  "contrarianRate10": 0.4824644549763033,
+  "resonance": {
+    "resonanceCount": 913,
+    "resonanceAfter10Mean": 0.6684008451868214,
+    "resonanceWinRate": 0.7283680175246441,
+    "divergenceCount": 142,
+    "divergenceAfter10Mean": 0.446221267200523,
+    "divergenceWinRate": 0.6056338028169014
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "baselineTrades": 407,
+  "scenarios": [
+    {
+      "name": "基线(无风控)",
+      "trades": 407,
+      "winRate": 0.742014742014742,
+      "pnl": 4199079,
+      "pf": 10.33,
+      "maxDrawdown": 0.0989,
+      "endEquity": 4299079,
+      "riskAdjusted": 9.88
+    },
+    {
+      "name": "熔断3笔·暂停5天",
+      "trades": 396,
+      "winRate": 0.7575757575757576,
+      "pnl": 4225359,
+      "pf": 10.99,
+      "maxDrawdown": 0.0989,
+      "endEquity": 4325359,
+      "riskAdjusted": 9.88
+    },
+    {
+      "name": "熔断4笔·暂停10天",
+      "trades": 399,
+      "winRate": 0.7568922305764411,
+      "pnl": 4227236,
+      "pf": 11.03,
+      "maxDrawdown": 0.0989,
+      "endEquity": 4327236,
+      "riskAdjusted": 9.88
+    },
+    {
+      "name": "熔断5笔·暂停15天",
+      "trades": 400,
+      "winRate": 0.755,
+      "pnl": 4221878,
+      "pf": 10.89,
+      "maxDrawdown": 0.0989,
+      "endEquity": 4321878,
+      "riskAdjusted": 9.88
+    },
+    {
+      "name": "波动率减仓(>3R减半)",
+      "trades": 407,
+      "winRate": 0.742014742014742,
+      "pnl": 3855698,
+      "pf": 9.57,
+      "maxDrawdown": 0.1064,
+      "endEquity": 3955698,
+      "riskAdjusted": 9.16
+    },
+    {
+      "name": "波动率减仓(>5R减30%)",
+      "trades": 407,
+      "winRate": 0.742014742014742,
+      "pnl": 4199079,
+      "pf": 10.33,
+      "maxDrawdown": 0.0989,
+      "endEquity": 4299079,
+      "riskAdjusted": 9.88
+    },
+    {
+      "name": "熔断4笔·暂停10天 + 波动率>3R减半",
+      "trades": 399,
+      "winRate": 0.7568922305764411,
+      "pnl": 3883855,
+      "pf": 10.21,
+      "maxDrawdown": 0.1064,
+      "endEquity": 3983855,
+      "riskAdjusted": 9.16
+    }
+  ]
+}

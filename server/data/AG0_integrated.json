@@ -1,0 +1,117 @@
+{
+  "code": "AG0",
+  "theo": {
+    "longReturn": 14.98404686740954,
+    "shortReturn": 12.241349794314837
+  },
+  "baseline": {
+    "params": {
+      "long": {
+        "stopAtrMult": 1.53,
+        "targetAtrMult": 5.61,
+        "maxHoldDays": 37,
+        "cooldownBars": 0,
+        "trendFilter": false,
+        "minSignalGrade": "L1"
+      },
+      "short": {
+        "stopAtrMult": 2.45,
+        "targetAtrMult": 2.85,
+        "maxHoldDays": 40,
+        "cooldownBars": 4,
+        "trendFilter": false,
+        "minSignalGrade": "L1"
+      }
+    },
+    "stats": {
+      "totalTrades": 537,
+      "wins": 386,
+      "winRate": 0.7188081936685289,
+      "totalPnl": 4367974,
+      "profitFactor": 9.539889223213466,
+      "avgRR": 3.7319255769565625,
+      "longTrades": 337,
+      "shortTrades": 200,
+      "maxDrawdown": 0.47634300710095706
+    },
+    "capture": {
+      "long": 1.6705578121790077,
+      "short": 0.5963225876214768
+    }
+  },
+  "optimized": {
+    "params": {
+      "long": {
+        "stopAtrMult": 1.93,
+        "targetAtrMult": 6.92,
+        "maxHoldDays": 53,
+        "cooldownBars": 6,
+        "trendFilter": false,
+        "minSignalGrade": "L2"
+      },
+      "short": {
+        "stopAtrMult": 2.94,
+        "targetAtrMult": 4.41,
+        "maxHoldDays": 44,
+        "cooldownBars": 5,
+        "trendFilter": true,
+        "minSignalGrade": "L2"
+      }
+    },
+    "stats": {
+      "totalTrades": 497,
+      "wins": 377,
+      "winRate": 0.7585513078470825,
+      "totalPnl": 4458977,
+      "profitFactor": 9.287907287968626,
+      "avgRR": 2.956363062483382,
+      "longTrades": 311,
+      "shortTrades": 186,
+      "maxDrawdown": 0.18685036533909644
+    },
+    "capture": {
+      "long": 1.7633596021804492,
+      "short": 0.6453017235131229
+    }
+  },
+  "optimizedWithCB": {
+    "params": {
+      "long": {
+        "stopAtrMult": 1.93,
+        "targetAtrMult": 6.92,
+        "maxHoldDays": 53,
+        "cooldownBars": 6,
+        "trendFilter": false,
+        "minSignalGrade": "L2"
+      },
+      "short": {
+        "stopAtrMult": 2.94,
+        "targetAtrMult": 4.41,
+        "maxHoldDays": 44,
+        "cooldownBars": 5,
+        "trendFilter": true,
+        "minSignalGrade": "L2"
+      },
+      "circuitBreaker": {
+        "lossStreak": 4,
+        "pauseDays": 10
+      }
+    },
+    "stats": {
+      "totalTrades": 449,
+      "wins": 349,
+      "winRate": 0.77728285077951,
+      "totalPnl": 4414836,
+      "profitFactor": 10.132392548187314,
+      "avgRR": 2.9032643404548173,
+      "longTrades": 282,
+      "shortTrades": 167,
+      "maxDrawdown": 0.18685036533909644
+    },
+    "capture": {
+      "long": 1.710288002020396,
+      "short": 0.6331169827525057
+    }
+  },
+  "conclusion": "{\"winRate\":5.84746571109811,\"avgRR\":-0.8286612365017452,\"capture\":7.652458497241721,\"maxDrawdown\":-28.949264176186063,\"pnl\":4.6862}"
+}

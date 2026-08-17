@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "codes": [
+      "SI0",
+      "SA0",
+      "EG0",
+      "NR0",
+      "LH0"
+    ],
+    "samplesPerVariety": 3000,
+    "seed": 20260812,
+    "generatedAt": "2026-08-11T13:44:44.749Z",
+    "elapsedMs": 50333
+  },
+  "results": [
+    {
+      "code": "SI0",
+      "theoLong": 293.52989084281467,
+      "theoLongSeg": 38,
+      "baseline": {
+        "longTrades": 5,
+        "longWins": 2,
+        "longPnl": -9531,
+        "longPF": 0.4209247220365757,
+        "longPriceReturn": -0.10812530330364045,
+        "captureRate": -3.6836215553100717
+      },
+      "best": {
+        "sample": {
+          "stopAtrMult": 1.31,
+          "targetAtrMult": 2.14,
+          "maxHoldDays": 25,
+          "cooldownBars": 3,
+          "trendFilter": false,
+          "minSignalGrade": "L1"
+        },
+        "stats": {
+          "longTrades": 5,
+          "longWins": 2,
+          "longPnl": -9295,
+          "longPF": 0.435263381736436,
+          "longPriceReturn": -0.10483341345815929
+        },
+        "capture": -0.0357147318650071,
+        "captureRate": -3.57147318650071,
+        "improved": true
+      },
+      "finalParams": {
+        "stopAtrMult": 1.31,
+        "targetAtrMult": 2.14,
+        "maxHoldDays": 25,
+        "cooldownBars": 3,
+        "trendFilter": false,
+        "minSignalGrade": "L1"
+      },
+      "reason": "refined"
+    },
+    {
+      "code": "SA0",
+      "theoLong": 1005.9049706178866,
+      "theoLongSeg": 95,
+      "baseline": {
+        "longTrades": 100,
+        "longWins": 76,
+        "longPnl": 277488,
+        "longPF": 4.5967336357744655,
+        "longPriceReturn": 6.510969337355651,
+        "captureRate": 64.72747950888667
+      },
+      "best": {
+        "sample": {
+          "stopAtrMult": 2.42,
+          "targetAtrMult": 2.91,
+          "maxHoldDays": 49,
+          "cooldownBars": 5,
+          "trendFilter": false,
+          "minSignalGrade": "L1"
+        },
+        "stats": {
+          "longTrades": 96,
+          "longWins": 70,
+          "longPnl": 298974,
+          "longPF": 4.452236065725206,
+          "longPriceReturn": 7.164853401487111
+        },
+        "capture": 0.7122793515063388,
+        "captureRate": 71.22793515063388,
+        "improved": true
+      },
+      "finalParams": {
+        "stopAtrMult": 2.42,
+        "targetAtrMult": 2.91,
+        "maxHoldDays": 49,
+        "cooldownBars": 5,
+        "trendFilter": false,
+        "minSignalGrade": "L1"
+      },
+      "reason": "refined"
+    },
+    {
+      "code": "EG0",
+      "theoLong": 815.0370700367653,
+      "theoLongSeg": 91,
+      "baseline": {
+        "longTrades": 90,
+        "longWins": 50,
+        "longPnl": 108845,
+        "longPF": 2.126153623308364,
+        "longPriceReturn": 2.8165947702673755,
+        "captureRate": 34.557873179195674
+      },
+      "best": {
+        "sample": {
+          "stopAtrMult": 2.33,
+          "targetAtrMult": 4.17,
+          "maxHoldDays": 49,
+          "cooldownBars": 0,
+          "trendFilter": false,
+          "minSignalGrade": "L1"
+        },
+        "stats": {
+          "longTrades": 82,
+          "longWins": 53,
+          "longPnl": 149663,
+          "longPF": 3.1535793942010217,
+          "longPriceReturn": 3.7519619999699128
+        },
+        "capture": 0.4603424970352167,
+        "captureRate": 46.03424970352167,
+        "improved": true
+      },
+      "finalParams": {
+        "stopAtrMult": 2.33,
+        "targetAtrMult": 4.17,
+        "maxHoldDays": 49,
+        "cooldownBars": 0,
+        "trendFilter": false,
+        "minSignalGrade": "L1"
+      },
+      "reason": "refined"
+    },
+    {
+      "code": "NR0",
+      "theoLong": 707.6058952457713,
+      "theoLongSeg": 89,
+      "baseline": {
+        "longTrades": 110,
+        "longWins": 70,
+        "longPnl": 338783,
+        "longPF": 2.600781530552458,
+        "longPriceReturn": 3.048762591152961,
+        "captureRate": 43.08560190971898
+      },
+      "best": {
+        "sample": {
+          "stopAtrMult": 3.09,
+          "targetAtrMult": 4.24,
+          "maxHoldDays": 48,
+          "cooldownBars": 1,
+          "trendFilter": false,
+          "minSignalGrade": "L1"
+        },
+        "stats": {
+          "longTrades": 99,
+          "longWins": 68,
+          "longPnl": 469624,
+          "longPF": 3.4476921152483007,
+          "longPriceReturn": 4.2025482644078656
+        },
+        "capture": 0.593910860924668,
+        "captureRate": 59.39108609246681,
+        "improved": true
+      },
+      "finalParams": {
+        "stopAtrMult": 3.09,
+        "targetAtrMult": 4.24,
+        "maxHoldDays": 48,
+        "cooldownBars": 1,
+        "trendFilter": false,
+        "minSignalGrade": "L1"
+      },
+      "reason": "refined"
+    },
+    {
+      "code": "LH0",
+      "theoLong": 582.1358082490208,
+      "theoLongSeg": 63,
+      "baseline": {
+        "longTrades": 67,
+        "longWins": 53,
+        "longPnl": 1196482,
+        "longPF": 10.200381400570564,
+        "longPriceReturn": 4.628570074477986,
+        "captureRate": 79.51014194436942
+      },
+      "best": {
+        "sample": {
+          "stopAtrMult": 1.84,
+          "targetAtrMult": 5.82,
+          "maxHoldDays": 49,
+          "cooldownBars": 0,
+          "trendFilter": false,
+          "minSignalGrade": "L1"
+        },
+        "stats": {
+          "longTrades": 66,
+          "longWins": 50,
+          "longPnl": 1322436,
+          "longPF": 11.09539368215338,
+          "longPriceReturn": 5.228807259506776
+        },
+        "capture": 0.8982108960509168,
+        "captureRate": 89.82108960509167,
+        "improved": true
+      },
+      "finalParams": {
+        "stopAtrMult": 1.84,
+        "targetAtrMult": 5.82,
+        "maxHoldDays": 49,
+        "cooldownBars": 0,
+        "trendFilter": false,
+        "minSignalGrade": "L1"
+      },
+      "reason": "refined"
+    }
+  ]
+}

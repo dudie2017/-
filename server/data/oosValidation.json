@@ -1,0 +1,1330 @@
+{
+  "results": [
+    {
+      "code": "A0",
+      "stats": {
+        "totalTrades": 75,
+        "wins": 46,
+        "winRate": 0.6133333333333333,
+        "totalPnl": 67095,
+        "profitFactor": 3.7579332456428807,
+        "longTrades": 53,
+        "longWins": 35,
+        "longPnl": 65384,
+        "longPF": 5.625353706847765,
+        "shortTrades": 22,
+        "shortWins": 11,
+        "shortPnl": 1711,
+        "shortPF": 1.1678767660910518
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "AG0",
+      "stats": {
+        "totalTrades": 122,
+        "wins": 115,
+        "winRate": 0.9426229508196722,
+        "totalPnl": 3458327,
+        "profitFactor": 23.59163182649595,
+        "longTrades": 121,
+        "longWins": 115,
+        "longPnl": 3462479,
+        "longPF": 24.249348678556082,
+        "shortTrades": 1,
+        "shortWins": 0,
+        "shortPnl": -4152,
+        "shortPF": 0
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "AL0",
+      "stats": {
+        "totalTrades": 56,
+        "wins": 40,
+        "winRate": 0.7142857142857143,
+        "totalPnl": 120170,
+        "profitFactor": 3.9466431268696973,
+        "longTrades": 50,
+        "longWins": 40,
+        "longPnl": 135091,
+        "longPF": 6.223734581029349,
+        "shortTrades": 6,
+        "shortWins": 0,
+        "shortPnl": -14921,
+        "shortPF": 0
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "AO0",
+      "stats": {
+        "totalTrades": 131,
+        "wins": 97,
+        "winRate": 0.7404580152671756,
+        "totalPnl": 108948,
+        "profitFactor": 3.7360120542440987,
+        "longTrades": 17,
+        "longWins": 6,
+        "longPnl": -7194,
+        "longPF": 0.5834153685795356,
+        "shortTrades": 114,
+        "shortWins": 91,
+        "shortPnl": 116142,
+        "shortPF": 6.150192896102168
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "AP0",
+      "stats": {
+        "totalTrades": 105,
+        "wins": 74,
+        "winRate": 0.7047619047619048,
+        "totalPnl": 189203,
+        "profitFactor": 3.9007297703369823,
+        "longTrades": 83,
+        "longWins": 65,
+        "longPnl": 198163,
+        "longPF": 5.433573474136388,
+        "shortTrades": 22,
+        "shortWins": 9,
+        "shortPnl": -8960,
+        "shortPF": 0.5635655138821237
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "AU0",
+      "stats": {
+        "totalTrades": 99,
+        "wins": 87,
+        "winRate": 0.8787878787878788,
+        "totalPnl": 3521894,
+        "profitFactor": 6.6289961161634725,
+        "longTrades": 99,
+        "longWins": 87,
+        "longPnl": 3521894,
+        "longPF": 6.6289961161634725,
+        "shortTrades": 0,
+        "shortWins": 0,
+        "shortPnl": 0,
+        "shortPF": 0
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "BC0",
+      "stats": {
+        "totalTrades": 91,
+        "wins": 73,
+        "winRate": 0.8021978021978022,
+        "totalPnl": 3379723,
+        "profitFactor": 10.507999471109349,
+        "longTrades": 87,
+        "longWins": 73,
+        "longPnl": 3423511,
+        "longPF": 11.984304062270393,
+        "shortTrades": 4,
+        "shortWins": 0,
+        "shortPnl": -43788,
+        "shortPF": 0
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "BU0",
+      "stats": {
+        "totalTrades": 67,
+        "wins": 39,
+        "winRate": 0.582089552238806,
+        "totalPnl": 53742,
+        "profitFactor": 2.3958961038961037,
+        "longTrades": 39,
+        "longWins": 23,
+        "longPnl": 48353,
+        "longPF": 3.163735624468609,
+        "shortTrades": 28,
+        "shortWins": 16,
+        "shortPnl": 5389,
+        "shortPF": 1.33362223735529
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "C0",
+      "stats": {
+        "totalTrades": 101,
+        "wins": 80,
+        "winRate": 0.7920792079207921,
+        "totalPnl": 36775,
+        "profitFactor": 6.055677756392631,
+        "longTrades": 69,
+        "longWins": 50,
+        "longPnl": 24736,
+        "longPF": 5.344221988057605,
+        "shortTrades": 32,
+        "shortWins": 30,
+        "shortPnl": 12039,
+        "shortPF": 8.619620253164557
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "CF0",
+      "stats": {
+        "totalTrades": 57,
+        "wins": 36,
+        "winRate": 0.631578947368421,
+        "totalPnl": 87527,
+        "profitFactor": 3.528220681686886,
+        "longTrades": 43,
+        "longWins": 35,
+        "longPnl": 109179,
+        "longPF": 11.092346089850249,
+        "shortTrades": 14,
+        "shortWins": 1,
+        "shortPnl": -21652,
+        "shortPF": 0.09032854381984708
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "CJ0",
+      "stats": {
+        "totalTrades": 76,
+        "wins": 63,
+        "winRate": 0.8289473684210527,
+        "totalPnl": 218800,
+        "profitFactor": 6.982391863072127,
+        "longTrades": 13,
+        "longWins": 10,
+        "longPnl": 52970,
+        "longPF": 4.4255965853974,
+        "shortTrades": 63,
+        "shortWins": 53,
+        "shortPnl": 165830,
+        "shortPF": 8.855146606034769
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "CU0",
+      "stats": {
+        "totalTrades": 92,
+        "wins": 75,
+        "winRate": 0.8152173913043478,
+        "totalPnl": 1617938,
+        "profitFactor": 9.690881744688852,
+        "longTrades": 86,
+        "longWins": 75,
+        "longPnl": 1675660,
+        "longPF": 14.045942558177558,
+        "shortTrades": 6,
+        "shortWins": 0,
+        "shortPnl": -57722,
+        "shortPF": 0
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "EB0",
+      "stats": {
+        "totalTrades": 78,
+        "wins": 60,
+        "winRate": 0.7692307692307693,
+        "totalPnl": 270456,
+        "profitFactor": 6.440457032507242,
+        "longTrades": 13,
+        "longWins": 10,
+        "longPnl": 83701,
+        "longPF": 5.639230683959649,
+        "shortTrades": 65,
+        "shortWins": 50,
+        "shortPnl": 186755,
+        "shortPF": 6.896905588885381
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "EC0",
+      "stats": {
+        "totalTrades": 96,
+        "wins": 73,
+        "winRate": 0.7604166666666666,
+        "totalPnl": 200371,
+        "profitFactor": 5.793220582254862,
+        "longTrades": 41,
+        "longWins": 32,
+        "longPnl": 118974,
+        "longPF": 7.081271723573911,
+        "shortTrades": 55,
+        "shortWins": 41,
+        "shortPnl": 81397,
+        "shortPF": 4.660101623274428
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "EG0",
+      "stats": {
+        "totalTrades": 98,
+        "wins": 79,
+        "winRate": 0.8061224489795918,
+        "totalPnl": 134009,
+        "profitFactor": 3.757443568797712,
+        "longTrades": 15,
+        "longWins": 4,
+        "longPnl": -9793,
+        "longPF": 0.6938539452294611,
+        "shortTrades": 83,
+        "shortWins": 75,
+        "shortPnl": 143802,
+        "shortPF": 9.657034495214015
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "FG0",
+      "stats": {
+        "totalTrades": 72,
+        "wins": 55,
+        "winRate": 0.7638888888888888,
+        "totalPnl": 61784,
+        "profitFactor": 3.7082803664577213,
+        "longTrades": 8,
+        "longWins": 1,
+        "longPnl": -12726,
+        "longPF": 0.010035005834305718,
+        "shortTrades": 64,
+        "shortWins": 54,
+        "shortPnl": 74510,
+        "shortPF": 8.482426189997991
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "FU0",
+      "stats": {
+        "totalTrades": 75,
+        "wins": 49,
+        "winRate": 0.6533333333333333,
+        "totalPnl": 58842,
+        "profitFactor": 2.213462291971706,
+        "longTrades": 29,
+        "longWins": 22,
+        "longPnl": 52088,
+        "longPF": 3.06354488550828,
+        "shortTrades": 46,
+        "shortWins": 27,
+        "shortPnl": 6754,
+        "shortPF": 1.2905071185857455
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "HC0",
+      "stats": {
+        "totalTrades": 53,
+        "wins": 32,
+        "winRate": 0.6037735849056604,
+        "totalPnl": 12632,
+        "profitFactor": 1.7717497556207233,
+        "longTrades": 25,
+        "longWins": 11,
+        "longPnl": 1047,
+        "longPF": 1.0902352839782814,
+        "shortTrades": 28,
+        "shortWins": 21,
+        "shortPnl": 11585,
+        "shortPF": 3.4312696747114377
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "I0",
+      "stats": {
+        "totalTrades": 65,
+        "wins": 37,
+        "winRate": 0.5692307692307692,
+        "totalPnl": 24508,
+        "profitFactor": 1.3916329759184392,
+        "longTrades": 35,
+        "longWins": 14,
+        "longPnl": -22651,
+        "longPF": 0.5111154277820944,
+        "shortTrades": 30,
+        "shortWins": 23,
+        "shortPnl": 47159,
+        "shortPF": 3.902628177509694
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "IC0",
+      "stats": {
+        "totalTrades": 83,
+        "wins": 68,
+        "winRate": 0.8192771084337349,
+        "totalPnl": 3730991,
+        "profitFactor": 5.850835474241494,
+        "longTrades": 83,
+        "longWins": 68,
+        "longPnl": 3730991,
+        "longPF": 5.850835474241494,
+        "shortTrades": 0,
+        "shortWins": 0,
+        "shortPnl": 0,
+        "shortPF": 0
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "IF0",
+      "stats": {
+        "totalTrades": 76,
+        "wins": 54,
+        "winRate": 0.7105263157894737,
+        "totalPnl": 1915936,
+        "profitFactor": 3.3700170458903074,
+        "longTrades": 75,
+        "longWins": 54,
+        "longPnl": 1997251,
+        "longPF": 3.7469065082637525,
+        "shortTrades": 1,
+        "shortWins": 0,
+        "shortPnl": -81315,
+        "shortPF": 0
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "IH0",
+      "stats": {
+        "totalTrades": 53,
+        "wins": 41,
+        "winRate": 0.7735849056603774,
+        "totalPnl": 731934,
+        "profitFactor": 3.3359247840989603,
+        "longTrades": 49,
+        "longWins": 39,
+        "longPnl": 793198,
+        "longPF": 4.28721332128737,
+        "shortTrades": 4,
+        "shortWins": 2,
+        "shortPnl": -61264,
+        "shortPF": 0.1495835646862854
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "IM0",
+      "stats": {
+        "totalTrades": 74,
+        "wins": 53,
+        "winRate": 0.7162162162162162,
+        "totalPnl": 3252365,
+        "profitFactor": 4.403361960083003,
+        "longTrades": 73,
+        "longWins": 53,
+        "longPnl": 3259244,
+        "longPF": 4.435288810376557,
+        "shortTrades": 1,
+        "shortWins": 0,
+        "shortPnl": -6879,
+        "shortPF": 0
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "J0",
+      "stats": {
+        "totalTrades": 56,
+        "wins": 38,
+        "winRate": 0.6785714285714286,
+        "totalPnl": 193579,
+        "profitFactor": 1.9175316857681843,
+        "longTrades": 22,
+        "longWins": 7,
+        "longPnl": -93043,
+        "longPF": 0.4991252200408051,
+        "shortTrades": 34,
+        "shortWins": 31,
+        "shortPnl": 286622,
+        "shortPF": 12.366221199984137
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "JD0",
+      "stats": {
+        "totalTrades": 91,
+        "wins": 73,
+        "winRate": 0.8021978021978022,
+        "totalPnl": 128053,
+        "profitFactor": 4.293628951361918,
+        "longTrades": 29,
+        "longWins": 16,
+        "longPnl": 32476,
+        "longPF": 2.0874267537250963,
+        "shortTrades": 62,
+        "shortWins": 57,
+        "shortPnl": 95577,
+        "shortPF": 11.603172842245396
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "JM0",
+      "stats": {
+        "totalTrades": 69,
+        "wins": 54,
+        "winRate": 0.782608695652174,
+        "totalPnl": 219791,
+        "profitFactor": 4.170809469538497,
+        "longTrades": 18,
+        "longWins": 7,
+        "longPnl": -27109,
+        "longPF": 0.4392478901208009,
+        "shortTrades": 51,
+        "shortWins": 47,
+        "shortPnl": 246900,
+        "shortPF": 12.77227864397082
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "L0",
+      "stats": {
+        "totalTrades": 112,
+        "wins": 74,
+        "winRate": 0.6607142857142857,
+        "totalPnl": 28378,
+        "profitFactor": 1.4848039634406764,
+        "longTrades": 28,
+        "longWins": 4,
+        "longPnl": -42762,
+        "longPF": 0.04600214170979832,
+        "shortTrades": 84,
+        "shortWins": 70,
+        "shortPnl": 71140,
+        "shortPF": 6.188534753117935
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "LC0",
+      "stats": {
+        "totalTrades": 124,
+        "wins": 87,
+        "winRate": 0.7016129032258065,
+        "totalPnl": 8295414,
+        "profitFactor": 4.5854493776670715,
+        "longTrades": 78,
+        "longWins": 51,
+        "longPnl": 7288065,
+        "longPF": 4.4258777440739845,
+        "shortTrades": 46,
+        "shortWins": 36,
+        "shortPnl": 1007349,
+        "shortPF": 6.407830316304838
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "LH0",
+      "stats": {
+        "totalTrades": 82,
+        "wins": 64,
+        "winRate": 0.7804878048780488,
+        "totalPnl": 689560,
+        "profitFactor": 8.015566181707193,
+        "longTrades": 0,
+        "longWins": 0,
+        "longPnl": 0,
+        "longPF": 0,
+        "shortTrades": 82,
+        "shortWins": 64,
+        "shortPnl": 689560,
+        "shortPF": 8.015566181707193
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "LU0",
+      "stats": {
+        "totalTrades": 71,
+        "wins": 47,
+        "winRate": 0.6619718309859155,
+        "totalPnl": 89335,
+        "profitFactor": 2.8536924449608865,
+        "longTrades": 16,
+        "longWins": 8,
+        "longPnl": 19126,
+        "longPF": 1.681343735527769,
+        "shortTrades": 55,
+        "shortWins": 39,
+        "shortPnl": 70209,
+        "shortPF": 4.489166086870092
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "M0",
+      "stats": {
+        "totalTrades": 52,
+        "wins": 19,
+        "winRate": 0.36538461538461536,
+        "totalPnl": -8754,
+        "profitFactor": 0.6125862984599044,
+        "longTrades": 26,
+        "longWins": 7,
+        "longPnl": -6964,
+        "longPF": 0.5333378007103129,
+        "shortTrades": 26,
+        "shortWins": 12,
+        "shortPnl": -1790,
+        "shortPF": 0.7667144532777271
+      },
+      "pass": {
+        "long": false,
+        "short": false
+      }
+    },
+    {
+      "code": "MA0",
+      "stats": {
+        "totalTrades": 53,
+        "wins": 25,
+        "winRate": 0.4716981132075472,
+        "totalPnl": 31797,
+        "profitFactor": 2.1056364964011265,
+        "longTrades": 30,
+        "longWins": 14,
+        "longPnl": 24651,
+        "longPF": 2.069364914107236,
+        "shortTrades": 23,
+        "shortWins": 11,
+        "shortPnl": 7146,
+        "shortPF": 2.2521464867706324
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "NI0",
+      "stats": {
+        "totalTrades": 44,
+        "wins": 17,
+        "winRate": 0.38636363636363635,
+        "totalPnl": -45714,
+        "profitFactor": 0.5479232594936709,
+        "longTrades": 13,
+        "longWins": 3,
+        "longPnl": -45592,
+        "longPF": 0.1508446480788214,
+        "shortTrades": 31,
+        "shortWins": 14,
+        "shortPnl": -122,
+        "shortPF": 0.9974277340867401
+      },
+      "pass": {
+        "long": false,
+        "short": false
+      }
+    },
+    {
+      "code": "NR0",
+      "stats": {
+        "totalTrades": 43,
+        "wins": 33,
+        "winRate": 0.7674418604651163,
+        "totalPnl": 235629,
+        "profitFactor": 4.717014765270066,
+        "longTrades": 30,
+        "longWins": 24,
+        "longPnl": 215040,
+        "longPF": 5.85702669738447,
+        "shortTrades": 13,
+        "shortWins": 9,
+        "shortPnl": 20589,
+        "shortPF": 2.0769431948948633
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "OI0",
+      "stats": {
+        "totalTrades": 62,
+        "wins": 32,
+        "winRate": 0.5161290322580645,
+        "totalPnl": -2634,
+        "profitFactor": 0.9606900874548547,
+        "longTrades": 45,
+        "longWins": 31,
+        "longPnl": 38911,
+        "longPF": 2.5325324931075226,
+        "shortTrades": 17,
+        "shortWins": 1,
+        "shortPnl": -41545,
+        "shortPF": 0.001706074586697424
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "P0",
+      "stats": {
+        "totalTrades": 47,
+        "wins": 29,
+        "winRate": 0.6170212765957447,
+        "totalPnl": 69654,
+        "profitFactor": 2.1345038764740374,
+        "longTrades": 41,
+        "longWins": 29,
+        "longPnl": 88461,
+        "longPF": 3.0770856324403013,
+        "shortTrades": 6,
+        "shortWins": 0,
+        "shortPnl": -18807,
+        "shortPF": 0
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "PB0",
+      "stats": {
+        "totalTrades": 44,
+        "wins": 25,
+        "winRate": 0.5681818181818182,
+        "totalPnl": 32508,
+        "profitFactor": 1.6531908053367625,
+        "longTrades": 9,
+        "longWins": 3,
+        "longPnl": -6728,
+        "longPF": 0.6664683720007932,
+        "shortTrades": 35,
+        "shortWins": 22,
+        "shortPnl": 39236,
+        "shortPF": 2.32571969185025
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "PG0",
+      "stats": {
+        "totalTrades": 81,
+        "wins": 52,
+        "winRate": 0.6419753086419753,
+        "totalPnl": 91603,
+        "profitFactor": 2.621177261786776,
+        "longTrades": 19,
+        "longWins": 10,
+        "longPnl": 44750,
+        "longPF": 2.8090310061850667,
+        "shortTrades": 62,
+        "shortWins": 42,
+        "shortPnl": 46853,
+        "shortPF": 2.4748953316334563
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "PP0",
+      "stats": {
+        "totalTrades": 88,
+        "wins": 60,
+        "winRate": 0.6818181818181818,
+        "totalPnl": 25815,
+        "profitFactor": 1.6298492168057386,
+        "longTrades": 15,
+        "longWins": 6,
+        "longPnl": 2499,
+        "longPF": 1.2669586582630061,
+        "shortTrades": 73,
+        "shortWins": 54,
+        "shortPnl": 23316,
+        "shortPF": 1.7372648221343874
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "PX0",
+      "stats": {
+        "totalTrades": 62,
+        "wins": 30,
+        "winRate": 0.4838709677419355,
+        "totalPnl": 11264,
+        "profitFactor": 1.1436111890251677,
+        "longTrades": 30,
+        "longWins": 13,
+        "longPnl": 2977,
+        "longPF": 1.0563804401348433,
+        "shortTrades": 32,
+        "shortWins": 17,
+        "shortPnl": 8287,
+        "shortPF": 1.3233068039950062
+      },
+      "pass": {
+        "long": false,
+        "short": false
+      }
+    },
+    {
+      "code": "RB0",
+      "stats": {
+        "totalTrades": 44,
+        "wins": 31,
+        "winRate": 0.7045454545454546,
+        "totalPnl": 22702,
+        "profitFactor": 2.873102310231023,
+        "longTrades": 11,
+        "longWins": 4,
+        "longPnl": -2402,
+        "longPF": 0.6747020585048754,
+        "shortTrades": 33,
+        "shortWins": 27,
+        "shortPnl": 25104,
+        "shortPF": 6.300675675675675
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "RM0",
+      "stats": {
+        "totalTrades": 43,
+        "wins": 20,
+        "winRate": 0.46511627906976744,
+        "totalPnl": -3442,
+        "profitFactor": 0.8407292582481144,
+        "longTrades": 29,
+        "longWins": 17,
+        "longPnl": 4539,
+        "longPF": 1.3688744412840308,
+        "shortTrades": 14,
+        "shortWins": 3,
+        "shortPnl": -7981,
+        "shortPF": 0.142381259402536
+      },
+      "pass": {
+        "long": false,
+        "short": false
+      }
+    },
+    {
+      "code": "RU0",
+      "stats": {
+        "totalTrades": 35,
+        "wins": 25,
+        "winRate": 0.7142857142857143,
+        "totalPnl": 142443,
+        "profitFactor": 3.3357055013527916,
+        "longTrades": 21,
+        "longWins": 16,
+        "longPnl": 105888,
+        "longPF": 4.119858573954036,
+        "shortTrades": 14,
+        "shortWins": 9,
+        "shortPnl": 36555,
+        "shortPF": 2.351636161952302
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "SA0",
+      "stats": {
+        "totalTrades": 67,
+        "wins": 56,
+        "winRate": 0.835820895522388,
+        "totalPnl": 94640,
+        "profitFactor": 5.992087772971832,
+        "longTrades": 4,
+        "longWins": 1,
+        "longPnl": -6240,
+        "longPF": 0.0016,
+        "shortTrades": 63,
+        "shortWins": 55,
+        "shortPnl": 100880,
+        "shortPF": 8.938306578533208
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "SC0",
+      "stats": {
+        "totalTrades": 43,
+        "wins": 21,
+        "winRate": 0.4883720930232558,
+        "totalPnl": -84215,
+        "profitFactor": 0.8879411862546156,
+        "longTrades": 15,
+        "longWins": 7,
+        "longPnl": -127614,
+        "longPF": 0.728599805191767,
+        "shortTrades": 28,
+        "shortWins": 14,
+        "shortPnl": 43399,
+        "shortPF": 1.1542697080538464
+      },
+      "pass": {
+        "long": false,
+        "short": false
+      }
+    },
+    {
+      "code": "SF0",
+      "stats": {
+        "totalTrades": 58,
+        "wins": 37,
+        "winRate": 0.6379310344827587,
+        "totalPnl": 32561,
+        "profitFactor": 2.835353136801759,
+        "longTrades": 21,
+        "longWins": 13,
+        "longPnl": 3723,
+        "longPF": 1.532694233795965,
+        "shortTrades": 37,
+        "shortWins": 24,
+        "shortPnl": 28838,
+        "shortPF": 3.6821056547619047
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "SI0",
+      "stats": {
+        "totalTrades": 95,
+        "wins": 74,
+        "winRate": 0.7789473684210526,
+        "totalPnl": 446281,
+        "profitFactor": 7.10465768415293,
+        "longTrades": 8,
+        "longWins": 2,
+        "longPnl": -22493,
+        "longPF": 0.2354780598891948,
+        "shortTrades": 87,
+        "shortWins": 72,
+        "shortPnl": 468774,
+        "shortPF": 11.73102280010988
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "SM0",
+      "stats": {
+        "totalTrades": 48,
+        "wins": 31,
+        "winRate": 0.6458333333333334,
+        "totalPnl": 31763,
+        "profitFactor": 2.5004487694269923,
+        "longTrades": 13,
+        "longWins": 2,
+        "longPnl": -11931,
+        "longPF": 0.23996687476111606,
+        "shortTrades": 35,
+        "shortWins": 29,
+        "shortPnl": 43694,
+        "shortPF": 8.986474136355328
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "SP0",
+      "stats": {
+        "totalTrades": 76,
+        "wins": 60,
+        "winRate": 0.7894736842105263,
+        "totalPnl": 67721,
+        "profitFactor": 3.6399890846717606,
+        "longTrades": 8,
+        "longWins": 3,
+        "longPnl": -5581,
+        "longPF": 0.3349618684461392,
+        "shortTrades": 68,
+        "shortWins": 57,
+        "shortPnl": 73302,
+        "shortPF": 5.246929316338354
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "SR0",
+      "stats": {
+        "totalTrades": 70,
+        "wins": 57,
+        "winRate": 0.8142857142857143,
+        "totalPnl": 56804,
+        "profitFactor": 5.963215377894277,
+        "longTrades": 6,
+        "longWins": 1,
+        "longPnl": -2944,
+        "longPF": 0.35804622764936767,
+        "shortTrades": 64,
+        "shortWins": 56,
+        "shortPnl": 59748,
+        "shortPF": 9.710890800408222
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "SS0",
+      "stats": {
+        "totalTrades": 67,
+        "wins": 42,
+        "winRate": 0.6268656716417911,
+        "totalPnl": 128240,
+        "profitFactor": 3.119424198853025,
+        "longTrades": 36,
+        "longWins": 24,
+        "longPnl": 86717,
+        "longPF": 3.017190444067087,
+        "shortTrades": 31,
+        "shortWins": 18,
+        "shortPnl": 41523,
+        "shortPF": 3.3703048293184152
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "T0",
+      "stats": {
+        "totalTrades": 108,
+        "wins": 79,
+        "winRate": 0.7314814814814815,
+        "totalPnl": 318881,
+        "profitFactor": 4.466851489454229,
+        "longTrades": 84,
+        "longWins": 64,
+        "longPnl": 272243,
+        "longPF": 5.57136380427847,
+        "shortTrades": 24,
+        "shortWins": 15,
+        "shortPnl": 46638,
+        "shortPF": 2.4382902609017454
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "TA0",
+      "stats": {
+        "totalTrades": 56,
+        "wins": 33,
+        "winRate": 0.5892857142857143,
+        "totalPnl": 36075,
+        "profitFactor": 1.9712201163041136,
+        "longTrades": 36,
+        "longWins": 23,
+        "longPnl": 34233,
+        "longPF": 2.2290155812450636,
+        "shortTrades": 20,
+        "shortWins": 10,
+        "shortPnl": 1842,
+        "shortPF": 1.1982777179763187
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "TF0",
+      "stats": {
+        "totalTrades": 84,
+        "wins": 55,
+        "winRate": 0.6547619047619048,
+        "totalPnl": 197341,
+        "profitFactor": 3.867828285764111,
+        "longTrades": 68,
+        "longWins": 50,
+        "longPnl": 209750,
+        "longPF": 6.259792366718491,
+        "shortTrades": 16,
+        "shortWins": 5,
+        "shortPnl": -12409,
+        "shortPF": 0.5711273933780328
+      },
+      "pass": {
+        "long": true,
+        "short": false
+      }
+    },
+    {
+      "code": "UR0",
+      "stats": {
+        "totalTrades": 71,
+        "wins": 54,
+        "winRate": 0.7605633802816901,
+        "totalPnl": 32418,
+        "profitFactor": 4.333127698951265,
+        "longTrades": 31,
+        "longWins": 28,
+        "longPnl": 27068,
+        "longPF": 10.918651520703554,
+        "shortTrades": 40,
+        "shortWins": 26,
+        "shortPnl": 5350,
+        "shortPF": 1.7646134057453193
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    },
+    {
+      "code": "V0",
+      "stats": {
+        "totalTrades": 68,
+        "wins": 50,
+        "winRate": 0.7352941176470589,
+        "totalPnl": 78867,
+        "profitFactor": 3.03990998913662,
+        "longTrades": 11,
+        "longWins": 4,
+        "longPnl": 1709,
+        "longPF": 1.0738643730820763,
+        "shortTrades": 57,
+        "shortWins": 46,
+        "shortPnl": 77158,
+        "shortPF": 5.9699194847020935
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "WR0",
+      "stats": {
+        "totalTrades": 40,
+        "wins": 14,
+        "winRate": 0.35,
+        "totalPnl": -12702,
+        "profitFactor": 0.5352360043907793,
+        "longTrades": 16,
+        "longWins": 0,
+        "longPnl": -19989,
+        "longPF": 0,
+        "shortTrades": 24,
+        "shortWins": 14,
+        "shortPnl": 7287,
+        "shortPF": 1.9926440539436043
+      },
+      "pass": {
+        "long": false,
+        "short": true
+      }
+    },
+    {
+      "code": "Y0",
+      "stats": {
+        "totalTrades": 31,
+        "wins": 11,
+        "winRate": 0.3548387096774194,
+        "totalPnl": 3393,
+        "profitFactor": 1.0933348004291255,
+        "longTrades": 27,
+        "longWins": 11,
+        "longPnl": 14532,
+        "longPF": 1.5763464741810105,
+        "shortTrades": 4,
+        "shortWins": 0,
+        "shortPnl": -11139,
+        "shortPF": 0
+      },
+      "pass": {
+        "long": false,
+        "short": false
+      }
+    },
+    {
+      "code": "ZC0",
+      "stats": {
+        "totalTrades": 8,
+        "wins": 0,
+        "winRate": 0,
+        "totalPnl": -6903,
+        "profitFactor": 0,
+        "longTrades": 2,
+        "longWins": 0,
+        "longPnl": -1385,
+        "longPF": 0,
+        "shortTrades": 6,
+        "shortWins": 0,
+        "shortPnl": -5518,
+        "shortPF": 0
+      },
+      "pass": {
+        "long": false,
+        "short": false
+      }
+    },
+    {
+      "code": "ZN0",
+      "stats": {
+        "totalTrades": 49,
+        "wins": 37,
+        "winRate": 0.7551020408163265,
+        "totalPnl": 124051,
+        "profitFactor": 3.980419009177839,
+        "longTrades": 21,
+        "longWins": 15,
+        "longPnl": 68970,
+        "longPF": 3.943159511820432,
+        "shortTrades": 28,
+        "shortWins": 22,
+        "shortPnl": 55081,
+        "shortPF": 4.028425335385969
+      },
+      "pass": {
+        "long": true,
+        "short": true
+      }
+    }
+  ],
+  "passLong": 34,
+  "passShort": 35,
+  "passBoth": 16,
+  "totalPnl": 35046167,
+  "totalLong": 30865101,
+  "totalShort": 4181066
+}

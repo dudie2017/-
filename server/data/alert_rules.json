@@ -1,0 +1,9 @@
+[
+  {
+    "type": "volatility",
+    "code": "AU0",
+    "threshold": 20,
+    "enabled": true,
+    "id": "rule_1786872095726_036gb1unz"
+  }
+]

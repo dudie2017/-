@@ -1,0 +1,83 @@
+[
+  {
+    "name": "S6_30%_S7_weak",
+    "signalCount": 0,
+    "totalPnl": 0,
+    "winRate": 0,
+    "pf": 0,
+    "maxDrawdown": 0,
+    "avgHoldDays": 0
+  },
+  {
+    "name": "S6_40%_S7_weak",
+    "signalCount": 0,
+    "totalPnl": 0,
+    "winRate": 0,
+    "pf": 0,
+    "maxDrawdown": 0,
+    "avgHoldDays": 0
+  },
+  {
+    "name": "S6_50%_S7_weak",
+    "signalCount": 0,
+    "totalPnl": 0,
+    "winRate": 0,
+    "pf": 0,
+    "maxDrawdown": 0,
+    "avgHoldDays": 0
+  },
+  {
+    "name": "S6_30%_S7_normal",
+    "signalCount": 0,
+    "totalPnl": 0,
+    "winRate": 0,
+    "pf": 0,
+    "maxDrawdown": 0,
+    "avgHoldDays": 0
+  },
+  {
+    "name": "S6_40%_S7_normal",
+    "signalCount": 0,
+    "totalPnl": 0,
+    "winRate": 0,
+    "pf": 0,
+    "maxDrawdown": 0,
+    "avgHoldDays": 0
+  },
+  {
+    "name": "S6_50%_S7_normal",
+    "signalCount": 0,
+    "totalPnl": 0,
+    "winRate": 0,
+    "pf": 0,
+    "maxDrawdown": 0,
+    "avgHoldDays": 0
+  },
+  {
+    "name": "S6_30%_S7_strong",
+    "signalCount": 0,
+    "totalPnl": 0,
+    "winRate": 0,
+    "pf": 0,
+    "maxDrawdown": 0,
+    "avgHoldDays": 0
+  },
+  {
+    "name": "S6_40%_S7_strong",
+    "signalCount": 0,
+    "totalPnl": 0,
+    "winRate": 0,
+    "pf": 0,
+    "maxDrawdown": 0,
+    "avgHoldDays": 0
+  },
+  {
+    "name": "S6_50%_S7_strong",
+    "signalCount": 0,
+    "totalPnl": 0,
+    "winRate": 0,
+    "pf": 0,
+    "maxDrawdown": 0,
+    "avgHoldDays": 0
+  }
+]

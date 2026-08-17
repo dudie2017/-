@@ -1,0 +1,5245 @@
+{
+  "globalTimeWindows": [
+    {
+      "window": 1,
+      "avgReturn": -0.1323174197203085,
+      "medianReturn": 0,
+      "positiveRate": 48.971193415637856,
+      "avgAbsReturn": 1.8757132692890133,
+      "maxGain": 22.293225270157947,
+      "maxLoss": -10.252140818268316,
+      "continuationRate": 46.09053497942387,
+      "contrarianRate": 53.90946502057613
+    },
+    {
+      "window": 3,
+      "avgReturn": -0.401648503991017,
+      "medianReturn": -0.10810810810810811,
+      "positiveRate": 47.325102880658434,
+      "avgAbsReturn": 3.187555030425932,
+      "maxGain": 18.220074812967585,
+      "maxLoss": -25.63739376770538,
+      "continuationRate": 51.85185185185185,
+      "contrarianRate": 48.148148148148145
+    },
+    {
+      "window": 5,
+      "avgReturn": -0.1565626463793973,
+      "medianReturn": 0.04382761139517896,
+      "positiveRate": 50.20576131687243,
+      "avgAbsReturn": 4.589420605117662,
+      "maxGain": 30.005681818181817,
+      "maxLoss": -32.61059054260187,
+      "continuationRate": 48.971193415637856,
+      "contrarianRate": 51.028806584362144
+    },
+    {
+      "window": 10,
+      "avgReturn": 0.048486408759370644,
+      "medianReturn": 0.6640106241699867,
+      "positiveRate": 56.79012345679012,
+      "avgAbsReturn": 6.262874528074796,
+      "maxGain": 49.10326389662471,
+      "maxLoss": -51.41643059490085,
+      "continuationRate": 49.794238683127574,
+      "contrarianRate": 50.20576131687243
+    },
+    {
+      "window": 20,
+      "avgReturn": -0.006919242175116056,
+      "medianReturn": 0.7182320441988951,
+      "positiveRate": 54.32098765432099,
+      "avgAbsReturn": 8.43285367593955,
+      "maxGain": 53.68837034249153,
+      "maxLoss": -55.44780998038789,
+      "continuationRate": 52.2633744855967,
+      "contrarianRate": 47.73662551440329
+    },
+    {
+      "window": 30,
+      "avgReturn": -0.5576874357182008,
+      "medianReturn": 0.2991452991452992,
+      "positiveRate": 52.2633744855967,
+      "avgAbsReturn": 9.167435980837094,
+      "maxGain": 70.37643207855973,
+      "maxLoss": -54.216604924820224,
+      "continuationRate": 46.09053497942387,
+      "contrarianRate": 53.90946502057613
+    }
+  ],
+  "categoryResults": [
+    {
+      "catId": 1,
+      "categoryName": "地缘政治",
+      "totalSamples": 27,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.8715653543138651,
+          "medianReturn": 0.04580852038479157,
+          "positiveRate": 51.85185185185185,
+          "avgAbsReturn": 1.9675819894040971,
+          "maxGain": 22.293225270157947,
+          "maxLoss": -3.077199928018719,
+          "continuationRate": 40.74074074074074,
+          "contrarianRate": 59.25925925925925
+        },
+        {
+          "window": 3,
+          "avgReturn": 1.2800760197807002,
+          "medianReturn": 0.7263064658990297,
+          "positiveRate": 62.96296296296296,
+          "avgAbsReturn": 2.267385044320003,
+          "maxGain": 18.220074812967585,
+          "maxLoss": -3.511544201562637,
+          "continuationRate": 51.85185185185185,
+          "contrarianRate": 48.148148148148145
+        },
+        {
+          "window": 5,
+          "avgReturn": 1.645609996589319,
+          "medianReturn": 1.407211961301666,
+          "positiveRate": 62.96296296296296,
+          "avgAbsReturn": 3.6020716659234515,
+          "maxGain": 15.963273195876294,
+          "maxLoss": -7.86575228595178,
+          "continuationRate": 44.44444444444444,
+          "contrarianRate": 55.55555555555556
+        },
+        {
+          "window": 10,
+          "avgReturn": 4.178163835122528,
+          "medianReturn": 2.6720351390922445,
+          "positiveRate": 74.07407407407408,
+          "avgAbsReturn": 5.7403881214148145,
+          "maxGain": 49.10326389662471,
+          "maxLoss": -7.014028056112225,
+          "continuationRate": 62.96296296296296,
+          "contrarianRate": 37.03703703703704
+        },
+        {
+          "window": 20,
+          "avgReturn": 2.7357536678833827,
+          "medianReturn": 1.2529900899874635,
+          "positiveRate": 59.25925925925925,
+          "avgAbsReturn": 6.341493695571391,
+          "maxGain": 36.8720062381642,
+          "maxLoss": -19.85971943887776,
+          "continuationRate": 55.55555555555556,
+          "contrarianRate": 44.44444444444444
+        },
+        {
+          "window": 30,
+          "avgReturn": 1.1794203875579818,
+          "medianReturn": 1.110869091701147,
+          "positiveRate": 62.96296296296296,
+          "avgAbsReturn": 6.476333848237408,
+          "maxGain": 17.498854786990382,
+          "maxLoss": -19.799599198396795,
+          "continuationRate": 59.25925925925925,
+          "contrarianRate": 40.74074074074074
+        }
+      ]
+    },
+    {
+      "catId": 2,
+      "categoryName": "宏观经济",
+      "totalSamples": 38,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.6302962026308504,
+          "medianReturn": -0.354015278554144,
+          "positiveRate": 36.84210526315789,
+          "avgAbsReturn": 1.4576323330326038,
+          "maxGain": 4.043305346884656,
+          "maxLoss": -9.020999704229517,
+          "continuationRate": 57.89473684210527,
+          "contrarianRate": 42.10526315789473
+        },
+        {
+          "window": 3,
+          "avgReturn": -1.5754637627507,
+          "medianReturn": -0.96,
+          "positiveRate": 36.84210526315789,
+          "avgAbsReturn": 2.5738974709755604,
+          "maxGain": 3.193149381541384,
+          "maxLoss": -22.774327122153206,
+          "continuationRate": 68.42105263157895,
+          "contrarianRate": 31.57894736842105
+        },
+        {
+          "window": 5,
+          "avgReturn": -2.4037752491034006,
+          "medianReturn": -0.6912442396313364,
+          "positiveRate": 31.57894736842105,
+          "avgAbsReturn": 4.045222841889001,
+          "maxGain": 4.789767315280997,
+          "maxLoss": -26.589766341319145,
+          "continuationRate": 57.89473684210527,
+          "contrarianRate": 42.10526315789473
+        },
+        {
+          "window": 10,
+          "avgReturn": -4.087999980271154,
+          "medianReturn": -1.4804469273743017,
+          "positiveRate": 31.57894736842105,
+          "avgAbsReturn": 5.988644957598791,
+          "maxGain": 5.8329650905877095,
+          "maxLoss": -29.481155653304008,
+          "continuationRate": 57.89473684210527,
+          "contrarianRate": 42.10526315789473
+        },
+        {
+          "window": 20,
+          "avgReturn": -8.029754800060026,
+          "medianReturn": -2.909162873540471,
+          "positiveRate": 31.57894736842105,
+          "avgAbsReturn": 9.848015879307855,
+          "maxGain": 6.729559748427673,
+          "maxLoss": -40.496613995485326,
+          "continuationRate": 63.1578947368421,
+          "contrarianRate": 36.84210526315789
+        },
+        {
+          "window": 30,
+          "avgReturn": -8.604947995601101,
+          "medianReturn": -5.28,
+          "positiveRate": 31.57894736842105,
+          "avgAbsReturn": 10.532548605826705,
+          "maxGain": 5.854688549764861,
+          "maxLoss": -40.05795001810938,
+          "continuationRate": 57.89473684210527,
+          "contrarianRate": 42.10526315789473
+        }
+      ]
+    },
+    {
+      "catId": 3,
+      "categoryName": "政策监管",
+      "totalSamples": 44,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.6068832890839175,
+          "medianReturn": -0.05361930294906167,
+          "positiveRate": 45.45454545454545,
+          "avgAbsReturn": 1.6898322495804474,
+          "maxGain": 6.599229287090563,
+          "maxLoss": -9.012715033657443,
+          "continuationRate": 38.63636363636363,
+          "contrarianRate": 61.36363636363637
+        },
+        {
+          "window": 3,
+          "avgReturn": -1.6618196552910642,
+          "medianReturn": -0.9416877942774358,
+          "positiveRate": 36.36363636363637,
+          "avgAbsReturn": 4.540172367158837,
+          "maxGain": 11.303789338471434,
+          "maxLoss": -25.63739376770538,
+          "continuationRate": 56.81818181818182,
+          "contrarianRate": 43.18181818181818
+        },
+        {
+          "window": 5,
+          "avgReturn": -0.8776932607499455,
+          "medianReturn": -0.8108108108108109,
+          "positiveRate": 45.45454545454545,
+          "avgAbsReturn": 5.770951410058218,
+          "maxGain": 26.043673731535012,
+          "maxLoss": -32.61059054260187,
+          "continuationRate": 56.81818181818182,
+          "contrarianRate": 43.18181818181818
+        },
+        {
+          "window": 10,
+          "avgReturn": -3.137346500804661,
+          "medianReturn": -0.05361930294906167,
+          "positiveRate": 47.72727272727273,
+          "avgAbsReturn": 8.443971051733943,
+          "maxGain": 35.50688568110171,
+          "maxLoss": -51.41643059490085,
+          "continuationRate": 40.909090909090914,
+          "contrarianRate": 59.09090909090909
+        },
+        {
+          "window": 20,
+          "avgReturn": -4.0430513104794645,
+          "medianReturn": -1.3643351268255188,
+          "positiveRate": 45.45454545454545,
+          "avgAbsReturn": 9.001299875692851,
+          "maxGain": 17.006802721088434,
+          "maxLoss": -55.44780998038789,
+          "continuationRate": 43.18181818181818,
+          "contrarianRate": 56.81818181818182
+        },
+        {
+          "window": 30,
+          "avgReturn": -5.933551283051119,
+          "medianReturn": -2.6178010471204187,
+          "positiveRate": 34.090909090909086,
+          "avgAbsReturn": 10.47671174710465,
+          "maxGain": 18.942457231726284,
+          "maxLoss": -54.216604924820224,
+          "continuationRate": 27.27272727272727,
+          "contrarianRate": 72.72727272727273
+        }
+      ]
+    },
+    {
+      "catId": 4,
+      "categoryName": "天气气候",
+      "totalSamples": 34,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.7554826453496043,
+          "medianReturn": 0.09191176470588235,
+          "positiveRate": 55.88235294117647,
+          "avgAbsReturn": 1.80748013621592,
+          "maxGain": 7.919547454431175,
+          "maxLoss": -3.0132450331125824,
+          "continuationRate": 44.11764705882353,
+          "contrarianRate": 55.88235294117647
+        },
+        {
+          "window": 3,
+          "avgReturn": 1.3654267016489277,
+          "medianReturn": 0.18234865061998543,
+          "positiveRate": 55.88235294117647,
+          "avgAbsReturn": 2.909239448606386,
+          "maxGain": 13.812019992685604,
+          "maxLoss": -3.8695299837925448,
+          "continuationRate": 44.11764705882353,
+          "contrarianRate": 55.88235294117647
+        },
+        {
+          "window": 5,
+          "avgReturn": 1.8422047827930499,
+          "medianReturn": 1.6143770941212305,
+          "positiveRate": 58.82352941176471,
+          "avgAbsReturn": 4.1740984838202735,
+          "maxGain": 11.788370108496892,
+          "maxLoss": -9.943289224952741,
+          "continuationRate": 35.294117647058826,
+          "contrarianRate": 64.70588235294117
+        },
+        {
+          "window": 10,
+          "avgReturn": 1.933830490067365,
+          "medianReturn": 2.3039088791095006,
+          "positiveRate": 64.70588235294117,
+          "avgAbsReturn": 4.932047672770554,
+          "maxGain": 14.226502499085699,
+          "maxLoss": -7.712665406427222,
+          "continuationRate": 35.294117647058826,
+          "contrarianRate": 64.70588235294117
+        },
+        {
+          "window": 20,
+          "avgReturn": 4.395714408717182,
+          "medianReturn": 3.0194676201827573,
+          "positiveRate": 67.64705882352942,
+          "avgAbsReturn": 7.0519152964288105,
+          "maxGain": 31.77721284954934,
+          "maxLoss": -8.255752678728264,
+          "continuationRate": 26.47058823529412,
+          "contrarianRate": 73.52941176470588
+        },
+        {
+          "window": 30,
+          "avgReturn": 3.367576521611636,
+          "medianReturn": 2.8768233387358184,
+          "positiveRate": 64.70588235294117,
+          "avgAbsReturn": 6.881012433626255,
+          "maxGain": 29.97457822972036,
+          "maxLoss": -11.590296495956872,
+          "continuationRate": 35.294117647058826,
+          "contrarianRate": 64.70588235294117
+        }
+      ]
+    },
+    {
+      "catId": 5,
+      "categoryName": "自然灾害",
+      "totalSamples": 12,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.20712235886323765,
+          "medianReturn": 0.08775778850372971,
+          "positiveRate": 58.333333333333336,
+          "avgAbsReturn": 0.9337570591235642,
+          "maxGain": 1.5137821961138724,
+          "maxLoss": -4.872851257280864,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 3,
+          "avgReturn": 0.2748417367542635,
+          "medianReturn": 0.658177135498644,
+          "positiveRate": 50,
+          "avgAbsReturn": 1.4486957660926705,
+          "maxGain": 4.023605150214593,
+          "maxLoss": -2.699247052138088,
+          "continuationRate": 41.66666666666667,
+          "contrarianRate": 58.333333333333336
+        },
+        {
+          "window": 5,
+          "avgReturn": 1.2199947899870425,
+          "medianReturn": 1.839163360980887,
+          "positiveRate": 66.66666666666666,
+          "avgAbsReturn": 2.495306128986667,
+          "maxGain": 5.660377358490567,
+          "maxLoss": -4.864787523250823,
+          "continuationRate": 58.333333333333336,
+          "contrarianRate": 41.66666666666667
+        },
+        {
+          "window": 10,
+          "avgReturn": 2.0689820951958993,
+          "medianReturn": 2.8469750889679712,
+          "positiveRate": 83.33333333333334,
+          "avgAbsReturn": 2.9402367382915573,
+          "maxGain": 6.537955243527863,
+          "maxLoss": -5.065102303619971,
+          "continuationRate": 58.333333333333336,
+          "contrarianRate": 41.66666666666667
+        },
+        {
+          "window": 20,
+          "avgReturn": 1.5167352731878123,
+          "medianReturn": 2.7643703378674855,
+          "positiveRate": 75,
+          "avgAbsReturn": 3.949516961352537,
+          "maxGain": 8.15450643776824,
+          "maxLoss": -9.228788095578768,
+          "continuationRate": 83.33333333333334,
+          "contrarianRate": 16.666666666666664
+        },
+        {
+          "window": 30,
+          "avgReturn": 0.9467198915705016,
+          "medianReturn": 2.183673469387755,
+          "positiveRate": 58.333333333333336,
+          "avgAbsReturn": 4.503721649635411,
+          "maxGain": 7.388578207083545,
+          "maxLoss": -7.897583844212044,
+          "continuationRate": 83.33333333333334,
+          "contrarianRate": 16.666666666666664
+        }
+      ]
+    },
+    {
+      "catId": 6,
+      "categoryName": "疾病疫情",
+      "totalSamples": 18,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -1.749505291192839,
+          "medianReturn": -0.22172949002217296,
+          "positiveRate": 44.44444444444444,
+          "avgAbsReturn": 2.3877737314336125,
+          "maxGain": 1.4634146341463417,
+          "maxLoss": -10.252140818268316,
+          "continuationRate": 33.33333333333333,
+          "contrarianRate": 66.66666666666666
+        },
+        {
+          "window": 3,
+          "avgReturn": -1.5194008557552854,
+          "medianReturn": -0.42323970757983836,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 3.2179774249511843,
+          "maxGain": 5.2010885999395216,
+          "maxLoss": -10.77817531305903,
+          "continuationRate": 44.44444444444444,
+          "contrarianRate": 55.55555555555556
+        },
+        {
+          "window": 5,
+          "avgReturn": -1.170200134769087,
+          "medianReturn": -0.22727272727272727,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 3.1215311228066875,
+          "maxGain": 5.3220441487753245,
+          "maxLoss": -9.458855098389984,
+          "continuationRate": 44.44444444444444,
+          "contrarianRate": 55.55555555555556
+        },
+        {
+          "window": 10,
+          "avgReturn": -0.4390352226821306,
+          "medianReturn": 1.0606060606060608,
+          "positiveRate": 55.55555555555556,
+          "avgAbsReturn": 3.1690623342069597,
+          "maxGain": 9.918355004535833,
+          "maxLoss": -8.720930232558139,
+          "continuationRate": 44.44444444444444,
+          "contrarianRate": 55.55555555555556
+        },
+        {
+          "window": 20,
+          "avgReturn": -0.339109291612077,
+          "medianReturn": 0.548780487804878,
+          "positiveRate": 55.55555555555556,
+          "avgAbsReturn": 5.304483794952847,
+          "maxGain": 13.285457809694792,
+          "maxLoss": -19.49910554561717,
+          "continuationRate": 44.44444444444444,
+          "contrarianRate": 55.55555555555556
+        },
+        {
+          "window": 30,
+          "avgReturn": -0.032311174751269614,
+          "medianReturn": 1.8970189701897018,
+          "positiveRate": 61.111111111111114,
+          "avgAbsReturn": 6.918420749269225,
+          "maxGain": 19.892280071813286,
+          "maxLoss": -40.27280858676207,
+          "continuationRate": 38.88888888888889,
+          "contrarianRate": 61.111111111111114
+        }
+      ]
+    },
+    {
+      "catId": 7,
+      "categoryName": "供给端减产",
+      "totalSamples": 22,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.6791017602547045,
+          "medianReturn": 0.4232804232804233,
+          "positiveRate": 59.09090909090909,
+          "avgAbsReturn": 1.3369980552958165,
+          "maxGain": 3.566529492455424,
+          "maxLoss": -3.3866415804327374,
+          "continuationRate": 54.54545454545454,
+          "contrarianRate": 45.45454545454545
+        },
+        {
+          "window": 3,
+          "avgReturn": 1.967164362393893,
+          "medianReturn": 0.5730050933786078,
+          "positiveRate": 63.63636363636363,
+          "avgAbsReturn": 2.7953560215006603,
+          "maxGain": 12.259036144578312,
+          "maxLoss": -3.015873015873016,
+          "continuationRate": 59.09090909090909,
+          "contrarianRate": 40.909090909090914
+        },
+        {
+          "window": 5,
+          "avgReturn": 2.8110185605563522,
+          "medianReturn": 1.4210526315789473,
+          "positiveRate": 77.27272727272727,
+          "avgAbsReturn": 3.9011109164184954,
+          "maxGain": 19.66867469879518,
+          "maxLoss": -5.676855895196499,
+          "continuationRate": 54.54545454545454,
+          "contrarianRate": 45.45454545454545
+        },
+        {
+          "window": 10,
+          "avgReturn": 4.205468843987489,
+          "medianReturn": 1.9964419845819377,
+          "positiveRate": 72.72727272727273,
+          "avgAbsReturn": 7.858418828433603,
+          "maxGain": 35.602409638554214,
+          "maxLoss": -23.009741350352705,
+          "continuationRate": 68.18181818181817,
+          "contrarianRate": 31.818181818181817
+        },
+        {
+          "window": 20,
+          "avgReturn": 9.657635278826225,
+          "medianReturn": 2.4459078080903107,
+          "positiveRate": 59.09090909090909,
+          "avgAbsReturn": 13.038567522633752,
+          "maxGain": 53.68837034249153,
+          "maxLoss": -11.891165602955988,
+          "continuationRate": 63.63636363636363,
+          "contrarianRate": 36.36363636363637
+        },
+        {
+          "window": 30,
+          "avgReturn": 10.243888478645797,
+          "medianReturn": 3.5187461585740625,
+          "positiveRate": 63.63636363636363,
+          "avgAbsReturn": 14.648009546055427,
+          "maxGain": 70.37643207855973,
+          "maxLoss": -15.51155115511551,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        }
+      ]
+    },
+    {
+      "catId": 8,
+      "categoryName": "供需失衡",
+      "totalSamples": 18,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.6748319222975442,
+          "medianReturn": 0.30816640986132515,
+          "positiveRate": 50,
+          "avgAbsReturn": 1.9659832721428225,
+          "maxGain": 2.6491405460060715,
+          "maxLoss": -7.695282289249807,
+          "continuationRate": 44.44444444444444,
+          "contrarianRate": 55.55555555555556
+        },
+        {
+          "window": 3,
+          "avgReturn": -0.46736076711132213,
+          "medianReturn": 0.02022244691608144,
+          "positiveRate": 50,
+          "avgAbsReturn": 3.298553840054131,
+          "maxGain": 6.834686031610423,
+          "maxLoss": -9.916826615483046,
+          "continuationRate": 44.44444444444444,
+          "contrarianRate": 55.55555555555556
+        },
+        {
+          "window": 5,
+          "avgReturn": 2.2259622784638116,
+          "medianReturn": 1.6721672167216723,
+          "positiveRate": 72.22222222222221,
+          "avgAbsReturn": 5.692181542501924,
+          "maxGain": 30.005681818181817,
+          "maxLoss": -11.324376199616124,
+          "continuationRate": 55.55555555555556,
+          "contrarianRate": 44.44444444444444
+        },
+        {
+          "window": 10,
+          "avgReturn": 5.807919196400472,
+          "medianReturn": 6.290956749672345,
+          "positiveRate": 83.33333333333334,
+          "avgAbsReturn": 7.775401109758537,
+          "maxGain": 23.00568181818182,
+          "maxLoss": -9.840702694655352,
+          "continuationRate": 55.55555555555556,
+          "contrarianRate": 44.44444444444444
+        },
+        {
+          "window": 20,
+          "avgReturn": 4.756001746479701,
+          "medianReturn": 5.217391304347816,
+          "positiveRate": 77.77777777777779,
+          "avgAbsReturn": 11.006974831113608,
+          "maxGain": 26.77840909090909,
+          "maxLoss": -28.668831168831172,
+          "continuationRate": 61.111111111111114,
+          "contrarianRate": 38.88888888888889
+        },
+        {
+          "window": 30,
+          "avgReturn": 4.097646901731663,
+          "medianReturn": 3.207150368033649,
+          "positiveRate": 72.22222222222221,
+          "avgAbsReturn": 11.45204327020442,
+          "maxGain": 30.20030816640986,
+          "maxLoss": -32.75974025974026,
+          "continuationRate": 55.55555555555556,
+          "contrarianRate": 44.44444444444444
+        }
+      ]
+    },
+    {
+      "catId": 9,
+      "categoryName": "行业事件",
+      "totalSamples": 13,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 1.637503713599172,
+          "medianReturn": 0.804162724692526,
+          "positiveRate": 69.23076923076923,
+          "avgAbsReturn": 2.9813073017983758,
+          "maxGain": 16.996634762466677,
+          "maxLoss": -8.115183246073295,
+          "continuationRate": 61.53846153846154,
+          "contrarianRate": 38.46153846153847
+        },
+        {
+          "window": 3,
+          "avgReturn": 0.6111664198442941,
+          "medianReturn": 0.11560693641618498,
+          "positiveRate": 53.84615384615385,
+          "avgAbsReturn": 1.692022374591468,
+          "maxGain": 6.937172774869113,
+          "maxLoss": -2.893230190988156,
+          "continuationRate": 46.15384615384615,
+          "contrarianRate": 53.84615384615385
+        },
+        {
+          "window": 5,
+          "avgReturn": -1.1869477646302762,
+          "medianReturn": -1.3947847180109159,
+          "positiveRate": 23.076923076923077,
+          "avgAbsReturn": 2.120665110987259,
+          "maxGain": 2.62870917752396,
+          "maxLoss": -5.384380053319348,
+          "continuationRate": 30.76923076923077,
+          "contrarianRate": 69.23076923076923
+        },
+        {
+          "window": 10,
+          "avgReturn": -0.8191541304648313,
+          "medianReturn": -1.0526315789473684,
+          "positiveRate": 23.076923076923077,
+          "avgAbsReturn": 3.5095148775838685,
+          "maxGain": 14.441535776614323,
+          "maxLoss": -9.628075695992308,
+          "continuationRate": 46.15384615384615,
+          "contrarianRate": 53.84615384615385
+        },
+        {
+          "window": 20,
+          "avgReturn": 1.5042050196375532,
+          "medianReturn": 0.13122346584330374,
+          "positiveRate": 53.84615384615385,
+          "avgAbsReturn": 4.211076910304127,
+          "maxGain": 15.92495636998255,
+          "maxLoss": -6.76543857348892,
+          "continuationRate": 76.92307692307693,
+          "contrarianRate": 23.076923076923077
+        },
+        {
+          "window": 30,
+          "avgReturn": 2.31148579284999,
+          "medianReturn": 1.1920529801324504,
+          "positiveRate": 61.53846153846154,
+          "avgAbsReturn": 4.872848049092149,
+          "maxGain": 24.301919720767884,
+          "maxLoss": -8.893093661305581,
+          "continuationRate": 53.84615384615385,
+          "contrarianRate": 46.15384615384615
+        }
+      ]
+    },
+    {
+      "catId": 10,
+      "categoryName": "交易制度",
+      "totalSamples": 17,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -1.224819760819891,
+          "medianReturn": -0.03698029478577483,
+          "positiveRate": 35.294117647058826,
+          "avgAbsReturn": 3.1607632671443673,
+          "maxGain": 8.024691358024693,
+          "maxLoss": -9.870164726406545,
+          "continuationRate": 41.17647058823529,
+          "contrarianRate": 58.82352941176471
+        },
+        {
+          "window": 3,
+          "avgReturn": -3.7858017707482343,
+          "medianReturn": -0.9241750339574352,
+          "positiveRate": 41.17647058823529,
+          "avgAbsReturn": 5.8053300933101735,
+          "maxGain": 9.639126305792978,
+          "maxLoss": -25.63739376770538,
+          "continuationRate": 35.294117647058826,
+          "contrarianRate": 64.70588235294117
+        },
+        {
+          "window": 5,
+          "avgReturn": -5.600290359561059,
+          "medianReturn": -6.1443932411674345,
+          "positiveRate": 35.294117647058826,
+          "avgAbsReturn": 9.790000320705268,
+          "maxGain": 15.716999050332381,
+          "maxLoss": -32.61059054260187,
+          "continuationRate": 41.17647058823529,
+          "contrarianRate": 58.82352941176471
+        },
+        {
+          "window": 10,
+          "avgReturn": -4.51354265513682,
+          "medianReturn": 0.3406792292132488,
+          "positiveRate": 52.94117647058824,
+          "avgAbsReturn": 8.782534412924829,
+          "maxGain": 22.88698955365623,
+          "maxLoss": -51.41643059490085,
+          "continuationRate": 35.294117647058826,
+          "contrarianRate": 64.70588235294117
+        },
+        {
+          "window": 20,
+          "avgReturn": -4.217859033514517,
+          "medianReturn": -0.6866815713829375,
+          "positiveRate": 47.05882352941176,
+          "avgAbsReturn": 10.90136772428219,
+          "maxGain": 29.01234567901234,
+          "maxLoss": -55.44780998038789,
+          "continuationRate": 41.17647058823529,
+          "contrarianRate": 58.82352941176471
+        },
+        {
+          "window": 30,
+          "avgReturn": -1.985133083120217,
+          "medianReturn": -2.271495442227145,
+          "positiveRate": 47.05882352941176,
+          "avgAbsReturn": 11.020182118007225,
+          "maxGain": 40.40835707502374,
+          "maxLoss": -54.216604924820224,
+          "continuationRate": 29.411764705882355,
+          "contrarianRate": 70.58823529411765
+        }
+      ]
+    }
+  ],
+  "varietyResults": [
+    {
+      "code": "A0",
+      "sector": "其他",
+      "totalBars": 6450,
+      "totalEvents": 2,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.5236941754615461,
+          "medianReturn": 0.02994908655286014,
+          "positiveRate": 50,
+          "avgAbsReturn": 0.5536432620144062,
+          "maxGain": 0.02994908655286014,
+          "maxLoss": -1.0773374374759523,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": -1.050194277270003,
+          "medianReturn": -0.42323970757983836,
+          "positiveRate": 0,
+          "avgAbsReturn": 1.050194277270003,
+          "maxGain": -0.42323970757983836,
+          "maxLoss": -1.6771488469601679,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 5,
+          "avgReturn": -1.0177503937803616,
+          "medianReturn": -0.6888289907157832,
+          "positiveRate": 0,
+          "avgAbsReturn": 1.0177503937803616,
+          "maxGain": -0.6888289907157832,
+          "maxLoss": -1.3466717968449404,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 10,
+          "avgReturn": 1.2486084160966373,
+          "medianReturn": 1.8083878414774914,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.2486084160966373,
+          "maxGain": 1.8083878414774914,
+          "maxLoss": 0.6888289907157832,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 20,
+          "avgReturn": 5.3822046192115955,
+          "medianReturn": 10.572027553159629,
+          "positiveRate": 100,
+          "avgAbsReturn": 5.3822046192115955,
+          "maxGain": 10.572027553159629,
+          "maxLoss": 0.19238168526356292,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 30,
+          "avgReturn": 5.598191808054818,
+          "medianReturn": 10.81162024558251,
+          "positiveRate": 100,
+          "avgAbsReturn": 5.598191808054818,
+          "maxGain": 10.81162024558251,
+          "maxLoss": 0.38476337052712584,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        }
+      ]
+    },
+    {
+      "code": "AG0",
+      "sector": "贵金属",
+      "totalBars": 3463,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "AL0",
+      "sector": "有色",
+      "totalBars": 6457,
+      "totalEvents": 16,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.0901667711025471,
+          "medianReturn": 0.21046301864101025,
+          "positiveRate": 50,
+          "avgAbsReturn": 0.7652699431914237,
+          "maxGain": 1.898422090729783,
+          "maxLoss": -1.6749542004710807,
+          "continuationRate": 37.5,
+          "contrarianRate": 62.5
+        },
+        {
+          "window": 3,
+          "avgReturn": -0.40094052096017674,
+          "medianReturn": -0.704070407040704,
+          "positiveRate": 31.25,
+          "avgAbsReturn": 1.9262530375949605,
+          "maxGain": 4.023605150214593,
+          "maxLoss": -3.4275405892964526,
+          "continuationRate": 56.25,
+          "contrarianRate": 43.75
+        },
+        {
+          "window": 5,
+          "avgReturn": -0.10356253778854674,
+          "medianReturn": 0.7261968800430338,
+          "positiveRate": 56.25,
+          "avgAbsReturn": 2.5860858921263126,
+          "maxGain": 4.828326180257511,
+          "maxLoss": -6.490447526825438,
+          "continuationRate": 43.75,
+          "contrarianRate": 56.25
+        },
+        {
+          "window": 10,
+          "avgReturn": 0.033201917274882156,
+          "medianReturn": 0.9016393442622952,
+          "positiveRate": 56.25,
+          "avgAbsReturn": 4.1671421032591365,
+          "maxGain": 8.668866886688669,
+          "maxLoss": -9.232804232804233,
+          "continuationRate": 43.75,
+          "contrarianRate": 56.25
+        },
+        {
+          "window": 20,
+          "avgReturn": -2.3220195999539808,
+          "medianReturn": -0.46153846153846156,
+          "positiveRate": 43.75,
+          "avgAbsReturn": 5.463679354876296,
+          "maxGain": 8.15450643776824,
+          "maxLoss": -18.220084185207455,
+          "continuationRate": 56.25,
+          "contrarianRate": 43.75
+        },
+        {
+          "window": 30,
+          "avgReturn": -4.039026196914037,
+          "medianReturn": -0.9259259259259258,
+          "positiveRate": 37.5,
+          "avgAbsReturn": 7.168155415909359,
+          "maxGain": 6.384120171673819,
+          "maxLoss": -16.95932429428762,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        }
+      ]
+    },
+    {
+      "code": "AO0",
+      "sector": "新兴",
+      "totalBars": 761,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "AP0",
+      "sector": "软商品",
+      "totalBars": 2092,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.48543689320388345,
+          "medianReturn": -0.48543689320388345,
+          "positiveRate": 0,
+          "avgAbsReturn": 0.48543689320388345,
+          "maxGain": -0.48543689320388345,
+          "maxLoss": -0.48543689320388345,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": -1.3069454817027633,
+          "medianReturn": -1.3069454817027633,
+          "positiveRate": 0,
+          "avgAbsReturn": 1.3069454817027633,
+          "maxGain": -1.3069454817027633,
+          "maxLoss": -1.3069454817027633,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": -0.14936519790888725,
+          "medianReturn": -0.14936519790888725,
+          "positiveRate": 0,
+          "avgAbsReturn": 0.14936519790888725,
+          "maxGain": -0.14936519790888725,
+          "maxLoss": -0.14936519790888725,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 1.8017176997759523,
+          "medianReturn": 1.8017176997759523,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.8017176997759523,
+          "maxGain": 1.8017176997759523,
+          "maxLoss": 1.8017176997759523,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 5.386482449589246,
+          "medianReturn": 5.386482449589246,
+          "positiveRate": 100,
+          "avgAbsReturn": 5.386482449589246,
+          "maxGain": 5.386482449589246,
+          "maxLoss": 5.386482449589246,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 4.02352501867065,
+          "medianReturn": 4.02352501867065,
+          "positiveRate": 100,
+          "avgAbsReturn": 4.02352501867065,
+          "maxGain": 4.02352501867065,
+          "maxLoss": 4.02352501867065,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "AU0",
+      "sector": "贵金属",
+      "totalBars": 4515,
+      "totalEvents": 18,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.04779441960321695,
+          "medianReturn": -0.2768645094307013,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 1.082166907523477,
+          "maxGain": 4.043305346884656,
+          "maxLoss": -2.096391888332889,
+          "continuationRate": 55.55555555555556,
+          "contrarianRate": 44.44444444444444
+        },
+        {
+          "window": 3,
+          "avgReturn": 0.04914726403144738,
+          "medianReturn": 0.08652702166781162,
+          "positiveRate": 50,
+          "avgAbsReturn": 1.519636332177527,
+          "maxGain": 3.193149381541384,
+          "maxLoss": -3.511544201562637,
+          "continuationRate": 61.111111111111114,
+          "contrarianRate": 38.88888888888889
+        },
+        {
+          "window": 5,
+          "avgReturn": -0.25251822732450613,
+          "medianReturn": -0.1676914477361824,
+          "positiveRate": 44.44444444444444,
+          "avgAbsReturn": 2.4471140193031276,
+          "maxGain": 4.04465592972182,
+          "maxLoss": -7.026940174602327,
+          "continuationRate": 44.44444444444444,
+          "contrarianRate": 55.55555555555556
+        },
+        {
+          "window": 10,
+          "avgReturn": 0.6346286148779705,
+          "medianReturn": 0.6633738327865216,
+          "positiveRate": 55.55555555555556,
+          "avgAbsReturn": 2.7525449433600717,
+          "maxGain": 5.8329650905877095,
+          "maxLoss": -9.051470194419155,
+          "continuationRate": 66.66666666666666,
+          "contrarianRate": 33.33333333333333
+        },
+        {
+          "window": 20,
+          "avgReturn": -0.19397993621026435,
+          "medianReturn": 0.7524492475507427,
+          "positiveRate": 61.111111111111114,
+          "avgAbsReturn": 2.676881586810215,
+          "maxGain": 6.248200403109708,
+          "maxLoss": -10.555701869897284,
+          "continuationRate": 38.88888888888889,
+          "contrarianRate": 61.111111111111114
+        },
+        {
+          "window": 30,
+          "avgReturn": 1.095587328155532,
+          "medianReturn": 0.9362914716059365,
+          "positiveRate": 66.66666666666666,
+          "avgAbsReturn": 3.0921195117626334,
+          "maxGain": 8.127349356418716,
+          "maxLoss": -5.618594436310383,
+          "continuationRate": 44.44444444444444,
+          "contrarianRate": 55.55555555555556
+        }
+      ]
+    },
+    {
+      "code": "BC0",
+      "sector": "其他",
+      "totalBars": 1387,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "BU0",
+      "sector": "能源",
+      "totalBars": 3123,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 4.008908685968819,
+          "medianReturn": 4.008908685968819,
+          "positiveRate": 100,
+          "avgAbsReturn": 4.008908685968819,
+          "maxGain": 4.008908685968819,
+          "maxLoss": 4.008908685968819,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 3.4521158129175946,
+          "medianReturn": 3.4521158129175946,
+          "positiveRate": 100,
+          "avgAbsReturn": 3.4521158129175946,
+          "maxGain": 3.4521158129175946,
+          "maxLoss": 3.4521158129175946,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 19.15367483296214,
+          "medianReturn": 19.15367483296214,
+          "positiveRate": 100,
+          "avgAbsReturn": 19.15367483296214,
+          "maxGain": 19.15367483296214,
+          "maxLoss": 19.15367483296214,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": -1.447661469933185,
+          "medianReturn": -1.447661469933185,
+          "positiveRate": 0,
+          "avgAbsReturn": 1.447661469933185,
+          "maxGain": -1.447661469933185,
+          "maxLoss": -1.447661469933185,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": 10.746102449888642,
+          "medianReturn": 10.746102449888642,
+          "positiveRate": 100,
+          "avgAbsReturn": 10.746102449888642,
+          "maxGain": 10.746102449888642,
+          "maxLoss": 10.746102449888642,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 6.737193763919821,
+          "medianReturn": 6.737193763919821,
+          "positiveRate": 100,
+          "avgAbsReturn": 6.737193763919821,
+          "maxGain": 6.737193763919821,
+          "maxLoss": 6.737193763919821,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "C0",
+      "sector": "其他",
+      "totalBars": 5315,
+      "totalEvents": 11,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.1141627048648855,
+          "medianReturn": 0.07945967421533572,
+          "positiveRate": 63.63636363636363,
+          "avgAbsReturn": 0.626907156077603,
+          "maxGain": 1.4634146341463417,
+          "maxLoss": -1.9658119658119657,
+          "continuationRate": 45.45454545454545,
+          "contrarianRate": 54.54545454545454
+        },
+        {
+          "window": 3,
+          "avgReturn": 0.11743579466916672,
+          "medianReturn": -0.2948609941027801,
+          "positiveRate": 45.45454545454545,
+          "avgAbsReturn": 0.8787969803714611,
+          "maxGain": 2.330623306233062,
+          "maxLoss": -1.526315789473684,
+          "continuationRate": 45.45454545454545,
+          "contrarianRate": 54.54545454545454
+        },
+        {
+          "window": 5,
+          "avgReturn": 0.38112500298896157,
+          "medianReturn": 0.29455081001472755,
+          "positiveRate": 54.54545454545454,
+          "avgAbsReturn": 1.1258641082824303,
+          "maxGain": 2.3837902264600714,
+          "maxLoss": -1.678397401191121,
+          "continuationRate": 36.36363636363637,
+          "contrarianRate": 63.63636363636363
+        },
+        {
+          "window": 10,
+          "avgReturn": 0.5271476823882502,
+          "medianReturn": 1.084010840108401,
+          "positiveRate": 63.63636363636363,
+          "avgAbsReturn": 1.841412643841399,
+          "maxGain": 3.575685339690107,
+          "maxLoss": -5.17094017094017,
+          "continuationRate": 27.27272727272727,
+          "contrarianRate": 72.72727272727273
+        },
+        {
+          "window": 20,
+          "avgReturn": 1.160070764702594,
+          "medianReturn": 1.8163966617574867,
+          "positiveRate": 63.63636363636363,
+          "avgAbsReturn": 2.3505598049748353,
+          "maxGain": 5.3627760252365935,
+          "maxLoss": -3.1623931623931623,
+          "continuationRate": 27.27272727272727,
+          "contrarianRate": 72.72727272727273
+        },
+        {
+          "window": 30,
+          "avgReturn": 0.7077690940372141,
+          "medianReturn": 0.2991452991452992,
+          "positiveRate": 63.63636363636363,
+          "avgAbsReturn": 1.6380342996191601,
+          "maxGain": 3.7899296155928535,
+          "maxLoss": -2.8421052631578947,
+          "continuationRate": 45.45454545454545,
+          "contrarianRate": 54.54545454545454
+        }
+      ]
+    },
+    {
+      "code": "CF0",
+      "sector": "软商品",
+      "totalBars": 5396,
+      "totalEvents": 5,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.4444713363308912,
+          "medianReturn": 0.3074085459575776,
+          "positiveRate": 60,
+          "avgAbsReturn": 0.9454745502274462,
+          "maxGain": 2.5421770279639473,
+          "maxLoss": -0.6312292358803987,
+          "continuationRate": 20,
+          "contrarianRate": 80
+        },
+        {
+          "window": 3,
+          "avgReturn": 0.5746746392625379,
+          "medianReturn": 0.09222256378727328,
+          "positiveRate": 80,
+          "avgAbsReturn": 0.7592808622787652,
+          "maxGain": 2.857142857142857,
+          "maxLoss": -0.46151555754056867,
+          "continuationRate": 40,
+          "contrarianRate": 60
+        },
+        {
+          "window": 5,
+          "avgReturn": 3.409254592483545,
+          "medianReturn": 1.9651630192050022,
+          "positiveRate": 80,
+          "avgAbsReturn": 3.4817371190173274,
+          "maxGain": 10.769586318465448,
+          "maxLoss": -0.18120631633445508,
+          "continuationRate": 40,
+          "contrarianRate": 60
+        },
+        {
+          "window": 10,
+          "avgReturn": 1.2386634741889078,
+          "medianReturn": 2.3039088791095006,
+          "positiveRate": 80,
+          "avgAbsReturn": 5.174944552051048,
+          "maxGain": 9.775826207534088,
+          "maxLoss": -9.840702694655352,
+          "continuationRate": 40,
+          "contrarianRate": 60
+        },
+        {
+          "window": 20,
+          "avgReturn": 6.955049614022271,
+          "medianReturn": 2.7242524916943522,
+          "positiveRate": 80,
+          "avgAbsReturn": 9.813468551047729,
+          "maxGain": 31.77721284954934,
+          "maxLoss": -7.146047342563644,
+          "continuationRate": 40,
+          "contrarianRate": 60
+        },
+        {
+          "window": 30,
+          "avgReturn": 6.876104790510154,
+          "medianReturn": 3.9867109634551494,
+          "positiveRate": 80,
+          "avgAbsReturn": 10.830250986728704,
+          "maxGain": 29.97457822972036,
+          "maxLoss": -9.885365490546375,
+          "continuationRate": 40,
+          "contrarianRate": 60
+        }
+      ]
+    },
+    {
+      "code": "CJ0",
+      "sector": "软商品",
+      "totalBars": 1765,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "CU0",
+      "sector": "有色",
+      "totalBars": 6457,
+      "totalEvents": 33,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.2951629460661967,
+          "medianReturn": -0.1407884151246983,
+          "positiveRate": 45.45454545454545,
+          "avgAbsReturn": 1.0687265628201847,
+          "maxGain": 2.0850708924103416,
+          "maxLoss": -6.205747605164515,
+          "continuationRate": 45.45454545454545,
+          "contrarianRate": 54.54545454545454
+        },
+        {
+          "window": 3,
+          "avgReturn": -0.774406560743678,
+          "medianReturn": -0.6438113632705618,
+          "positiveRate": 39.39393939393939,
+          "avgAbsReturn": 1.4992696332084972,
+          "maxGain": 3.4751181540172364,
+          "maxLoss": -5.14369012911287,
+          "continuationRate": 57.57575757575758,
+          "contrarianRate": 42.42424242424242
+        },
+        {
+          "window": 5,
+          "avgReturn": -0.4245341619948159,
+          "medianReturn": -0.02769699487605595,
+          "positiveRate": 48.484848484848484,
+          "avgAbsReturn": 2.021421039390167,
+          "maxGain": 4.465408805031446,
+          "maxLoss": -5.831220572256428,
+          "continuationRate": 48.484848484848484,
+          "contrarianRate": 51.515151515151516
+        },
+        {
+          "window": 10,
+          "avgReturn": -0.09640163709473715,
+          "medianReturn": -0.08765522279035792,
+          "positiveRate": 45.45454545454545,
+          "avgAbsReturn": 3.2376165731149666,
+          "maxGain": 12.315875613747954,
+          "maxLoss": -14.971428571428572,
+          "continuationRate": 51.515151515151516,
+          "contrarianRate": 48.484848484848484
+        },
+        {
+          "window": 20,
+          "avgReturn": -1.6768795771402123,
+          "medianReturn": -0.10172939979654119,
+          "positiveRate": 45.45454545454545,
+          "avgAbsReturn": 5.890963013498948,
+          "maxGain": 27.1481178396072,
+          "maxLoss": -27.435711698659905,
+          "continuationRate": 57.57575757575758,
+          "contrarianRate": 42.42424242424242
+        },
+        {
+          "window": 30,
+          "avgReturn": -1.0447809094013045,
+          "medianReturn": -0.639441941578259,
+          "positiveRate": 39.39393939393939,
+          "avgAbsReturn": 8.168530484315635,
+          "maxGain": 70.37643207855973,
+          "maxLoss": -40.05795001810938,
+          "continuationRate": 45.45454545454545,
+          "contrarianRate": 54.54545454545454
+        }
+      ]
+    },
+    {
+      "code": "EB0",
+      "sector": "化工",
+      "totalBars": 1663,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "EC0",
+      "sector": "其他",
+      "totalBars": 719,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 22.293225270157947,
+          "medianReturn": 22.293225270157947,
+          "positiveRate": 100,
+          "avgAbsReturn": 22.293225270157947,
+          "maxGain": 22.293225270157947,
+          "maxLoss": 22.293225270157947,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 18.220074812967585,
+          "medianReturn": 18.220074812967585,
+          "positiveRate": 100,
+          "avgAbsReturn": 18.220074812967585,
+          "maxGain": 18.220074812967585,
+          "maxLoss": 18.220074812967585,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": -7.86575228595178,
+          "medianReturn": -7.86575228595178,
+          "positiveRate": 0,
+          "avgAbsReturn": 7.86575228595178,
+          "maxGain": -7.86575228595178,
+          "maxLoss": -7.86575228595178,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 5.9642560266001645,
+          "medianReturn": 5.9642560266001645,
+          "positiveRate": 100,
+          "avgAbsReturn": 5.9642560266001645,
+          "maxGain": 5.9642560266001645,
+          "maxLoss": 5.9642560266001645,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0.7689110556940958,
+          "medianReturn": 0.7689110556940958,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.7689110556940958,
+          "maxGain": 0.7689110556940958,
+          "maxLoss": 0.7689110556940958,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 6.717581047381543,
+          "medianReturn": 6.717581047381543,
+          "positiveRate": 100,
+          "avgAbsReturn": 6.717581047381543,
+          "maxGain": 6.717581047381543,
+          "maxLoss": 6.717581047381543,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "EG0",
+      "sector": "化工",
+      "totalBars": 1858,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "FG0",
+      "sector": "建材",
+      "totalBars": 3322,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -4.070660522273426,
+          "medianReturn": -4.070660522273426,
+          "positiveRate": 0,
+          "avgAbsReturn": 4.070660522273426,
+          "maxGain": -4.070660522273426,
+          "maxLoss": -4.070660522273426,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": -4.992319508448541,
+          "medianReturn": -4.992319508448541,
+          "positiveRate": 0,
+          "avgAbsReturn": 4.992319508448541,
+          "maxGain": -4.992319508448541,
+          "maxLoss": -4.992319508448541,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": -6.1443932411674345,
+          "medianReturn": -6.1443932411674345,
+          "positiveRate": 0,
+          "avgAbsReturn": 6.1443932411674345,
+          "maxGain": -6.1443932411674345,
+          "maxLoss": -6.1443932411674345,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": -1.9969278033794162,
+          "medianReturn": -1.9969278033794162,
+          "positiveRate": 0,
+          "avgAbsReturn": 1.9969278033794162,
+          "maxGain": -1.9969278033794162,
+          "maxLoss": -1.9969278033794162,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": -0.7680491551459293,
+          "medianReturn": -0.7680491551459293,
+          "positiveRate": 0,
+          "avgAbsReturn": 0.7680491551459293,
+          "maxGain": -0.7680491551459293,
+          "maxLoss": -0.7680491551459293,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": -4.147465437788019,
+          "medianReturn": -4.147465437788019,
+          "positiveRate": 0,
+          "avgAbsReturn": 4.147465437788019,
+          "maxGain": -4.147465437788019,
+          "maxLoss": -4.147465437788019,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "FU0",
+      "sector": "能源",
+      "totalBars": 5322,
+      "totalEvents": 5,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.14932966016260082,
+          "medianReturn": 0,
+          "positiveRate": 40,
+          "avgAbsReturn": 1.430716431738701,
+          "maxGain": 3.1626506024096384,
+          "maxLoss": -3.3866415804327374,
+          "continuationRate": 40,
+          "contrarianRate": 60
+        },
+        {
+          "window": 3,
+          "avgReturn": 3.2516179418238407,
+          "medianReturn": 0.8617832283725556,
+          "positiveRate": 60,
+          "avgAbsReturn": 3.276107737742208,
+          "maxGain": 12.259036144578312,
+          "maxLoss": -0.061224489795918366,
+          "continuationRate": 60,
+          "contrarianRate": 40
+        },
+        {
+          "window": 5,
+          "avgReturn": 4.687450098722286,
+          "medianReturn": 2.116650987770461,
+          "positiveRate": 60,
+          "avgAbsReturn": 4.8752052007631015,
+          "maxGain": 19.66867469879518,
+          "maxLoss": -0.4693877551020408,
+          "continuationRate": 60,
+          "contrarianRate": 40
+        },
+        {
+          "window": 10,
+          "avgReturn": 8.637430935521575,
+          "medianReturn": 2.5870178739416745,
+          "positiveRate": 80,
+          "avgAbsReturn": 8.637430935521575,
+          "maxGain": 35.602409638554214,
+          "maxLoss": 0,
+          "continuationRate": 80,
+          "contrarianRate": 20
+        },
+        {
+          "window": 20,
+          "avgReturn": 8.926531986091655,
+          "medianReturn": 2.4459078080903107,
+          "positiveRate": 80,
+          "avgAbsReturn": 8.926531986091655,
+          "maxGain": 33.16265060240964,
+          "maxLoss": 0,
+          "continuationRate": 80,
+          "contrarianRate": 20
+        },
+        {
+          "window": 30,
+          "avgReturn": 9.738833232966778,
+          "medianReturn": 7.026847862114684,
+          "positiveRate": 80,
+          "avgAbsReturn": 9.738833232966778,
+          "maxGain": 28.52409638554217,
+          "maxLoss": 0,
+          "continuationRate": 80,
+          "contrarianRate": 20
+        }
+      ]
+    },
+    {
+      "code": "HC0",
+      "sector": "黑色系",
+      "totalBars": 3012,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.05361930294906167,
+          "medianReturn": -0.05361930294906167,
+          "positiveRate": 0,
+          "avgAbsReturn": 0.05361930294906167,
+          "maxGain": -0.05361930294906167,
+          "maxLoss": -0.05361930294906167,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": -2.064343163538874,
+          "medianReturn": -2.064343163538874,
+          "positiveRate": 0,
+          "avgAbsReturn": 2.064343163538874,
+          "maxGain": -2.064343163538874,
+          "maxLoss": -2.064343163538874,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": 0.8579088471849867,
+          "medianReturn": 0.8579088471849867,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.8579088471849867,
+          "maxGain": 0.8579088471849867,
+          "maxLoss": 0.8579088471849867,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": -0.05361930294906167,
+          "medianReturn": -0.05361930294906167,
+          "positiveRate": 0,
+          "avgAbsReturn": 0.05361930294906167,
+          "maxGain": -0.05361930294906167,
+          "maxLoss": -0.05361930294906167,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": -4.289544235924933,
+          "medianReturn": -4.289544235924933,
+          "positiveRate": 0,
+          "avgAbsReturn": 4.289544235924933,
+          "maxGain": -4.289544235924933,
+          "maxLoss": -4.289544235924933,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": -13.431635388739945,
+          "medianReturn": -13.431635388739945,
+          "positiveRate": 0,
+          "avgAbsReturn": 13.431635388739945,
+          "maxGain": -13.431635388739945,
+          "maxLoss": -13.431635388739945,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "I0",
+      "sector": "黑色系",
+      "totalBars": 3116,
+      "totalEvents": 11,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.7504178762801509,
+          "medianReturn": -0.07017543859649122,
+          "positiveRate": 45.45454545454545,
+          "avgAbsReturn": 2.2419502826524424,
+          "maxGain": 3.089887640449438,
+          "maxLoss": -9.012715033657443,
+          "continuationRate": 54.54545454545454,
+          "contrarianRate": 45.45454545454545
+        },
+        {
+          "window": 3,
+          "avgReturn": -1.4296016080572567,
+          "medianReturn": -1.5727391874180863,
+          "positiveRate": 36.36363636363637,
+          "avgAbsReturn": 4.429837846824258,
+          "maxGain": 9.925093632958802,
+          "maxLoss": -10.433807030665669,
+          "continuationRate": 45.45454545454545,
+          "contrarianRate": 54.54545454545454
+        },
+        {
+          "window": 5,
+          "avgReturn": -1.205622904269907,
+          "medianReturn": -2.442528735632184,
+          "positiveRate": 36.36363636363637,
+          "avgAbsReturn": 5.691091818153763,
+          "maxGain": 16.38576779026217,
+          "maxLoss": -11.638795986622073,
+          "continuationRate": 63.63636363636363,
+          "contrarianRate": 36.36363636363637
+        },
+        {
+          "window": 10,
+          "avgReturn": -2.867321239448272,
+          "medianReturn": -0.7776049766718507,
+          "positiveRate": 45.45454545454545,
+          "avgAbsReturn": 9.614688779978042,
+          "maxGain": 16.853932584269664,
+          "maxLoss": -25.6170531039641,
+          "continuationRate": 54.54545454545454,
+          "contrarianRate": 45.45454545454545
+        },
+        {
+          "window": 20,
+          "avgReturn": -3.4443731580408414,
+          "medianReturn": -6.839622641509433,
+          "positiveRate": 36.36363636363637,
+          "avgAbsReturn": 12.796865178729819,
+          "maxGain": 25.423728813559322,
+          "maxLoss": -22.40802675585284,
+          "continuationRate": 45.45454545454545,
+          "contrarianRate": 54.54545454545454
+        },
+        {
+          "window": 30,
+          "avgReturn": -1.1843156943490867,
+          "medianReturn": -2.1226415094339623,
+          "positiveRate": 45.45454545454545,
+          "avgAbsReturn": 13.079039594281669,
+          "maxGain": 30.20030816640986,
+          "maxLoss": -22.87719298245614,
+          "continuationRate": 54.54545454545454,
+          "contrarianRate": 45.45454545454545
+        }
+      ]
+    },
+    {
+      "code": "IC0",
+      "sector": "金融",
+      "totalBars": 2751,
+      "totalEvents": 3,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -3.469534147452133,
+          "medianReturn": -2.6477939894204474,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 4.875771663099194,
+          "maxGain": 2.109356273470591,
+          "maxLoss": -9.870164726406545,
+          "continuationRate": 66.66666666666666,
+          "contrarianRate": 33.33333333333333
+        },
+        {
+          "window": 3,
+          "avgReturn": -3.76324199127352,
+          "medianReturn": -2.7912906364276786,
+          "positiveRate": 0,
+          "avgAbsReturn": 3.76324199127352,
+          "maxGain": -0.9241750339574352,
+          "maxLoss": -7.574260303435445,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": -9.17093244123026,
+          "medianReturn": -13.67203394756729,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 13.729145836294062,
+          "maxGain": 6.837320092595705,
+          "maxLoss": -20.678083468719198,
+          "continuationRate": 66.66666666666666,
+          "contrarianRate": 33.33333333333333
+        },
+        {
+          "window": 10,
+          "avgReturn": -6.90271757983106,
+          "medianReturn": -4.972434548698959,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 7.9024827356669425,
+          "maxGain": 1.4996477337538257,
+          "maxLoss": -17.235365924548045,
+          "continuationRate": 66.66666666666666,
+          "contrarianRate": 33.33333333333333
+        },
+        {
+          "window": 20,
+          "avgReturn": -6.933413089225652,
+          "medianReturn": -0.7313718254101295,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 8.650372278153311,
+          "maxGain": 2.57543878339149,
+          "maxLoss": -22.644306225658315,
+          "continuationRate": 66.66666666666666,
+          "contrarianRate": 33.33333333333333
+        },
+        {
+          "window": 30,
+          "avgReturn": 0.5334017721919503,
+          "medianReturn": 7.6277731909340325,
+          "positiveRate": 66.66666666666666,
+          "avgAbsReturn": 10.337893236858967,
+          "maxGain": 8.679169322642343,
+          "maxLoss": -14.706737197000525,
+          "continuationRate": 33.33333333333333,
+          "contrarianRate": 66.66666666666666
+        }
+      ]
+    },
+    {
+      "code": "IF0",
+      "sector": "金融",
+      "totalBars": 3962,
+      "totalEvents": 9,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.228688571816893,
+          "medianReturn": 1.0433301394655667,
+          "positiveRate": 55.55555555555556,
+          "avgAbsReturn": 1.5983412390929275,
+          "maxGain": 2.1505376344086082,
+          "maxLoss": -2.511635062887041,
+          "continuationRate": 66.66666666666666,
+          "contrarianRate": 33.33333333333333
+        },
+        {
+          "window": 3,
+          "avgReturn": -0.2207267363028458,
+          "medianReturn": 0.5216650697327894,
+          "positiveRate": 66.66666666666666,
+          "avgAbsReturn": 2.1568943023304645,
+          "maxGain": 3.245718837116693,
+          "maxLoss": -5.249635036496356,
+          "continuationRate": 55.55555555555556,
+          "contrarianRate": 44.44444444444444
+        },
+        {
+          "window": 5,
+          "avgReturn": -2.3918860317847224,
+          "medianReturn": -0.3061849357011635,
+          "positiveRate": 44.44444444444444,
+          "avgAbsReturn": 6.08125261683378,
+          "maxGain": 8.403361344537815,
+          "maxLoss": -14.673564917467354,
+          "continuationRate": 77.77777777777779,
+          "contrarianRate": 22.22222222222222
+        },
+        {
+          "window": 10,
+          "avgReturn": -5.152028133350994,
+          "medianReturn": 0.3406792292132488,
+          "positiveRate": 55.55555555555556,
+          "avgAbsReturn": 8.480151479718117,
+          "maxGain": 7.641196013289049,
+          "maxLoss": -29.481155653304008,
+          "continuationRate": 66.66666666666666,
+          "contrarianRate": 33.33333333333333
+        },
+        {
+          "window": 20,
+          "avgReturn": -4.794692350775663,
+          "medianReturn": -0.6866815713829375,
+          "positiveRate": 44.44444444444444,
+          "avgAbsReturn": 9.204132319414612,
+          "maxGain": 9.229288776135073,
+          "maxLoss": -23.043193968998814,
+          "continuationRate": 55.55555555555556,
+          "contrarianRate": 44.44444444444444
+        },
+        {
+          "window": 30,
+          "avgReturn": -4.479379498817014,
+          "medianReturn": -2.271495442227145,
+          "positiveRate": 44.44444444444444,
+          "avgAbsReturn": 10.328245799663366,
+          "maxGain": 8.878900397368263,
+          "maxLoss": -29.728066464094777,
+          "continuationRate": 55.55555555555556,
+          "contrarianRate": 44.44444444444444
+        }
+      ]
+    },
+    {
+      "code": "IH0",
+      "sector": "金融",
+      "totalBars": 2751,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 1.6393442622950922,
+          "medianReturn": 1.6393442622950922,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.6393442622950922,
+          "maxGain": 1.6393442622950922,
+          "maxLoss": 1.6393442622950922,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": 2.247607744232637,
+          "medianReturn": 2.247607744232637,
+          "positiveRate": 100,
+          "avgAbsReturn": 2.247607744232637,
+          "maxGain": 2.247607744232637,
+          "maxLoss": 2.247607744232637,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": -7.269490393887694,
+          "medianReturn": -7.269490393887694,
+          "positiveRate": 0,
+          "avgAbsReturn": 7.269490393887694,
+          "maxGain": -7.269490393887694,
+          "maxLoss": -7.269490393887694,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0.43765299310140876,
+          "medianReturn": 0.43765299310140876,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.43765299310140876,
+          "maxGain": 0.43765299310140876,
+          "maxLoss": 0.43765299310140876,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": -8.078035754024173,
+          "medianReturn": -8.078035754024173,
+          "positiveRate": 0,
+          "avgAbsReturn": 8.078035754024173,
+          "maxGain": -8.078035754024173,
+          "maxLoss": -8.078035754024173,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": -5.496624879459974,
+          "medianReturn": -5.496624879459974,
+          "positiveRate": 0,
+          "avgAbsReturn": 5.496624879459974,
+          "maxGain": -5.496624879459974,
+          "maxLoss": -5.496624879459974,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "IM0",
+      "sector": "金融",
+      "totalBars": 981,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "J0",
+      "sector": "黑色系",
+      "totalBars": 3722,
+      "totalEvents": 5,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -2.7110114356988753,
+          "medianReturn": -0.9103641456582634,
+          "positiveRate": 20,
+          "avgAbsReturn": 2.9625837627429004,
+          "maxGain": 0.628930817610063,
+          "maxLoss": -8.246251703771012,
+          "continuationRate": 20,
+          "contrarianRate": 80
+        },
+        {
+          "window": 3,
+          "avgReturn": -4.657528416109498,
+          "medianReturn": -2.358490566037736,
+          "positiveRate": 20,
+          "avgAbsReturn": 7.51787614465689,
+          "maxGain": 7.15086932136848,
+          "maxLoss": -19.036801453884596,
+          "continuationRate": 20,
+          "contrarianRate": 80
+        },
+        {
+          "window": 5,
+          "avgReturn": -3.4274909047449627,
+          "medianReturn": -1.9654088050314464,
+          "positiveRate": 20,
+          "avgAbsReturn": 7.521714124038288,
+          "maxGain": 10.235558048233315,
+          "maxLoss": -13.902771467514766,
+          "continuationRate": 20,
+          "contrarianRate": 80
+        },
+        {
+          "window": 10,
+          "avgReturn": -8.218721117363724,
+          "medianReturn": -2.73109243697479,
+          "positiveRate": 40,
+          "avgAbsReturn": 12.75961573000513,
+          "maxGain": 10.880538418395961,
+          "maxLoss": -31.826442526124488,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": -8.732324157355617,
+          "medianReturn": -8.411867364746946,
+          "positiveRate": 40,
+          "avgAbsReturn": 15.925239779037682,
+          "maxGain": 16.881660123387547,
+          "maxLoss": -39.01635620172649,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": -9.110424829692686,
+          "medianReturn": -2.6178010471204187,
+          "positiveRate": 20,
+          "avgAbsReturn": 12.506651244787026,
+          "maxGain": 8.49056603773585,
+          "maxLoss": -39.504770558836896,
+          "continuationRate": 20,
+          "contrarianRate": 80
+        }
+      ]
+    },
+    {
+      "code": "JD0",
+      "sector": "养殖",
+      "totalBars": 3101,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -10.252140818268316,
+          "medianReturn": -10.252140818268316,
+          "positiveRate": 0,
+          "avgAbsReturn": 10.252140818268316,
+          "maxGain": -10.252140818268316,
+          "maxLoss": -10.252140818268316,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": -7.9923882017126555,
+          "medianReturn": -7.9923882017126555,
+          "positiveRate": 0,
+          "avgAbsReturn": 7.9923882017126555,
+          "maxGain": -7.9923882017126555,
+          "maxLoss": -7.9923882017126555,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": -7.183634633682208,
+          "medianReturn": -7.183634633682208,
+          "positiveRate": 0,
+          "avgAbsReturn": 7.183634633682208,
+          "maxGain": -7.183634633682208,
+          "maxLoss": -7.183634633682208,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": -8.158896289248336,
+          "medianReturn": -8.158896289248336,
+          "positiveRate": 0,
+          "avgAbsReturn": 8.158896289248336,
+          "maxGain": -8.158896289248336,
+          "maxLoss": -8.158896289248336,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": -8.658420551855375,
+          "medianReturn": -8.658420551855375,
+          "positiveRate": 0,
+          "avgAbsReturn": 8.658420551855375,
+          "maxGain": -8.658420551855375,
+          "maxLoss": -8.658420551855375,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": -6.92197906755471,
+          "medianReturn": -6.92197906755471,
+          "positiveRate": 0,
+          "avgAbsReturn": 6.92197906755471,
+          "maxGain": -6.92197906755471,
+          "maxLoss": -6.92197906755471,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "JM0",
+      "sector": "黑色系",
+      "totalBars": 3251,
+      "totalEvents": 3,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -2.425377709702602,
+          "medianReturn": -0.6473724295506473,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 3.1460984304233226,
+          "maxGain": 1.0810810810810811,
+          "maxLoss": -7.709841780638241,
+          "continuationRate": 33.33333333333333,
+          "contrarianRate": 66.66666666666666
+        },
+        {
+          "window": 3,
+          "avgReturn": -5.585849277253816,
+          "medianReturn": -0.9009009009009009,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 10.282472785758511,
+          "maxGain": 7.044935262757044,
+          "maxLoss": -22.901582193617593,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": -4.449347129624007,
+          "medianReturn": -0.8108108108108109,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 10.009133877529568,
+          "maxGain": 8.33968012185834,
+          "maxLoss": -20.87691069991955,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": -9.415160216001361,
+          "medianReturn": -2.3423423423423424,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 19.392311777311342,
+          "maxGain": 14.965727341964966,
+          "maxLoss": -40.86886564762671,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": -11.633250992753315,
+          "medianReturn": 0.5405405405405406,
+          "positiveRate": 66.66666666666666,
+          "avgAbsReturn": 21.53918129472322,
+          "maxGain": 14.31835491241432,
+          "maxLoss": -49.7586484312148,
+          "continuationRate": 66.66666666666666,
+          "contrarianRate": 33.33333333333333
+        },
+        {
+          "window": 30,
+          "avgReturn": -13.521636839782813,
+          "medianReturn": -4.188880426504189,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 18.206321524467498,
+          "maxGain": 7.027027027027027,
+          "maxLoss": -43.40305711987128,
+          "continuationRate": 33.33333333333333,
+          "contrarianRate": 66.66666666666666
+        }
+      ]
+    },
+    {
+      "code": "L0",
+      "sector": "化工",
+      "totalBars": 4624,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 7.919547454431175,
+          "medianReturn": 7.919547454431175,
+          "positiveRate": 100,
+          "avgAbsReturn": 7.919547454431175,
+          "maxGain": 7.919547454431175,
+          "maxLoss": 7.919547454431175,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": 13.073538654934003,
+          "medianReturn": 13.073538654934003,
+          "positiveRate": 100,
+          "avgAbsReturn": 13.073538654934003,
+          "maxGain": 13.073538654934003,
+          "maxLoss": 13.073538654934003,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": 9.805153991200504,
+          "medianReturn": 9.805153991200504,
+          "positiveRate": 100,
+          "avgAbsReturn": 9.805153991200504,
+          "maxGain": 9.805153991200504,
+          "maxLoss": 9.805153991200504,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 13.57636706473916,
+          "medianReturn": 13.57636706473916,
+          "positiveRate": 100,
+          "avgAbsReturn": 13.57636706473916,
+          "maxGain": 13.57636706473916,
+          "maxLoss": 13.57636706473916,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": 11.69076052796983,
+          "medianReturn": 11.69076052796983,
+          "positiveRate": 100,
+          "avgAbsReturn": 11.69076052796983,
+          "maxGain": 11.69076052796983,
+          "maxLoss": 11.69076052796983,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": 6.851037083595222,
+          "medianReturn": 6.851037083595222,
+          "positiveRate": 100,
+          "avgAbsReturn": 6.851037083595222,
+          "maxGain": 6.851037083595222,
+          "maxLoss": 6.851037083595222,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "LC0",
+      "sector": "新兴",
+      "totalBars": 739,
+      "totalEvents": 2,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.11739915713425644,
+          "medianReturn": 0.804162724692526,
+          "positiveRate": 50,
+          "avgAbsReturn": 0.9215618818267826,
+          "maxGain": 0.804162724692526,
+          "maxLoss": -1.0389610389610389,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": -0.9704781972993894,
+          "medianReturn": 2.507095553453169,
+          "positiveRate": 50,
+          "avgAbsReturn": 3.4775737507525584,
+          "maxGain": 2.507095553453169,
+          "maxLoss": -4.4480519480519485,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": -5.29188526705083,
+          "medianReturn": -4.966887417218543,
+          "positiveRate": 0,
+          "avgAbsReturn": 5.29188526705083,
+          "maxGain": -4.966887417218543,
+          "maxLoss": -5.616883116883117,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 10,
+          "avgReturn": -4.174335598176658,
+          "medianReturn": -0.9460737937559129,
+          "positiveRate": 0,
+          "avgAbsReturn": 4.174335598176658,
+          "maxGain": -0.9460737937559129,
+          "maxLoss": -7.402597402597403,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 20,
+          "avgReturn": -16.392126085834697,
+          "medianReturn": -4.115421002838222,
+          "positiveRate": 0,
+          "avgAbsReturn": 16.392126085834697,
+          "maxGain": -4.115421002838222,
+          "maxLoss": -28.668831168831172,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 30,
+          "avgReturn": -20.82641696052292,
+          "medianReturn": -8.893093661305581,
+          "positiveRate": 0,
+          "avgAbsReturn": 20.82641696052292,
+          "maxGain": -8.893093661305581,
+          "maxLoss": -32.75974025974026,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        }
+      ]
+    },
+    {
+      "code": "LH0",
+      "sector": "养殖",
+      "totalBars": 1352,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "LU0",
+      "sector": "能源",
+      "totalBars": 1487,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "M0",
+      "sector": "油脂油料",
+      "totalBars": 6328,
+      "totalEvents": 16,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.05138631383450885,
+          "medianReturn": 0.4885496183206107,
+          "positiveRate": 62.5,
+          "avgAbsReturn": 1.045601724890655,
+          "maxGain": 2.007689021785562,
+          "maxLoss": -3.0132450331125824,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 3,
+          "avgReturn": 0.5864344362397593,
+          "medianReturn": 0,
+          "positiveRate": 43.75,
+          "avgAbsReturn": 2.511803579933272,
+          "maxGain": 6.834686031610423,
+          "maxLoss": -4.789356984478936,
+          "continuationRate": 56.25,
+          "contrarianRate": 43.75
+        },
+        {
+          "window": 5,
+          "avgReturn": 1.625816607741815,
+          "medianReturn": 1.6143770941212305,
+          "positiveRate": 62.5,
+          "avgAbsReturn": 3.2750978661362375,
+          "maxGain": 11.917983767620676,
+          "maxLoss": -5.277161862527716,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 10,
+          "avgReturn": 3.0782204659086285,
+          "medianReturn": 1.9285488460322477,
+          "positiveRate": 68.75,
+          "avgAbsReturn": 4.957296228837764,
+          "maxGain": 21.828278513455786,
+          "maxLoss": -5.231788079470199,
+          "continuationRate": 43.75,
+          "contrarianRate": 56.25
+        },
+        {
+          "window": 20,
+          "avgReturn": 4.19064826319172,
+          "medianReturn": 3.6856533658239417,
+          "positiveRate": 56.25,
+          "avgAbsReturn": 7.120584454912793,
+          "maxGain": 24.647586501495088,
+          "maxLoss": -4.437086092715232,
+          "continuationRate": 56.25,
+          "contrarianRate": 43.75
+        },
+        {
+          "window": 30,
+          "avgReturn": 6.009754822407357,
+          "medianReturn": 3.7173666288308738,
+          "positiveRate": 75,
+          "avgAbsReturn": 6.827098523707898,
+          "maxGain": 20.373774509803923,
+          "maxLoss": -3.9467849223946785,
+          "continuationRate": 37.5,
+          "contrarianRate": 62.5
+        }
+      ]
+    },
+    {
+      "code": "MA0",
+      "sector": "化工",
+      "totalBars": 3590,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 4.804270462633451,
+          "medianReturn": 4.804270462633451,
+          "positiveRate": 100,
+          "avgAbsReturn": 4.804270462633451,
+          "maxGain": 4.804270462633451,
+          "maxLoss": 4.804270462633451,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": 8.31850533807829,
+          "medianReturn": 8.31850533807829,
+          "positiveRate": 100,
+          "avgAbsReturn": 8.31850533807829,
+          "maxGain": 8.31850533807829,
+          "maxLoss": 8.31850533807829,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": 9.47508896797153,
+          "medianReturn": 9.47508896797153,
+          "positiveRate": 100,
+          "avgAbsReturn": 9.47508896797153,
+          "maxGain": 9.47508896797153,
+          "maxLoss": 9.47508896797153,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 12.98932384341637,
+          "medianReturn": 12.98932384341637,
+          "positiveRate": 100,
+          "avgAbsReturn": 12.98932384341637,
+          "maxGain": 12.98932384341637,
+          "maxLoss": 12.98932384341637,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": 8.496441281138791,
+          "medianReturn": 8.496441281138791,
+          "positiveRate": 100,
+          "avgAbsReturn": 8.496441281138791,
+          "maxGain": 8.496441281138791,
+          "maxLoss": 8.496441281138791,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": 5.9163701067615655,
+          "medianReturn": 5.9163701067615655,
+          "positiveRate": 100,
+          "avgAbsReturn": 5.9163701067615655,
+          "maxGain": 5.9163701067615655,
+          "maxLoss": 5.9163701067615655,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "NI0",
+      "sector": "有色",
+      "totalBars": 2764,
+      "totalEvents": 7,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 2.681462073723702,
+          "medianReturn": 1.0177185532288768,
+          "positiveRate": 57.14285714285714,
+          "avgAbsReturn": 3.5002903439371256,
+          "maxGain": 16.996634762466677,
+          "maxLoss": -2.835022836136794,
+          "continuationRate": 28.57142857142857,
+          "contrarianRate": 71.42857142857143
+        },
+        {
+          "window": 3,
+          "avgReturn": -2.627568907592221,
+          "medianReturn": -1.5746815901196447,
+          "positiveRate": 42.857142857142854,
+          "avgAbsReturn": 4.938347670663406,
+          "maxGain": 6.357954545454546,
+          "maxLoss": -20.041090773253643,
+          "continuationRate": 14.285714285714285,
+          "contrarianRate": 85.71428571428571
+        },
+        {
+          "window": 5,
+          "avgReturn": 1.8252348792335924,
+          "medianReturn": -1.7743717205191936,
+          "positiveRate": 42.857142857142854,
+          "avgAbsReturn": 8.254550273498248,
+          "maxGain": 30.005681818181817,
+          "maxLoss": -12.140455734030631,
+          "continuationRate": 42.857142857142854,
+          "contrarianRate": 57.14285714285714
+        },
+        {
+          "window": 10,
+          "avgReturn": 4.604945853579827,
+          "medianReturn": -3.2587682960508144,
+          "positiveRate": 28.57142857142857,
+          "avgAbsReturn": 15.997610064936325,
+          "maxGain": 49.10326389662471,
+          "maxLoss": -20.806873365707883,
+          "continuationRate": 28.57142857142857,
+          "contrarianRate": 71.42857142857143
+        },
+        {
+          "window": 20,
+          "avgReturn": 4.951248053451464,
+          "medianReturn": -1.7467550400441865,
+          "positiveRate": 42.857142857142854,
+          "avgAbsReturn": 13.272077316524705,
+          "maxGain": 36.8720062381642,
+          "maxLoss": -18.502054538662684,
+          "continuationRate": 42.857142857142854,
+          "contrarianRate": 57.14285714285714
+        },
+        {
+          "window": 30,
+          "avgReturn": 3.5688376588486794,
+          "medianReturn": 0.19331676332504832,
+          "positiveRate": 57.14285714285714,
+          "avgAbsReturn": 10.13872636381085,
+          "maxGain": 27.204545454545453,
+          "maxLoss": -10.877848337691445,
+          "continuationRate": 28.57142857142857,
+          "contrarianRate": 71.42857142857143
+        }
+      ]
+    },
+    {
+      "code": "NR0",
+      "sector": "化工",
+      "totalBars": 1694,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "OI0",
+      "sector": "油脂油料",
+      "totalBars": 4661,
+      "totalEvents": 4,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.002700564519952193,
+          "medianReturn": -0.06146281499692685,
+          "positiveRate": 25,
+          "avgAbsReturn": 0.44894076616962697,
+          "maxGain": 0.9032826613791585,
+          "maxLoss": -0.47410649161196206,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 3,
+          "avgReturn": 0.5561414513509414,
+          "medianReturn": 0.38414259373079285,
+          "positiveRate": 75,
+          "avgAbsReturn": 1.1077313280543808,
+          "maxGain": 2.7612543144598662,
+          "maxLoss": -1.1031797534068788,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 5,
+          "avgReturn": -0.21826715357871634,
+          "medianReturn": 2.1358328211432083,
+          "positiveRate": 50,
+          "avgAbsReturn": 2.7449727691102037,
+          "maxGain": 2.917578409919767,
+          "maxLoss": -5.3536664503569105,
+          "continuationRate": 25,
+          "contrarianRate": 75
+        },
+        {
+          "window": 10,
+          "avgReturn": 1.2738212084444305,
+          "medianReturn": 1.8746158574062692,
+          "positiveRate": 75,
+          "avgAbsReturn": 2.27966157184482,
+          "maxGain": 4.850474106491612,
+          "maxLoss": -2.011680726800779,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 20,
+          "avgReturn": 1.496463458379186,
+          "medianReturn": 2.4307850481016375,
+          "positiveRate": 75,
+          "avgAbsReturn": 4.140850220222145,
+          "maxGain": 7.476294675419402,
+          "maxLoss": -5.288773523685919,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 30,
+          "avgReturn": 3.408981895265037,
+          "medianReturn": 5.096570463391349,
+          "positiveRate": 75,
+          "avgAbsReturn": 5.712680792085284,
+          "maxGain": 9.62800875273523,
+          "maxLoss": -4.6073977936404935,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        }
+      ]
+    },
+    {
+      "code": "P0",
+      "sector": "油脂油料",
+      "totalBars": 4565,
+      "totalEvents": 6,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.22994223133008412,
+          "medianReturn": -0.38955979742890534,
+          "positiveRate": 33.33333333333333,
+          "avgAbsReturn": 0.9866037345062312,
+          "maxGain": 2.1929824561403506,
+          "maxLoss": -2.0351845463953087,
+          "continuationRate": 16.666666666666664,
+          "contrarianRate": 83.33333333333334
+        },
+        {
+          "window": 3,
+          "avgReturn": 2.505263353932136,
+          "medianReturn": 2.515400410677618,
+          "positiveRate": 83.33333333333334,
+          "avgAbsReturn": 3.440206867761509,
+          "maxGain": 7.80701754385965,
+          "maxLoss": -2.8048305414881183,
+          "continuationRate": 66.66666666666666,
+          "contrarianRate": 33.33333333333333
+        },
+        {
+          "window": 5,
+          "avgReturn": 1.9341111968626041,
+          "medianReturn": 3.0290791599353795,
+          "positiveRate": 83.33333333333334,
+          "avgAbsReturn": 4.271469981436037,
+          "maxGain": 8.916867885477751,
+          "maxLoss": -7.012076353720296,
+          "continuationRate": 66.66666666666666,
+          "contrarianRate": 33.33333333333333
+        },
+        {
+          "window": 10,
+          "avgReturn": 1.8742089727262046,
+          "medianReturn": 2.4897330595482545,
+          "positiveRate": 83.33333333333334,
+          "avgAbsReturn": 3.315580223213154,
+          "maxGain": 5.674370472576751,
+          "maxLoss": -4.32411375146085,
+          "continuationRate": 66.66666666666666,
+          "contrarianRate": 33.33333333333333
+        },
+        {
+          "window": 20,
+          "avgReturn": 2.353733362311611,
+          "medianReturn": 2.484472049689441,
+          "positiveRate": 66.66666666666666,
+          "avgAbsReturn": 5.271752144585399,
+          "maxGain": 11.873990306946688,
+          "maxLoss": -7.012076353720296,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 30,
+          "avgReturn": 0.62636149067018,
+          "medianReturn": 4.620123203285421,
+          "positiveRate": 50,
+          "avgAbsReturn": 7.677689294673024,
+          "maxGain": 11.389337641357027,
+          "maxLoss": -11.159020351845465,
+          "continuationRate": 33.33333333333333,
+          "contrarianRate": 66.66666666666666
+        }
+      ]
+    },
+    {
+      "code": "PB0",
+      "sector": "有色",
+      "totalBars": 3736,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "PG0",
+      "sector": "能源",
+      "totalBars": 1543,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "PP0",
+      "sector": "化工",
+      "totalBars": 3027,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 6.936486651225161,
+          "medianReturn": 6.936486651225161,
+          "positiveRate": 100,
+          "avgAbsReturn": 6.936486651225161,
+          "maxGain": 6.936486651225161,
+          "maxLoss": 6.936486651225161,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": 13.812019992685604,
+          "medianReturn": 13.812019992685604,
+          "positiveRate": 100,
+          "avgAbsReturn": 13.812019992685604,
+          "maxGain": 13.812019992685604,
+          "maxLoss": 13.812019992685604,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": 11.788370108496892,
+          "medianReturn": 11.788370108496892,
+          "positiveRate": 100,
+          "avgAbsReturn": 11.788370108496892,
+          "maxGain": 11.788370108496892,
+          "maxLoss": 11.788370108496892,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 14.226502499085699,
+          "medianReturn": 14.226502499085699,
+          "positiveRate": 100,
+          "avgAbsReturn": 14.226502499085699,
+          "maxGain": 14.226502499085699,
+          "maxLoss": 14.226502499085699,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": 13.495062781909056,
+          "medianReturn": 13.495062781909056,
+          "positiveRate": 100,
+          "avgAbsReturn": 13.495062781909056,
+          "maxGain": 13.495062781909056,
+          "maxLoss": 13.495062781909056,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": 6.778008045836889,
+          "medianReturn": 6.778008045836889,
+          "positiveRate": 100,
+          "avgAbsReturn": 6.778008045836889,
+          "maxGain": 6.778008045836889,
+          "maxLoss": 6.778008045836889,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "PX0",
+      "sector": "新兴",
+      "totalBars": 699,
+      "totalEvents": 0,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 0,
+          "medianReturn": 0,
+          "positiveRate": 0,
+          "avgAbsReturn": 0,
+          "maxGain": 0,
+          "maxLoss": 0,
+          "continuationRate": 0,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "RB0",
+      "sector": "黑色系",
+      "totalBars": 4220,
+      "totalEvents": 16,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -1.5712816657970297,
+          "medianReturn": -0.21990104452996154,
+          "positiveRate": 37.5,
+          "avgAbsReturn": 1.895965425120506,
+          "maxGain": 0.9764503159103963,
+          "maxLoss": -7.628571428571429,
+          "continuationRate": 31.25,
+          "contrarianRate": 68.75
+        },
+        {
+          "window": 3,
+          "avgReturn": -2.450917480855726,
+          "medianReturn": -0.7466973004020678,
+          "positiveRate": 31.25,
+          "avgAbsReturn": 3.1825727898482916,
+          "maxGain": 1.9306713470820536,
+          "maxLoss": -9.916826615483046,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 5,
+          "avgReturn": -2.605840285574375,
+          "medianReturn": -1.171875,
+          "positiveRate": 25,
+          "avgAbsReturn": 4.303915278154348,
+          "maxGain": 5.660377358490567,
+          "maxLoss": -13.968562631664236,
+          "continuationRate": 56.25,
+          "contrarianRate": 43.75
+        },
+        {
+          "window": 10,
+          "avgReturn": -0.581129352679436,
+          "medianReturn": 0.8957133717210494,
+          "positiveRate": 68.75,
+          "avgAbsReturn": 4.959803851781286,
+          "maxGain": 7.861462341946124,
+          "maxLoss": -24.37206287473667,
+          "continuationRate": 62.5,
+          "contrarianRate": 37.5
+        },
+        {
+          "window": 20,
+          "avgReturn": -1.4168615228896166,
+          "medianReturn": 0.4426955238563699,
+          "positiveRate": 50,
+          "avgAbsReturn": 6.92825005410731,
+          "maxGain": 13.963716327652556,
+          "maxLoss": -18.408685788364934,
+          "continuationRate": 68.75,
+          "contrarianRate": 31.25
+        },
+        {
+          "window": 30,
+          "avgReturn": -2.4535821316825515,
+          "medianReturn": -3.672787979966611,
+          "positiveRate": 31.25,
+          "avgAbsReturn": 7.374225724556527,
+          "maxGain": 18.031885651456843,
+          "maxLoss": -20.061578350348405,
+          "continuationRate": 37.5,
+          "contrarianRate": 62.5
+        }
+      ]
+    },
+    {
+      "code": "RM0",
+      "sector": "油脂油料",
+      "totalBars": 3303,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.04580852038479157,
+          "medianReturn": 0.04580852038479157,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.04580852038479157,
+          "maxGain": 0.04580852038479157,
+          "maxLoss": 0.04580852038479157,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": 1.4658726523133303,
+          "medianReturn": 1.4658726523133303,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.4658726523133303,
+          "maxGain": 1.4658726523133303,
+          "maxLoss": 1.4658726523133303,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": 3.5730645900137428,
+          "medianReturn": 3.5730645900137428,
+          "positiveRate": 100,
+          "avgAbsReturn": 3.5730645900137428,
+          "maxGain": 3.5730645900137428,
+          "maxLoss": 3.5730645900137428,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 6.9628950984883184,
+          "medianReturn": 6.9628950984883184,
+          "positiveRate": 100,
+          "avgAbsReturn": 6.9628950984883184,
+          "maxGain": 6.9628950984883184,
+          "maxLoss": 6.9628950984883184,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": 15.39166284928997,
+          "medianReturn": 15.39166284928997,
+          "positiveRate": 100,
+          "avgAbsReturn": 15.39166284928997,
+          "maxGain": 15.39166284928997,
+          "maxLoss": 15.39166284928997,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": 17.498854786990382,
+          "medianReturn": 17.498854786990382,
+          "positiveRate": 100,
+          "avgAbsReturn": 17.498854786990382,
+          "maxGain": 17.498854786990382,
+          "maxLoss": 17.498854786990382,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "RU0",
+      "sector": "化工",
+      "totalBars": 6457,
+      "totalEvents": 7,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.47132497282294283,
+          "medianReturn": -0.2257336343115124,
+          "positiveRate": 42.857142857142854,
+          "avgAbsReturn": 1.8640277514785526,
+          "maxGain": 2.8499580888516345,
+          "maxLoss": -4.872851257280864,
+          "continuationRate": 71.42857142857143,
+          "contrarianRate": 28.57142857142857
+        },
+        {
+          "window": 3,
+          "avgReturn": -1.2747955065426173,
+          "medianReturn": -2.699247052138088,
+          "positiveRate": 28.57142857142857,
+          "avgAbsReturn": 2.9618109475543037,
+          "maxGain": 3.352891869237217,
+          "maxLoss": -3.8695299837925448,
+          "continuationRate": 57.14285714285714,
+          "contrarianRate": 42.857142857142854
+        },
+        {
+          "window": 5,
+          "avgReturn": -1.5498180836985909,
+          "medianReturn": 0.48622366288492713,
+          "positiveRate": 57.14285714285714,
+          "avgAbsReturn": 3.9310493582085875,
+          "maxGain": 3.1446540880503147,
+          "maxLoss": -9.943289224952741,
+          "continuationRate": 57.14285714285714,
+          "contrarianRate": 42.857142857142854
+        },
+        {
+          "window": 10,
+          "avgReturn": -2.96811957486865,
+          "medianReturn": -5.4088050314465415,
+          "positiveRate": 42.857142857142854,
+          "avgAbsReturn": 5.845693960739378,
+          "maxGain": 4.8197820620285,
+          "maxLoss": -10.474040632054175,
+          "continuationRate": 42.857142857142854,
+          "contrarianRate": 57.14285714285714
+        },
+        {
+          "window": 20,
+          "avgReturn": -5.649505831853905,
+          "medianReturn": 1.1142625607779577,
+          "positiveRate": 57.14285714285714,
+          "avgAbsReturn": 8.385444047748761,
+          "maxGain": 3.580053984941043,
+          "maxLoss": -40.496613995485326,
+          "continuationRate": 28.57142857142857,
+          "contrarianRate": 71.42857142857143
+        },
+        {
+          "window": 30,
+          "avgReturn": -9.719316705716677,
+          "medianReturn": -6.520812615428328,
+          "positiveRate": 14.285714285714285,
+          "avgAbsReturn": 10.54126623106977,
+          "maxGain": 2.8768233387358184,
+          "maxLoss": -38.1489841986456,
+          "continuationRate": 42.857142857142854,
+          "contrarianRate": 57.14285714285714
+        }
+      ]
+    },
+    {
+      "code": "SA0",
+      "sector": "建材",
+      "totalBars": 1617,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 3.759854457246816,
+          "medianReturn": 3.759854457246816,
+          "positiveRate": 100,
+          "avgAbsReturn": 3.759854457246816,
+          "maxGain": 3.759854457246816,
+          "maxLoss": 3.759854457246816,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0.3638568829593693,
+          "medianReturn": 0.3638568829593693,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.3638568829593693,
+          "maxGain": 0.3638568829593693,
+          "maxLoss": 0.3638568829593693,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": -1.3947847180109159,
+          "medianReturn": -1.3947847180109159,
+          "positiveRate": 0,
+          "avgAbsReturn": 1.3947847180109159,
+          "maxGain": -1.3947847180109159,
+          "maxLoss": -1.3947847180109159,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 2.0012128562765312,
+          "medianReturn": 2.0012128562765312,
+          "positiveRate": 100,
+          "avgAbsReturn": 2.0012128562765312,
+          "maxGain": 2.0012128562765312,
+          "maxLoss": 2.0012128562765312,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 2.4863553668890237,
+          "medianReturn": 2.4863553668890237,
+          "positiveRate": 100,
+          "avgAbsReturn": 2.4863553668890237,
+          "maxGain": 2.4863553668890237,
+          "maxLoss": 2.4863553668890237,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 9.76349302607641,
+          "medianReturn": 9.76349302607641,
+          "positiveRate": 100,
+          "avgAbsReturn": 9.76349302607641,
+          "maxGain": 9.76349302607641,
+          "maxLoss": 9.76349302607641,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "SC0",
+      "sector": "能源",
+      "totalBars": 2032,
+      "totalEvents": 21,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.27122414794331745,
+          "medianReturn": 0.0609013398294901,
+          "positiveRate": 52.38095238095239,
+          "avgAbsReturn": 3.4830584743743924,
+          "maxGain": 8.024691358024693,
+          "maxLoss": -9.020999704229517,
+          "continuationRate": 61.904761904761905,
+          "contrarianRate": 38.095238095238095
+        },
+        {
+          "window": 3,
+          "avgReturn": -0.23556817993790996,
+          "medianReturn": 0.658177135498644,
+          "positiveRate": 61.904761904761905,
+          "avgAbsReturn": 4.763595707958055,
+          "maxGain": 11.303789338471434,
+          "maxLoss": -22.774327122153206,
+          "continuationRate": 52.38095238095239,
+          "contrarianRate": 47.61904761904761
+        },
+        {
+          "window": 5,
+          "avgReturn": 1.9310802768930608,
+          "medianReturn": 2.9840993247658436,
+          "positiveRate": 61.904761904761905,
+          "avgAbsReturn": 8.252568274160673,
+          "maxGain": 26.043673731535012,
+          "maxLoss": -26.589766341319145,
+          "continuationRate": 52.38095238095239,
+          "contrarianRate": 47.61904761904761
+        },
+        {
+          "window": 10,
+          "avgReturn": 0.1999279357020312,
+          "medianReturn": 1.9964419845819377,
+          "positiveRate": 66.66666666666666,
+          "avgAbsReturn": 8.759168172140297,
+          "maxGain": 22.88698955365623,
+          "maxLoss": -26.38272700384502,
+          "continuationRate": 57.14285714285714,
+          "contrarianRate": 42.857142857142854
+        },
+        {
+          "window": 20,
+          "avgReturn": 0.004704678654287084,
+          "medianReturn": 1.5465040296231682,
+          "positiveRate": 52.38095238095239,
+          "avgAbsReturn": 11.58763585313483,
+          "maxGain": 29.01234567901234,
+          "maxLoss": -37.80609695152424,
+          "continuationRate": 71.42857142857143,
+          "contrarianRate": 28.57142857142857
+        },
+        {
+          "window": 30,
+          "avgReturn": -2.28741137567915,
+          "medianReturn": 0.6121134020618667,
+          "positiveRate": 52.38095238095239,
+          "avgAbsReturn": 13.971548479989046,
+          "maxGain": 40.40835707502374,
+          "maxLoss": -40.27280858676207,
+          "continuationRate": 71.42857142857143,
+          "contrarianRate": 28.57142857142857
+        }
+      ]
+    },
+    {
+      "code": "SF0",
+      "sector": "其他",
+      "totalBars": 2916,
+      "totalEvents": 2,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.6958743364057576,
+          "medianReturn": 1.8065487391795259,
+          "positiveRate": 50,
+          "avgAbsReturn": 1.1106744027737683,
+          "maxGain": 1.8065487391795259,
+          "maxLoss": -0.41480006636801064,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 3,
+          "avgReturn": 3.464475098538824,
+          "medianReturn": 8.246225319396052,
+          "positiveRate": 50,
+          "avgAbsReturn": 4.781750220857227,
+          "maxGain": 8.246225319396052,
+          "maxLoss": -1.3172751223184043,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 5,
+          "avgReturn": 9.33058481844871,
+          "medianReturn": 17.720258835241413,
+          "positiveRate": 100,
+          "avgAbsReturn": 9.33058481844871,
+          "maxGain": 17.720258835241413,
+          "maxLoss": 0.940910801656003,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 24.462136856358153,
+          "medianReturn": 35.50688568110171,
+          "positiveRate": 100,
+          "avgAbsReturn": 24.462136856358153,
+          "maxGain": 35.50688568110171,
+          "maxLoss": 13.417388031614601,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 35.34758653178998,
+          "medianReturn": 53.68837034249153,
+          "positiveRate": 100,
+          "avgAbsReturn": 35.34758653178998,
+          "maxGain": 53.68837034249153,
+          "maxLoss": 17.006802721088434,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 5.9581400695989855,
+          "medianReturn": 32.70605946556267,
+          "positiveRate": 50,
+          "avgAbsReturn": 26.74791939596368,
+          "maxGain": 32.70605946556267,
+          "maxLoss": -20.789779326364695,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        }
+      ]
+    },
+    {
+      "code": "SI0",
+      "sector": "新兴",
+      "totalBars": 878,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 1.888246628131021,
+          "medianReturn": 1.888246628131021,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.888246628131021,
+          "maxGain": 1.888246628131021,
+          "maxLoss": 1.888246628131021,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 0.11560693641618498,
+          "medianReturn": 0.11560693641618498,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.11560693641618498,
+          "maxGain": 0.11560693641618498,
+          "maxLoss": 0.11560693641618498,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": -1.6184971098265895,
+          "medianReturn": -1.6184971098265895,
+          "positiveRate": 0,
+          "avgAbsReturn": 1.6184971098265895,
+          "maxGain": -1.6184971098265895,
+          "maxLoss": -1.6184971098265895,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": -4.66281310211946,
+          "medianReturn": -4.66281310211946,
+          "positiveRate": 0,
+          "avgAbsReturn": 4.66281310211946,
+          "maxGain": -4.66281310211946,
+          "maxLoss": -4.66281310211946,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": 3.121387283236994,
+          "medianReturn": 3.121387283236994,
+          "positiveRate": 100,
+          "avgAbsReturn": 3.121387283236994,
+          "maxGain": 3.121387283236994,
+          "maxLoss": 3.121387283236994,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 2.1965317919075145,
+          "medianReturn": 2.1965317919075145,
+          "positiveRate": 100,
+          "avgAbsReturn": 2.1965317919075145,
+          "maxGain": 2.1965317919075145,
+          "maxLoss": 2.1965317919075145,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "SM0",
+      "sector": "其他",
+      "totalBars": 2916,
+      "totalEvents": 2,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.8933891131187144,
+          "medianReturn": 0.8971704623878536,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.8933891131187144,
+          "maxGain": 0.8971704623878536,
+          "maxLoss": 0.8896077638495753,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 4.341375002779036,
+          "medianReturn": 8.774767488879903,
+          "positiveRate": 50,
+          "avgAbsReturn": 4.433392486100867,
+          "maxGain": 8.774767488879903,
+          "maxLoss": -0.09201748332183114,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 5,
+          "avgReturn": 4.3943092414408715,
+          "medianReturn": 8.006469874646179,
+          "positiveRate": 100,
+          "avgAbsReturn": 4.3943092414408715,
+          "maxGain": 8.006469874646179,
+          "maxLoss": 0.7821486082355648,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 20.082287834445925,
+          "medianReturn": 26.384957541447633,
+          "positiveRate": 100,
+          "avgAbsReturn": 20.082287834445925,
+          "maxGain": 26.384957541447633,
+          "maxLoss": 13.779618127444216,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 25.185644249358454,
+          "medianReturn": 43.80032206119163,
+          "positiveRate": 100,
+          "avgAbsReturn": 25.185644249358454,
+          "maxGain": 43.80032206119163,
+          "maxLoss": 6.570966437525273,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 4.18847221489673,
+          "medianReturn": 21.256038647342994,
+          "positiveRate": 50,
+          "avgAbsReturn": 17.067566432446267,
+          "maxGain": 21.256038647342994,
+          "maxLoss": -12.879094217549536,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        }
+      ]
+    },
+    {
+      "code": "SP0",
+      "sector": "其他",
+      "totalBars": 1867,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 1.4498283098054179,
+          "medianReturn": 1.4498283098054179,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.4498283098054179,
+          "maxGain": 1.4498283098054179,
+          "maxLoss": 1.4498283098054179,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": 2.632582983594048,
+          "medianReturn": 2.632582983594048,
+          "positiveRate": 100,
+          "avgAbsReturn": 2.632582983594048,
+          "maxGain": 2.632582983594048,
+          "maxLoss": 2.632582983594048,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": 3.5864173979397176,
+          "medianReturn": 3.5864173979397176,
+          "positiveRate": 100,
+          "avgAbsReturn": 3.5864173979397176,
+          "maxGain": 3.5864173979397176,
+          "maxLoss": 3.5864173979397176,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 1.4879816863792446,
+          "medianReturn": 1.4879816863792446,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.4879816863792446,
+          "maxGain": 1.4879816863792446,
+          "maxLoss": 1.4879816863792446,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": 5.22701259061427,
+          "medianReturn": 5.22701259061427,
+          "positiveRate": 100,
+          "avgAbsReturn": 5.22701259061427,
+          "maxGain": 5.22701259061427,
+          "maxLoss": 5.22701259061427,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": 6.066386875238459,
+          "medianReturn": 6.066386875238459,
+          "positiveRate": 100,
+          "avgAbsReturn": 6.066386875238459,
+          "maxGain": 6.066386875238459,
+          "maxLoss": 6.066386875238459,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "SR0",
+      "sector": "软商品",
+      "totalBars": 5003,
+      "totalEvents": 7,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.19809079542311694,
+          "medianReturn": -0.21134202183867556,
+          "positiveRate": 42.857142857142854,
+          "avgAbsReturn": 0.9746530136062189,
+          "maxGain": 2.2605909576361696,
+          "maxLoss": -2.1780441455927493,
+          "continuationRate": 57.14285714285714,
+          "contrarianRate": 42.857142857142854
+        },
+        {
+          "window": 3,
+          "avgReturn": -0.6499720483658504,
+          "medianReturn": -0.36984853821768227,
+          "positiveRate": 28.57142857142857,
+          "avgAbsReturn": 1.059938899429396,
+          "maxGain": 1.0323958704165184,
+          "maxLoss": -2.63119426984359,
+          "continuationRate": 71.42857142857143,
+          "contrarianRate": 28.57142857142857
+        },
+        {
+          "window": 5,
+          "avgReturn": -0.6545108610039654,
+          "medianReturn": -1.0793999268203438,
+          "positiveRate": 28.57142857142857,
+          "avgAbsReturn": 2.7193916702065972,
+          "maxGain": 6.318974724101103,
+          "maxLoss": -4.971017038468294,
+          "continuationRate": 42.857142857142854,
+          "contrarianRate": 57.14285714285714
+        },
+        {
+          "window": 10,
+          "avgReturn": -0.5891902553758684,
+          "medianReturn": -1.5056278321882766,
+          "positiveRate": 42.857142857142854,
+          "avgAbsReturn": 3.618199598703584,
+          "maxGain": 10.27055891776433,
+          "maxLoss": -6.135474572781552,
+          "continuationRate": 57.14285714285714,
+          "contrarianRate": 42.857142857142854
+        },
+        {
+          "window": 20,
+          "avgReturn": 0.8790078030894835,
+          "medianReturn": -0.2192661891536325,
+          "positiveRate": 42.857142857142854,
+          "avgAbsReturn": 6.560690359976684,
+          "maxGain": 17.99572801708793,
+          "maxLoss": -8.255752678728264,
+          "continuationRate": 57.14285714285714,
+          "contrarianRate": 42.857142857142854
+        },
+        {
+          "window": 30,
+          "avgReturn": 1.2494017064835434,
+          "medianReturn": -2.6165765239000147,
+          "positiveRate": 42.857142857142854,
+          "avgAbsReturn": 7.990567277668538,
+          "maxGain": 16.8,
+          "maxLoss": -9.221851396451783,
+          "continuationRate": 57.14285714285714,
+          "contrarianRate": 42.857142857142854
+        }
+      ]
+    },
+    {
+      "code": "SS0",
+      "sector": "黑色系",
+      "totalBars": 1664,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.5287713841368584,
+          "medianReturn": 0.5287713841368584,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.5287713841368584,
+          "maxGain": 0.5287713841368584,
+          "maxLoss": 0.5287713841368584,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": 0.031104199066874026,
+          "medianReturn": 0.031104199066874026,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.031104199066874026,
+          "maxGain": 0.031104199066874026,
+          "maxLoss": 0.031104199066874026,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": 1.8040435458786936,
+          "medianReturn": 1.8040435458786936,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.8040435458786936,
+          "maxGain": 1.8040435458786936,
+          "maxLoss": 1.8040435458786936,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 4.696734059097978,
+          "medianReturn": 4.696734059097978,
+          "positiveRate": 100,
+          "avgAbsReturn": 4.696734059097978,
+          "maxGain": 4.696734059097978,
+          "maxLoss": 4.696734059097978,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": 11.290824261275272,
+          "medianReturn": 11.290824261275272,
+          "positiveRate": 100,
+          "avgAbsReturn": 11.290824261275272,
+          "maxGain": 11.290824261275272,
+          "maxLoss": 11.290824261275272,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": 18.942457231726284,
+          "medianReturn": 18.942457231726284,
+          "positiveRate": 100,
+          "avgAbsReturn": 18.942457231726284,
+          "maxGain": 18.942457231726284,
+          "maxLoss": 18.942457231726284,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "T0",
+      "sector": "金融",
+      "totalBars": 2769,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.03698029478577483,
+          "medianReturn": -0.03698029478577483,
+          "positiveRate": 0,
+          "avgAbsReturn": 0.03698029478577483,
+          "maxGain": -0.03698029478577483,
+          "maxLoss": -0.03698029478577483,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 1.3471393100533633,
+          "medianReturn": 1.3471393100533633,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.3471393100533633,
+          "maxGain": 1.3471393100533633,
+          "maxLoss": 1.3471393100533633,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": 1.2203497279306896,
+          "medianReturn": 1.2203497279306896,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.2203497279306896,
+          "maxGain": 1.2203497279306896,
+          "maxLoss": 1.2203497279306896,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 0.8452638808177898,
+          "medianReturn": 0.8452638808177898,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.8452638808177898,
+          "maxGain": 0.8452638808177898,
+          "maxLoss": 0.8452638808177898,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": 1.5478894817475868,
+          "medianReturn": 1.5478894817475868,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.5478894817475868,
+          "maxGain": 1.5478894817475868,
+          "maxLoss": 1.5478894817475868,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": 0.7237571979502375,
+          "medianReturn": 0.7237571979502375,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.7237571979502375,
+          "maxGain": 0.7237571979502375,
+          "maxLoss": 0.7237571979502375,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "TA0",
+      "sector": "化工",
+      "totalBars": 4772,
+      "totalEvents": 2,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -7.695282289249807,
+          "medianReturn": -7.695282289249807,
+          "positiveRate": 0,
+          "avgAbsReturn": 7.695282289249807,
+          "maxGain": -7.695282289249807,
+          "maxLoss": -7.695282289249807,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": -3.944315545243619,
+          "medianReturn": -3.944315545243619,
+          "positiveRate": 0,
+          "avgAbsReturn": 3.944315545243619,
+          "maxGain": -3.944315545243619,
+          "maxLoss": -3.944315545243619,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": -4.021655065738592,
+          "medianReturn": -4.021655065738592,
+          "positiveRate": 0,
+          "avgAbsReturn": 4.021655065738592,
+          "maxGain": -4.021655065738592,
+          "maxLoss": -4.021655065738592,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": -0.46403712296983757,
+          "medianReturn": -0.46403712296983757,
+          "positiveRate": 0,
+          "avgAbsReturn": 0.46403712296983757,
+          "maxGain": -0.46403712296983757,
+          "maxLoss": -0.46403712296983757,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": 4.021655065738592,
+          "medianReturn": 4.021655065738592,
+          "positiveRate": 100,
+          "avgAbsReturn": 4.021655065738592,
+          "maxGain": 4.021655065738592,
+          "maxLoss": 4.021655065738592,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 2.822892498066512,
+          "medianReturn": 2.822892498066512,
+          "positiveRate": 100,
+          "avgAbsReturn": 2.822892498066512,
+          "maxGain": 2.822892498066512,
+          "maxLoss": 2.822892498066512,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "TF0",
+      "sector": "金融",
+      "totalBars": 3139,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.005223295899707968,
+          "medianReturn": -0.005223295899707968,
+          "positiveRate": 0,
+          "avgAbsReturn": 0.005223295899707968,
+          "maxGain": -0.005223295899707968,
+          "maxLoss": -0.005223295899707968,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 1.347610342125888,
+          "medianReturn": 1.347610342125888,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.347610342125888,
+          "maxGain": 1.347610342125888,
+          "maxLoss": 1.347610342125888,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": 0.7782710890571999,
+          "medianReturn": 0.7782710890571999,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.7782710890571999,
+          "maxGain": 0.7782710890571999,
+          "maxLoss": 0.7782710890571999,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 1.039435884042836,
+          "medianReturn": 1.039435884042836,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.039435884042836,
+          "maxGain": 1.039435884042836,
+          "maxLoss": 1.039435884042836,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": 1.749804126403773,
+          "medianReturn": 1.749804126403773,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.749804126403773,
+          "maxGain": 1.749804126403773,
+          "maxLoss": 1.749804126403773,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": 0.9297466701488646,
+          "medianReturn": 0.9297466701488646,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.9297466701488646,
+          "maxGain": 0.9297466701488646,
+          "maxLoss": 0.9297466701488646,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "UR0",
+      "sector": "其他",
+      "totalBars": 1696,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.24615384615384617,
+          "medianReturn": 0.24615384615384617,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.24615384615384617,
+          "maxGain": 0.24615384615384617,
+          "maxLoss": 0.24615384615384617,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 4.3076923076923075,
+          "medianReturn": 4.3076923076923075,
+          "positiveRate": 100,
+          "avgAbsReturn": 4.3076923076923075,
+          "maxGain": 4.3076923076923075,
+          "maxLoss": 4.3076923076923075,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": -2.8923076923076922,
+          "medianReturn": -2.8923076923076922,
+          "positiveRate": 0,
+          "avgAbsReturn": 2.8923076923076922,
+          "maxGain": -2.8923076923076922,
+          "maxLoss": -2.8923076923076922,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": -4.246153846153846,
+          "medianReturn": -4.246153846153846,
+          "positiveRate": 0,
+          "avgAbsReturn": 4.246153846153846,
+          "maxGain": -4.246153846153846,
+          "maxLoss": -4.246153846153846,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": -6.461538461538462,
+          "medianReturn": -6.461538461538462,
+          "positiveRate": 0,
+          "avgAbsReturn": 6.461538461538462,
+          "maxGain": -6.461538461538462,
+          "maxLoss": -6.461538461538462,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": -6.092307692307692,
+          "medianReturn": -6.092307692307692,
+          "positiveRate": 0,
+          "avgAbsReturn": 6.092307692307692,
+          "maxGain": -6.092307692307692,
+          "maxLoss": -6.092307692307692,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "V0",
+      "sector": "化工",
+      "totalBars": 4181,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 3.6269430051813467,
+          "medianReturn": 3.6269430051813467,
+          "positiveRate": 100,
+          "avgAbsReturn": 3.6269430051813467,
+          "maxGain": 3.6269430051813467,
+          "maxLoss": 3.6269430051813467,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": 11.528497409326425,
+          "medianReturn": 11.528497409326425,
+          "positiveRate": 100,
+          "avgAbsReturn": 11.528497409326425,
+          "maxGain": 11.528497409326425,
+          "maxLoss": 11.528497409326425,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 10.362694300518134,
+          "medianReturn": 10.362694300518134,
+          "positiveRate": 100,
+          "avgAbsReturn": 10.362694300518134,
+          "maxGain": 10.362694300518134,
+          "maxLoss": 10.362694300518134,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": 10.621761658031089,
+          "medianReturn": 10.621761658031089,
+          "positiveRate": 100,
+          "avgAbsReturn": 10.621761658031089,
+          "maxGain": 10.621761658031089,
+          "maxLoss": 10.621761658031089,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 17.487046632124354,
+          "medianReturn": 17.487046632124354,
+          "positiveRate": 100,
+          "avgAbsReturn": 17.487046632124354,
+          "maxGain": 17.487046632124354,
+          "maxLoss": 17.487046632124354,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 10.621761658031089,
+          "medianReturn": 10.621761658031089,
+          "positiveRate": 100,
+          "avgAbsReturn": 10.621761658031089,
+          "maxGain": 10.621761658031089,
+          "maxLoss": 10.621761658031089,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        }
+      ]
+    },
+    {
+      "code": "WR0",
+      "sector": "其他",
+      "totalBars": 4195,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -2.4460810099947397,
+          "medianReturn": -2.4460810099947397,
+          "positiveRate": 0,
+          "avgAbsReturn": 2.4460810099947397,
+          "maxGain": -2.4460810099947397,
+          "maxLoss": -2.4460810099947397,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 3,
+          "avgReturn": -2.261967385586533,
+          "medianReturn": -2.261967385586533,
+          "positiveRate": 0,
+          "avgAbsReturn": 2.261967385586533,
+          "maxGain": -2.261967385586533,
+          "maxLoss": -2.261967385586533,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": -2.367175170962651,
+          "medianReturn": -2.367175170962651,
+          "positiveRate": 0,
+          "avgAbsReturn": 2.367175170962651,
+          "maxGain": -2.367175170962651,
+          "maxLoss": -2.367175170962651,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 10,
+          "avgReturn": -1.3677012098895318,
+          "medianReturn": -1.3677012098895318,
+          "positiveRate": 0,
+          "avgAbsReturn": 1.3677012098895318,
+          "maxGain": -1.3677012098895318,
+          "maxLoss": -1.3677012098895318,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 20,
+          "avgReturn": 3.6559705418200945,
+          "medianReturn": 3.6559705418200945,
+          "positiveRate": 100,
+          "avgAbsReturn": 3.6559705418200945,
+          "maxGain": 3.6559705418200945,
+          "maxLoss": 3.6559705418200945,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 30,
+          "avgReturn": 0.10520778537611783,
+          "medianReturn": 0.10520778537611783,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.10520778537611783,
+          "maxGain": 0.10520778537611783,
+          "maxLoss": 0.10520778537611783,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "Y0",
+      "sector": "油脂油料",
+      "totalBars": 5002,
+      "totalEvents": 1,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 0.1719986240110079,
+          "medianReturn": 0.1719986240110079,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.1719986240110079,
+          "maxGain": 0.1719986240110079,
+          "maxLoss": 0.1719986240110079,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 3,
+          "avgReturn": 0.5159958720330238,
+          "medianReturn": 0.5159958720330238,
+          "positiveRate": 100,
+          "avgAbsReturn": 0.5159958720330238,
+          "maxGain": 0.5159958720330238,
+          "maxLoss": 0.5159958720330238,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 5,
+          "avgReturn": 1.2727898176814585,
+          "medianReturn": 1.2727898176814585,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.2727898176814585,
+          "maxGain": 1.2727898176814585,
+          "maxLoss": 1.2727898176814585,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 10,
+          "avgReturn": 1.1695906432748537,
+          "medianReturn": 1.1695906432748537,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.1695906432748537,
+          "maxGain": 1.1695906432748537,
+          "maxLoss": 1.1695906432748537,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        },
+        {
+          "window": 20,
+          "avgReturn": -0.5503955968352253,
+          "medianReturn": -0.5503955968352253,
+          "positiveRate": 0,
+          "avgAbsReturn": 0.5503955968352253,
+          "maxGain": -0.5503955968352253,
+          "maxLoss": -0.5503955968352253,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 30,
+          "avgReturn": 1.3415892672858616,
+          "medianReturn": 1.3415892672858616,
+          "positiveRate": 100,
+          "avgAbsReturn": 1.3415892672858616,
+          "maxGain": 1.3415892672858616,
+          "maxLoss": 1.3415892672858616,
+          "continuationRate": 0,
+          "contrarianRate": 100
+        }
+      ]
+    },
+    {
+      "code": "ZC0",
+      "sector": "其他",
+      "totalBars": 3127,
+      "totalEvents": 5,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": -0.6112116693913752,
+          "medianReturn": 1.0433133101485965,
+          "positiveRate": 60,
+          "avgAbsReturn": 2.884103214025483,
+          "maxGain": 3.566529492455424,
+          "maxLoss": -4.369143604271073,
+          "continuationRate": 40,
+          "contrarianRate": 60
+        },
+        {
+          "window": 3,
+          "avgReturn": -7.137899799733489,
+          "medianReturn": 2.61394101876676,
+          "positiveRate": 60,
+          "avgAbsReturn": 13.372015214430816,
+          "maxGain": 8.481938728852315,
+          "maxLoss": -25.63739376770538,
+          "continuationRate": 40,
+          "contrarianRate": 60
+        },
+        {
+          "window": 5,
+          "avgReturn": -9.48950523890861,
+          "medianReturn": 0.6955422067657252,
+          "positiveRate": 60,
+          "avgAbsReturn": 16.598967195172886,
+          "maxGain": 11.682670324645638,
+          "maxLoss": -32.61059054260187,
+          "continuationRate": 40,
+          "contrarianRate": 60
+        },
+        {
+          "window": 10,
+          "avgReturn": -16.767096370276008,
+          "medianReturn": -0.47423332279481506,
+          "positiveRate": 40,
+          "avgAbsReturn": 24.555741434762602,
+          "maxGain": 17.6954732510288,
+          "maxLoss": -51.41643059490085,
+          "continuationRate": 20,
+          "contrarianRate": 80
+        },
+        {
+          "window": 20,
+          "avgReturn": -15.035692845871912,
+          "medianReturn": -6.165033196332596,
+          "positiveRate": 20,
+          "avgAbsReturn": 32.74031104431728,
+          "maxGain": 44.2615454961134,
+          "maxLoss": -55.44780998038789,
+          "continuationRate": 40,
+          "contrarianRate": 60
+        },
+        {
+          "window": 30,
+          "avgReturn": -12.907208459764623,
+          "medianReturn": -13.847613025608602,
+          "positiveRate": 40,
+          "avgAbsReturn": 36.00512069033499,
+          "maxGain": 56.03566529492456,
+          "maxLoss": -54.216604924820224,
+          "continuationRate": 20,
+          "contrarianRate": 80
+        }
+      ]
+    },
+    {
+      "code": "ZN0",
+      "sector": "有色",
+      "totalBars": 4710,
+      "totalEvents": 4,
+      "timeWindows": [
+        {
+          "window": 1,
+          "avgReturn": 1.308382147845629,
+          "medianReturn": 1.523980277902286,
+          "positiveRate": 75,
+          "avgAbsReturn": 1.5921010478892779,
+          "maxGain": 2.763203917453655,
+          "maxLoss": -0.5674378000872982,
+          "continuationRate": 75,
+          "contrarianRate": 25
+        },
+        {
+          "window": 3,
+          "avgReturn": -0.16404192536914114,
+          "medianReturn": 1.1192724728926198,
+          "positiveRate": 50,
+          "avgAbsReturn": 1.661319372841208,
+          "maxGain": 1.8752824220515139,
+          "maxLoss": -3.5634244733303446,
+          "continuationRate": 100,
+          "contrarianRate": 0
+        },
+        {
+          "window": 5,
+          "avgReturn": 0.29902490731665526,
+          "medianReturn": 0.6995452955578874,
+          "positiveRate": 75,
+          "avgAbsReturn": 1.3971871663933024,
+          "maxGain": 2.4443474465298998,
+          "maxLoss": -2.196324518153294,
+          "continuationRate": 75,
+          "contrarianRate": 25
+        },
+        {
+          "window": 10,
+          "avgReturn": -1.6002155556101314,
+          "medianReturn": -0.6995452955578874,
+          "positiveRate": 25,
+          "avgAbsReturn": 2.119872130395491,
+          "maxGain": 1.0393131495707186,
+          "maxLoss": -5.194238323876037,
+          "continuationRate": 75,
+          "contrarianRate": 25
+        },
+        {
+          "window": 20,
+          "avgReturn": 0.2581951079413197,
+          "medianReturn": 3.0049706281066424,
+          "positiveRate": 50,
+          "avgAbsReturn": 3.568602733392665,
+          "maxGain": 4.648625054561327,
+          "maxLoss": -5.141657922350472,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        },
+        {
+          "window": 30,
+          "avgReturn": -0.2893868639891266,
+          "medianReturn": 1.7171260732037958,
+          "positiveRate": 50,
+          "avgAbsReturn": 6.058469324423412,
+          "maxGain": 9.821038847664775,
+          "maxLoss": -12.381951731374606,
+          "continuationRate": 50,
+          "contrarianRate": 50
+        }
+      ]
+    }
+  ],
+  "totalSamples": 243
+}

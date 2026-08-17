@@ -1,0 +1,2236 @@
+{
+  "generatedAt": "2026-08-16T06:02:16.812Z",
+  "totalVarieties": 59,
+  "sectors": [
+    {
+      "sector": "农产品",
+      "total": 13,
+      "betaAligned": 5,
+      "betaRate": 0.38,
+      "bestDirCount": {
+        "longOnly": 8,
+        "shortOnly": 3,
+        "both": 1,
+        "split": 1
+      }
+    },
+    {
+      "sector": "贵金属",
+      "total": 2,
+      "betaAligned": 1,
+      "betaRate": 0.5,
+      "bestDirCount": {
+        "both": 1,
+        "longOnly": 1
+      }
+    },
+    {
+      "sector": "有色",
+      "total": 8,
+      "betaAligned": 3,
+      "betaRate": 0.38,
+      "bestDirCount": {
+        "both": 2,
+        "longOnly": 4,
+        "shortOnly": 1,
+        "split": 1
+      }
+    },
+    {
+      "sector": "能化",
+      "total": 16,
+      "betaAligned": 7,
+      "betaRate": 0.44,
+      "bestDirCount": {
+        "longOnly": 11,
+        "shortOnly": 3,
+        "both": 2
+      }
+    },
+    {
+      "sector": "航运",
+      "total": 1,
+      "betaAligned": 1,
+      "betaRate": 1,
+      "bestDirCount": {
+        "longOnly": 1
+      }
+    },
+    {
+      "sector": "未知",
+      "total": 4,
+      "betaAligned": 3,
+      "betaRate": 0.75,
+      "bestDirCount": {
+        "shortOnly": 3,
+        "longOnly": 1
+      }
+    },
+    {
+      "sector": "黑色",
+      "total": 7,
+      "betaAligned": 3,
+      "betaRate": 0.43,
+      "bestDirCount": {
+        "shortOnly": 5,
+        "split": 1,
+        "longOnly": 1
+      }
+    },
+    {
+      "sector": "股指",
+      "total": 4,
+      "betaAligned": 1,
+      "betaRate": 0.25,
+      "bestDirCount": {
+        "split": 2,
+        "longOnly": 2
+      }
+    },
+    {
+      "sector": "新材料",
+      "total": 2,
+      "betaAligned": 0,
+      "betaRate": 0,
+      "bestDirCount": {
+        "longOnly": 1,
+        "both": 1
+      }
+    },
+    {
+      "sector": "国债",
+      "total": 2,
+      "betaAligned": 2,
+      "betaRate": 1,
+      "bestDirCount": {
+        "longOnly": 2
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "code": "A0",
+      "sector": "农产品",
+      "trend": "long",
+      "theoLong": 15.2426,
+      "theoShort": 12.971,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.0539,
+          "profitablePct": 0.3819,
+          "crashPct": 0.7126
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.0779,
+          "profitablePct": 0.5,
+          "crashPct": 0.6613
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 1.9768,
+          "profitablePct": 0.685,
+          "crashPct": 0.4331
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.5436,
+          "profitablePct": 0.2082,
+          "crashPct": 0.8
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 1.98,
+      "isBetaAligned": true
+    },
+    {
+      "code": "AG0",
+      "sector": "贵金属",
+      "trend": "long",
+      "theoLong": 14.984,
+      "theoShort": 12.2413,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 3.6672,
+          "profitablePct": 0.8583,
+          "crashPct": 0.1417
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 1.692,
+          "profitablePct": 0.8992,
+          "crashPct": 0.1008
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 3.6467,
+          "profitablePct": 0.8898,
+          "crashPct": 0.1102
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.1403,
+          "profitablePct": 0.1633,
+          "crashPct": 0.4612
+        }
+      },
+      "bestDir": "both",
+      "bestDirCalmar": 3.67,
+      "isBetaAligned": false
+    },
+    {
+      "code": "AL0",
+      "sector": "有色",
+      "trend": "long",
+      "theoLong": 11.6717,
+      "theoShort": 10.0388,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.2804,
+          "profitablePct": 0.563,
+          "crashPct": 0.437
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.1704,
+          "profitablePct": 0.3266,
+          "crashPct": 0.6734
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.196,
+          "profitablePct": 0.5236,
+          "crashPct": 0.4764
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.2209,
+          "profitablePct": 0.5143,
+          "crashPct": 0.4857
+        }
+      },
+      "bestDir": "both",
+      "bestDirCalmar": 0.28,
+      "isBetaAligned": false
+    },
+    {
+      "code": "AO0",
+      "sector": "有色",
+      "trend": "neutral",
+      "theoLong": 3.2003,
+      "theoShort": 2.7571,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 1.6365,
+          "profitablePct": 0.8425,
+          "crashPct": 0.3583
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 2.6025,
+          "profitablePct": 0.9839,
+          "crashPct": 0.3387
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 3.6431,
+          "profitablePct": 0.8268,
+          "crashPct": 0.2126
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 1.192,
+          "profitablePct": 0.6449,
+          "crashPct": 0.449
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 3.64,
+      "isBetaAligned": false
+    },
+    {
+      "code": "AP0",
+      "sector": "农产品",
+      "trend": "neutral",
+      "theoLong": 8.8216,
+      "theoShort": 7.7248,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.4553,
+          "profitablePct": 0.126,
+          "crashPct": 0.7244
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.4871,
+          "profitablePct": 0.1048,
+          "crashPct": 0.6976
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.1533,
+          "profitablePct": 0.2323,
+          "crashPct": 0.6024
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.5348,
+          "profitablePct": 0.0694,
+          "crashPct": 0.7673
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": -0.15,
+      "isBetaAligned": false
+    },
+    {
+      "code": "AU0",
+      "sector": "贵金属",
+      "trend": "long",
+      "theoLong": 10.3522,
+      "theoShort": 7.918,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 2.849,
+          "profitablePct": 0.9016,
+          "crashPct": 0.0984
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 3.6145,
+          "profitablePct": 0.9476,
+          "crashPct": 0.0524
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 3.6182,
+          "profitablePct": 0.9331,
+          "crashPct": 0.0669
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.4341,
+          "profitablePct": 0.0041,
+          "crashPct": 0.5918
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 3.62,
+      "isBetaAligned": true
+    },
+    {
+      "code": "BC0",
+      "sector": "有色",
+      "trend": "long",
+      "theoLong": 3.941,
+      "theoShort": 2.9139,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.4926,
+          "profitablePct": 0.5394,
+          "crashPct": 0.4685
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.2742,
+          "profitablePct": 0.4919,
+          "crashPct": 0.5202
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 1.03,
+          "profitablePct": 0.626,
+          "crashPct": 0.3858
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.4227,
+          "profitablePct": 0.1633,
+          "crashPct": 0.8327
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 1.03,
+      "isBetaAligned": true
+    },
+    {
+      "code": "BU0",
+      "sector": "能化",
+      "trend": "neutral",
+      "theoLong": 14.4262,
+      "theoShort": 12.7549,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.1435,
+          "profitablePct": 0.2598,
+          "crashPct": 0.815
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.5625,
+          "profitablePct": 0.0968,
+          "crashPct": 0.9032
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 1.3276,
+          "profitablePct": 0.7362,
+          "crashPct": 0.2835
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.6799,
+          "profitablePct": 0.0898,
+          "crashPct": 0.9143
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 1.33,
+      "isBetaAligned": false
+    },
+    {
+      "code": "C0",
+      "sector": "农产品",
+      "trend": "long",
+      "theoLong": 7.1407,
+      "theoShort": 5.7369,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 1.9375,
+          "profitablePct": 0.8622,
+          "crashPct": 0.2835
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 1.3218,
+          "profitablePct": 0.7621,
+          "crashPct": 0.4516
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 2.5072,
+          "profitablePct": 0.7244,
+          "crashPct": 0.315
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 1.6742,
+          "profitablePct": 0.5551,
+          "crashPct": 0.5143
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 2.51,
+      "isBetaAligned": true
+    },
+    {
+      "code": "CF0",
+      "sector": "农产品",
+      "trend": "long",
+      "theoLong": 12.3849,
+      "theoShort": 10.8542,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 1.7412,
+          "profitablePct": 0.8583,
+          "crashPct": 0.1417
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 1.8169,
+          "profitablePct": 0.9274,
+          "crashPct": 0.0726
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.8099,
+          "profitablePct": 0.752,
+          "crashPct": 0.248
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 1.8945,
+          "profitablePct": 0.8041,
+          "crashPct": 0.1959
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": 1.89,
+      "isBetaAligned": false
+    },
+    {
+      "code": "CJ0",
+      "sector": "农产品",
+      "trend": "short",
+      "theoLong": 6.6274,
+      "theoShort": 5.9977,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.2749,
+          "profitablePct": 0.4213,
+          "crashPct": 0.6142
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.1021,
+          "profitablePct": 0.2984,
+          "crashPct": 0.7298
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.2658,
+          "profitablePct": 0.4134,
+          "crashPct": 0.5591
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.5099,
+          "profitablePct": 0.5796,
+          "crashPct": 0.4286
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": 0.51,
+      "isBetaAligned": true
+    },
+    {
+      "code": "CU0",
+      "sector": "有色",
+      "trend": "long",
+      "theoLong": 20.2428,
+      "theoShort": 16.2677,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 2.8089,
+          "profitablePct": 0.9567,
+          "crashPct": 0.0433
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 2.2027,
+          "profitablePct": 0.7863,
+          "crashPct": 0.2137
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 1.775,
+          "profitablePct": 0.9252,
+          "crashPct": 0.0748
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 1.4814,
+          "profitablePct": 0.5959,
+          "crashPct": 0.4041
+        }
+      },
+      "bestDir": "both",
+      "bestDirCalmar": 2.81,
+      "isBetaAligned": false
+    },
+    {
+      "code": "EB0",
+      "sector": "能化",
+      "trend": "neutral",
+      "theoLong": 8.1806,
+      "theoShort": 7.0154,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.0462,
+          "profitablePct": 0.3386,
+          "crashPct": 0.6693
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.4338,
+          "profitablePct": 0.1492,
+          "crashPct": 0.8548
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 1.5162,
+          "profitablePct": 0.622,
+          "crashPct": 0.378
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.5664,
+          "profitablePct": 0.1265,
+          "crashPct": 0.8776
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 1.52,
+      "isBetaAligned": false
+    },
+    {
+      "code": "EC0",
+      "sector": "航运",
+      "trend": "long",
+      "theoLong": 14.7077,
+      "theoShort": 10.7828,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -1.2996,
+          "profitablePct": 0.0433,
+          "crashPct": 0.9921
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -1.1053,
+          "profitablePct": 0.0605,
+          "crashPct": 1
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 15.5151,
+          "profitablePct": 0.5118,
+          "crashPct": 0.7283
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.9906,
+          "profitablePct": 0,
+          "crashPct": 1
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 15.52,
+      "isBetaAligned": true
+    },
+    {
+      "code": "EG0",
+      "sector": "能化",
+      "trend": "short",
+      "theoLong": 8.1504,
+      "theoShort": 7.3598,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.6224,
+          "profitablePct": 0.0787,
+          "crashPct": 0.9488
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.588,
+          "profitablePct": 0.0524,
+          "crashPct": 0.9355
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.1089,
+          "profitablePct": 0.2992,
+          "crashPct": 0.7165
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.607,
+          "profitablePct": 0.0898,
+          "crashPct": 0.9143
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": -0.11,
+      "isBetaAligned": false
+    },
+    {
+      "code": "FG0",
+      "sector": "未知",
+      "trend": "short",
+      "theoLong": 14.2264,
+      "theoShort": 12.7264,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.541,
+          "profitablePct": 0.1299,
+          "crashPct": 0.9016
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.6292,
+          "profitablePct": 0.0766,
+          "crashPct": 0.9476
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.2497,
+          "profitablePct": 0.2559,
+          "crashPct": 0.7598
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.2371,
+          "profitablePct": 0.2571,
+          "crashPct": 0.7469
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": -0.24,
+      "isBetaAligned": true
+    },
+    {
+      "code": "FU0",
+      "sector": "能化",
+      "trend": "long",
+      "theoLong": 28.1697,
+      "theoShort": 24.1909,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.0673,
+          "profitablePct": 0.2441,
+          "crashPct": 0.9331
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.3396,
+          "profitablePct": 0.1734,
+          "crashPct": 0.9798
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 1.5166,
+          "profitablePct": 0.5472,
+          "crashPct": 0.626
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.6436,
+          "profitablePct": 0.1102,
+          "crashPct": 0.9592
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 1.52,
+      "isBetaAligned": true
+    },
+    {
+      "code": "HC0",
+      "sector": "黑色",
+      "trend": "neutral",
+      "theoLong": 10.6427,
+      "theoShort": 9.3302,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.5736,
+          "profitablePct": 0.5984,
+          "crashPct": 0.4016
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.8418,
+          "profitablePct": 0.621,
+          "crashPct": 0.379
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.1743,
+          "profitablePct": 0.4803,
+          "crashPct": 0.5197
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.8607,
+          "profitablePct": 0.7184,
+          "crashPct": 0.2816
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": 0.86,
+      "isBetaAligned": false
+    },
+    {
+      "code": "I0",
+      "sector": "黑色",
+      "trend": "short",
+      "theoLong": 20.4269,
+      "theoShort": 18.018,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.2946,
+          "profitablePct": 0.2323,
+          "crashPct": 0.7677
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.1076,
+          "profitablePct": 0.2863,
+          "crashPct": 0.7137
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.3525,
+          "profitablePct": 0.189,
+          "crashPct": 0.811
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.0748,
+          "profitablePct": 0.3878,
+          "crashPct": 0.6122
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": 0.07,
+      "isBetaAligned": true
+    },
+    {
+      "code": "IC0",
+      "sector": "股指",
+      "trend": "neutral",
+      "theoLong": 11.4748,
+      "theoShort": 10.0572,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.1735,
+          "profitablePct": 0.4252,
+          "crashPct": 0.5984
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 1.3098,
+          "profitablePct": 0.754,
+          "crashPct": 0.371
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.3638,
+          "profitablePct": 0.3937,
+          "crashPct": 0.6299
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.4721,
+          "profitablePct": 0.551,
+          "crashPct": 0.4531
+        }
+      },
+      "bestDir": "split",
+      "bestDirCalmar": 1.31,
+      "isBetaAligned": false
+    },
+    {
+      "code": "IF0",
+      "sector": "股指",
+      "trend": "long",
+      "theoLong": 13.4081,
+      "theoShort": 11.6784,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.5487,
+          "profitablePct": 0.5984,
+          "crashPct": 0.4488
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.7452,
+          "profitablePct": 0.754,
+          "crashPct": 0.3629
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.8553,
+          "profitablePct": 0.7165,
+          "crashPct": 0.2992
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.0705,
+          "profitablePct": 0.3184,
+          "crashPct": 0.6816
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 0.86,
+      "isBetaAligned": true
+    },
+    {
+      "code": "IH0",
+      "sector": "股指",
+      "trend": "short",
+      "theoLong": 8.0984,
+      "theoShort": 7.3891,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.782,
+          "profitablePct": 0.0236,
+          "crashPct": 0.9764
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.5307,
+          "profitablePct": 0.129,
+          "crashPct": 0.875
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.3736,
+          "profitablePct": 0.2087,
+          "crashPct": 0.7913
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.8436,
+          "profitablePct": 0,
+          "crashPct": 1
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": -0.37,
+      "isBetaAligned": false
+    },
+    {
+      "code": "IM0",
+      "sector": "股指",
+      "trend": "neutral",
+      "theoLong": 3.9871,
+      "theoShort": 3.4884,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.5008,
+          "profitablePct": 0.5866,
+          "crashPct": 0.4252
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.9037,
+          "profitablePct": 0.7782,
+          "crashPct": 0.2903
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.7677,
+          "profitablePct": 0.626,
+          "crashPct": 0.374
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.1635,
+          "profitablePct": 0.4571,
+          "crashPct": 0.5429
+        }
+      },
+      "bestDir": "split",
+      "bestDirCalmar": 0.9,
+      "isBetaAligned": false
+    },
+    {
+      "code": "J0",
+      "sector": "黑色",
+      "trend": "short",
+      "theoLong": 21.0656,
+      "theoShort": 18.4154,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.39,
+          "profitablePct": 0.5827,
+          "crashPct": 0.4173
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.216,
+          "profitablePct": 0.6694,
+          "crashPct": 0.3306
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.1083,
+          "profitablePct": 0.3504,
+          "crashPct": 0.6496
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 1.1329,
+          "profitablePct": 0.8776,
+          "crashPct": 0.1224
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": 1.13,
+      "isBetaAligned": true
+    },
+    {
+      "code": "JD0",
+      "sector": "农产品",
+      "trend": "neutral",
+      "theoLong": 10.7816,
+      "theoShort": 9.3007,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.6385,
+          "profitablePct": 0.0236,
+          "crashPct": 0.8583
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.6544,
+          "profitablePct": 0.004,
+          "crashPct": 0.875
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.3204,
+          "profitablePct": 0.1654,
+          "crashPct": 0.7047
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.6025,
+          "profitablePct": 0.0408,
+          "crashPct": 0.8816
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": -0.32,
+      "isBetaAligned": false
+    },
+    {
+      "code": "JM0",
+      "sector": "黑色",
+      "trend": "neutral",
+      "theoLong": 21.2399,
+      "theoShort": 18.6042,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.9114,
+          "profitablePct": 0.6417,
+          "crashPct": 0.3583
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.1613,
+          "profitablePct": 0.4879,
+          "crashPct": 0.5121
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.5371,
+          "profitablePct": 0.4961,
+          "crashPct": 0.5039
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 1.0801,
+          "profitablePct": 0.8571,
+          "crashPct": 0.1429
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": 1.08,
+      "isBetaAligned": false
+    },
+    {
+      "code": "L0",
+      "sector": "能化",
+      "trend": "short",
+      "theoLong": 14.4051,
+      "theoShort": 13.202,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.5037,
+          "profitablePct": 0.1024,
+          "crashPct": 0.9213
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.7091,
+          "profitablePct": 0.004,
+          "crashPct": 1
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.5115,
+          "profitablePct": 0.1102,
+          "crashPct": 0.8937
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.0862,
+          "profitablePct": 0.2898,
+          "crashPct": 0.7347
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": -0.09,
+      "isBetaAligned": true
+    },
+    {
+      "code": "LC0",
+      "sector": "新材料",
+      "trend": "short",
+      "theoLong": 6.2871,
+      "theoShort": 5.7204,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 7.7235,
+          "profitablePct": 0.9606,
+          "crashPct": 0.3346
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 6.8365,
+          "profitablePct": 0.996,
+          "crashPct": 0.3669
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 14.9939,
+          "profitablePct": 0.8504,
+          "crashPct": 0.4094
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 2.4784,
+          "profitablePct": 0.7714,
+          "crashPct": 0.3265
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 14.99,
+      "isBetaAligned": false
+    },
+    {
+      "code": "LH0",
+      "sector": "农产品",
+      "trend": "short",
+      "theoLong": 5.8214,
+      "theoShort": 5.8361,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.5132,
+          "profitablePct": 0.626,
+          "crashPct": 0.374
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.2357,
+          "profitablePct": 0.4435,
+          "crashPct": 0.5565
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 1.0608,
+          "profitablePct": 0.5945,
+          "crashPct": 0.3898
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.0911,
+          "profitablePct": 0.4612,
+          "crashPct": 0.5388
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 1.06,
+      "isBetaAligned": false
+    },
+    {
+      "code": "LU0",
+      "sector": "能化",
+      "trend": "long",
+      "theoLong": 10.6686,
+      "theoShort": 8.7757,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.5977,
+          "profitablePct": 0.0787,
+          "crashPct": 0.9488
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.7082,
+          "profitablePct": 0.0887,
+          "crashPct": 0.9556
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.2917,
+          "profitablePct": 0.3976,
+          "crashPct": 0.6339
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.6921,
+          "profitablePct": 0.0735,
+          "crashPct": 0.9265
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 0.29,
+      "isBetaAligned": true
+    },
+    {
+      "code": "M0",
+      "sector": "农产品",
+      "trend": "long",
+      "theoLong": 19.3473,
+      "theoShort": 16.6899,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.0891,
+          "profitablePct": 0.3346,
+          "crashPct": 0.6654
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.2275,
+          "profitablePct": 0.246,
+          "crashPct": 0.754
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.309,
+          "profitablePct": 0.1969,
+          "crashPct": 0.8031
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.4074,
+          "profitablePct": 0.7184,
+          "crashPct": 0.2816
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": 0.41,
+      "isBetaAligned": false
+    },
+    {
+      "code": "MA0",
+      "sector": "能化",
+      "trend": "short",
+      "theoLong": 14.9311,
+      "theoShort": 13.2865,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.7024,
+          "profitablePct": 0.0669,
+          "crashPct": 0.9606
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.6306,
+          "profitablePct": 0.0726,
+          "crashPct": 0.9476
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.2746,
+          "profitablePct": 0.2087,
+          "crashPct": 0.8228
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.6791,
+          "profitablePct": 0.0449,
+          "crashPct": 0.9592
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": -0.27,
+      "isBetaAligned": false
+    },
+    {
+      "code": "NI0",
+      "sector": "有色",
+      "trend": "long",
+      "theoLong": 13.7641,
+      "theoShort": 11.9357,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.3756,
+          "profitablePct": 0.189,
+          "crashPct": 0.811
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.2373,
+          "profitablePct": 0.2621,
+          "crashPct": 0.7379
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.1946,
+          "profitablePct": 0.4055,
+          "crashPct": 0.5945
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.3888,
+          "profitablePct": 0.151,
+          "crashPct": 0.849
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 0.19,
+      "isBetaAligned": true
+    },
+    {
+      "code": "NR0",
+      "sector": "能化",
+      "trend": "long",
+      "theoLong": 7.0761,
+      "theoShort": 6.0853,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.3525,
+          "profitablePct": 0.3386,
+          "crashPct": 0.6693
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.4088,
+          "profitablePct": 0.3992,
+          "crashPct": 0.6129
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.6785,
+          "profitablePct": 0.4409,
+          "crashPct": 0.5591
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.3336,
+          "profitablePct": 0.1143,
+          "crashPct": 0.8531
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 0.68,
+      "isBetaAligned": true
+    },
+    {
+      "code": "OI0",
+      "sector": "农产品",
+      "trend": "long",
+      "theoLong": 13.1993,
+      "theoShort": 11.6763,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.5135,
+          "profitablePct": 0.1417,
+          "crashPct": 0.9409
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.7118,
+          "profitablePct": 0.0484,
+          "crashPct": 0.9798
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.1231,
+          "profitablePct": 0.2677,
+          "crashPct": 0.7638
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.3887,
+          "profitablePct": 0.1673,
+          "crashPct": 0.8408
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": -0.12,
+      "isBetaAligned": true
+    },
+    {
+      "code": "P0",
+      "sector": "农产品",
+      "trend": "long",
+      "theoLong": 18.5744,
+      "theoShort": 16.2751,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.7593,
+          "profitablePct": 0.4094,
+          "crashPct": 0.5906
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.2361,
+          "profitablePct": 0.371,
+          "crashPct": 0.629
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.5724,
+          "profitablePct": 0.6417,
+          "crashPct": 0.3583
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.2033,
+          "profitablePct": 0.3837,
+          "crashPct": 0.6163
+        }
+      },
+      "bestDir": "both",
+      "bestDirCalmar": 0.76,
+      "isBetaAligned": false
+    },
+    {
+      "code": "PB0",
+      "sector": "有色",
+      "trend": "short",
+      "theoLong": 7.2121,
+      "theoShort": 6.6218,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.0481,
+          "profitablePct": 0.3622,
+          "crashPct": 0.6378
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.2329,
+          "profitablePct": 0.2581,
+          "crashPct": 0.7419
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.0398,
+          "profitablePct": 0.3465,
+          "crashPct": 0.6535
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.0337,
+          "profitablePct": 0.3224,
+          "crashPct": 0.6776
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": -0.03,
+      "isBetaAligned": true
+    },
+    {
+      "code": "PG0",
+      "sector": "能化",
+      "trend": "long",
+      "theoLong": 9.7905,
+      "theoShort": 7.7143,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.8779,
+          "profitablePct": 0.0039,
+          "crashPct": 0.9961
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.8847,
+          "profitablePct": 0.004,
+          "crashPct": 0.996
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.4867,
+          "profitablePct": 0.1299,
+          "crashPct": 0.874
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.8839,
+          "profitablePct": 0,
+          "crashPct": 1
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": -0.49,
+      "isBetaAligned": true
+    },
+    {
+      "code": "PP0",
+      "sector": "能化",
+      "trend": "short",
+      "theoLong": 9.0488,
+      "theoShort": 8.2286,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.5827,
+          "profitablePct": 0.063,
+          "crashPct": 0.9724
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.4436,
+          "profitablePct": 0.1492,
+          "crashPct": 0.9194
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.3875,
+          "profitablePct": 0.1575,
+          "crashPct": 0.8583
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.2637,
+          "profitablePct": 0.2408,
+          "crashPct": 0.8571
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": -0.26,
+      "isBetaAligned": true
+    },
+    {
+      "code": "PX0",
+      "sector": "能化",
+      "trend": "short",
+      "theoLong": 2.6218,
+      "theoShort": 2.43,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.2282,
+          "profitablePct": 0.2874,
+          "crashPct": 0.7126
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.5249,
+          "profitablePct": 0.1048,
+          "crashPct": 0.8952
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 1.4055,
+          "profitablePct": 0.4646,
+          "crashPct": 0.4961
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.3478,
+          "profitablePct": 0.2,
+          "crashPct": 0.8
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 1.41,
+      "isBetaAligned": false
+    },
+    {
+      "code": "RB0",
+      "sector": "黑色",
+      "trend": "short",
+      "theoLong": 14.3711,
+      "theoShort": 12.7389,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.5785,
+          "profitablePct": 0.6024,
+          "crashPct": 0.3976
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.46,
+          "profitablePct": 0.6694,
+          "crashPct": 0.3306
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.182,
+          "profitablePct": 0.2441,
+          "crashPct": 0.7559
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 1.5416,
+          "profitablePct": 0.898,
+          "crashPct": 0.102
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": 1.54,
+      "isBetaAligned": true
+    },
+    {
+      "code": "RM0",
+      "sector": "农产品",
+      "trend": "neutral",
+      "theoLong": 12.424,
+      "theoShort": 11.1835,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.8683,
+          "profitablePct": 0.0039,
+          "crashPct": 0.9961
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.9431,
+          "profitablePct": 0,
+          "crashPct": 1
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.6748,
+          "profitablePct": 0.063,
+          "crashPct": 0.937
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.7417,
+          "profitablePct": 0.0612,
+          "crashPct": 0.9429
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": -0.67,
+      "isBetaAligned": false
+    },
+    {
+      "code": "RU0",
+      "sector": "能化",
+      "trend": "long",
+      "theoLong": 29.5537,
+      "theoShort": 25.2339,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 1.942,
+          "profitablePct": 0.7441,
+          "crashPct": 0.2559
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 1.9267,
+          "profitablePct": 0.8992,
+          "crashPct": 0.1008
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 1.203,
+          "profitablePct": 0.7992,
+          "crashPct": 0.2008
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.9801,
+          "profitablePct": 0.6163,
+          "crashPct": 0.3837
+        }
+      },
+      "bestDir": "both",
+      "bestDirCalmar": 1.94,
+      "isBetaAligned": false
+    },
+    {
+      "code": "SA0",
+      "sector": "未知",
+      "trend": "short",
+      "theoLong": 10.059,
+      "theoShort": 8.7868,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.4157,
+          "profitablePct": 0.189,
+          "crashPct": 0.8307
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.5156,
+          "profitablePct": 0.1653,
+          "crashPct": 0.871
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.5846,
+          "profitablePct": 0.126,
+          "crashPct": 0.8661
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.0502,
+          "profitablePct": 0.3265,
+          "crashPct": 0.6816
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": -0.05,
+      "isBetaAligned": true
+    },
+    {
+      "code": "SC0",
+      "sector": "能化",
+      "trend": "long",
+      "theoLong": 14.7736,
+      "theoShort": 12.664,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.2486,
+          "profitablePct": 0.2087,
+          "crashPct": 0.7913
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.4819,
+          "profitablePct": 0.1371,
+          "crashPct": 0.8629
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.2663,
+          "profitablePct": 0.4528,
+          "crashPct": 0.5472
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.4819,
+          "profitablePct": 0.1143,
+          "crashPct": 0.8857
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 0.27,
+      "isBetaAligned": true
+    },
+    {
+      "code": "SF0",
+      "sector": "黑色",
+      "trend": "neutral",
+      "theoLong": 11.8538,
+      "theoShort": 10.2842,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.3667,
+          "profitablePct": 0.1654,
+          "crashPct": 0.8937
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.6812,
+          "profitablePct": 0.3185,
+          "crashPct": 0.8105
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.1398,
+          "profitablePct": 0.3031,
+          "crashPct": 0.752
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.6126,
+          "profitablePct": 0.0857,
+          "crashPct": 0.902
+        }
+      },
+      "bestDir": "split",
+      "bestDirCalmar": 0.68,
+      "isBetaAligned": false
+    },
+    {
+      "code": "SI0",
+      "sector": "新材料",
+      "trend": "short",
+      "theoLong": 2.9353,
+      "theoShort": 3.3398,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 1.8358,
+          "profitablePct": 0.9016,
+          "crashPct": 0.0984
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 1.3798,
+          "profitablePct": 0.9153,
+          "crashPct": 0.0847
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0,
+          "profitablePct": 0,
+          "crashPct": 0
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 1.7171,
+          "profitablePct": 0.8653,
+          "crashPct": 0.1347
+        }
+      },
+      "bestDir": "both",
+      "bestDirCalmar": 1.84,
+      "isBetaAligned": false
+    },
+    {
+      "code": "SM0",
+      "sector": "黑色",
+      "trend": "short",
+      "theoLong": 11.4226,
+      "theoShort": 9.8786,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.4317,
+          "profitablePct": 0.1339,
+          "crashPct": 0.8228
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.7729,
+          "profitablePct": 0.0484,
+          "crashPct": 0.9637
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.3359,
+          "profitablePct": 0.1535,
+          "crashPct": 0.7559
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.3617,
+          "profitablePct": 0.2327,
+          "crashPct": 0.7265
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": -0.34,
+      "isBetaAligned": false
+    },
+    {
+      "code": "SP0",
+      "sector": "未知",
+      "trend": "short",
+      "theoLong": 5.5877,
+      "theoShort": 5.0836,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.159,
+          "profitablePct": 0.2953,
+          "crashPct": 0.7047
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.2752,
+          "profitablePct": 0.3185,
+          "crashPct": 0.6815
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.4841,
+          "profitablePct": 0.122,
+          "crashPct": 0.878
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.5171,
+          "profitablePct": 0.751,
+          "crashPct": 0.249
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": 0.52,
+      "isBetaAligned": true
+    },
+    {
+      "code": "SR0",
+      "sector": "农产品",
+      "trend": "neutral",
+      "theoLong": 3.0453,
+      "theoShort": 2.1386,
+      "dirs": {
+        "split": {
+          "count": 249,
+          "avgCalmar": 0,
+          "profitablePct": 0,
+          "crashPct": 0
+        },
+        "both": {
+          "count": 262,
+          "avgCalmar": 0,
+          "profitablePct": 0,
+          "crashPct": 0
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0,
+          "profitablePct": 0,
+          "crashPct": 0
+        },
+        "longOnly": {
+          "count": 245,
+          "avgCalmar": 0,
+          "profitablePct": 0,
+          "crashPct": 0
+        }
+      },
+      "bestDir": "split",
+      "bestDirCalmar": 0,
+      "isBetaAligned": false
+    },
+    {
+      "code": "SS0",
+      "sector": "有色",
+      "trend": "neutral",
+      "theoLong": 4.8887,
+      "theoShort": 4.4523,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.3395,
+          "profitablePct": 0.2165,
+          "crashPct": 0.7835
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.2642,
+          "profitablePct": 0.504,
+          "crashPct": 0.5968
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.2741,
+          "profitablePct": 0.1929,
+          "crashPct": 0.815
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.1889,
+          "profitablePct": 0.302,
+          "crashPct": 0.698
+        }
+      },
+      "bestDir": "split",
+      "bestDirCalmar": 0.26,
+      "isBetaAligned": false
+    },
+    {
+      "code": "T0",
+      "sector": "国债",
+      "trend": "long",
+      "theoLong": 0.2562,
+      "theoShort": 0.2445,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.269,
+          "profitablePct": 0.2795,
+          "crashPct": 0.815
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.1419,
+          "profitablePct": 0.3427,
+          "crashPct": 0.7258
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 1.2758,
+          "profitablePct": 0.7205,
+          "crashPct": 0.2992
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.8738,
+          "profitablePct": 0.0204,
+          "crashPct": 0.9796
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 1.28,
+      "isBetaAligned": true
+    },
+    {
+      "code": "TA0",
+      "sector": "能化",
+      "trend": "short",
+      "theoLong": 17.4414,
+      "theoShort": 15.8079,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.8265,
+          "profitablePct": 0.6654,
+          "crashPct": 0.3346
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.0051,
+          "profitablePct": 0.4113,
+          "crashPct": 0.5887
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.1343,
+          "profitablePct": 0.5433,
+          "crashPct": 0.4567
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.6715,
+          "profitablePct": 0.6245,
+          "crashPct": 0.3755
+        }
+      },
+      "bestDir": "both",
+      "bestDirCalmar": 0.83,
+      "isBetaAligned": false
+    },
+    {
+      "code": "TF0",
+      "sector": "国债",
+      "trend": "long",
+      "theoLong": 0.2622,
+      "theoShort": 0.1958,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.4098,
+          "profitablePct": 0.1969,
+          "crashPct": 0.8189
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.6858,
+          "profitablePct": 0.0323,
+          "crashPct": 0.9677
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.4306,
+          "profitablePct": 0.5591,
+          "crashPct": 0.4449
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.4583,
+          "profitablePct": 0.102,
+          "crashPct": 0.7918
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 0.43,
+      "isBetaAligned": true
+    },
+    {
+      "code": "UR0",
+      "sector": "能化",
+      "trend": "neutral",
+      "theoLong": 7.7202,
+      "theoShort": 6.8496,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.2097,
+          "profitablePct": 0.2953,
+          "crashPct": 0.7795
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.5433,
+          "profitablePct": 0.1008,
+          "crashPct": 0.8992
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": -0.2231,
+          "profitablePct": 0.2283,
+          "crashPct": 0.7913
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": 0.1006,
+          "profitablePct": 0.3633,
+          "crashPct": 0.6449
+        }
+      },
+      "bestDir": "shortOnly",
+      "bestDirCalmar": 0.1,
+      "isBetaAligned": false
+    },
+    {
+      "code": "V0",
+      "sector": "能化",
+      "trend": "short",
+      "theoLong": 11.733,
+      "theoShort": 10.6928,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.3822,
+          "profitablePct": 0.1929,
+          "crashPct": 0.8228
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.5385,
+          "profitablePct": 0.121,
+          "crashPct": 0.8911
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.0346,
+          "profitablePct": 0.3071,
+          "crashPct": 0.7165
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.4486,
+          "profitablePct": 0.151,
+          "crashPct": 0.849
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 0.03,
+      "isBetaAligned": false
+    },
+    {
+      "code": "WR0",
+      "sector": "未知",
+      "trend": "neutral",
+      "theoLong": 12.9613,
+      "theoShort": 11.3948,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.4759,
+          "profitablePct": 0.1457,
+          "crashPct": 0.8583
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.7221,
+          "profitablePct": 0.0202,
+          "crashPct": 0.9798
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.0727,
+          "profitablePct": 0.3661,
+          "crashPct": 0.6339
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.3876,
+          "profitablePct": 0.1837,
+          "crashPct": 0.8163
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 0.07,
+      "isBetaAligned": false
+    },
+    {
+      "code": "Y0",
+      "sector": "农产品",
+      "trend": "long",
+      "theoLong": 14.6931,
+      "theoShort": 12.6946,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": 0.1991,
+          "profitablePct": 0.4331,
+          "crashPct": 0.5669
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": 0.2939,
+          "profitablePct": 0.4839,
+          "crashPct": 0.5161
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.3052,
+          "profitablePct": 0.626,
+          "crashPct": 0.374
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.2147,
+          "profitablePct": 0.2939,
+          "crashPct": 0.7061
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 0.31,
+      "isBetaAligned": true
+    },
+    {
+      "code": "ZN0",
+      "sector": "有色",
+      "trend": "short",
+      "theoLong": 15.6454,
+      "theoShort": 14.1889,
+      "dirs": {
+        "both": {
+          "count": 254,
+          "avgCalmar": -0.0394,
+          "profitablePct": 0.4882,
+          "crashPct": 0.5118
+        },
+        "split": {
+          "count": 248,
+          "avgCalmar": -0.256,
+          "profitablePct": 0.3548,
+          "crashPct": 0.6452
+        },
+        "longOnly": {
+          "count": 254,
+          "avgCalmar": 0.3273,
+          "profitablePct": 0.6299,
+          "crashPct": 0.3701
+        },
+        "shortOnly": {
+          "count": 245,
+          "avgCalmar": -0.1644,
+          "profitablePct": 0.3061,
+          "crashPct": 0.6939
+        }
+      },
+      "bestDir": "longOnly",
+      "bestDirCalmar": 0.33,
+      "isBetaAligned": false
+    }
+  ]
+}

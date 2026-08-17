@@ -1,0 +1,132 @@
+[
+  {
+    "id": "S0",
+    "name": "基准:纯V16",
+    "totalReturnPct": 9515,
+    "maxDrawdownPct": 6,
+    "sharpeRatio": 4.17,
+    "winRatePct": 62,
+    "avgRR": 1.53,
+    "totalTrades": 40078
+  },
+  {
+    "id": "S1",
+    "name": "冷却5日",
+    "totalReturnPct": 9386,
+    "maxDrawdownPct": 7.000000000000001,
+    "sharpeRatio": 4.14,
+    "winRatePct": 62,
+    "avgRR": 1.55,
+    "totalTrades": 38687
+  },
+  {
+    "id": "S2",
+    "name": "冷却10日",
+    "totalReturnPct": 9255,
+    "maxDrawdownPct": 7.000000000000001,
+    "sharpeRatio": 4.03,
+    "winRatePct": 62,
+    "avgRR": 1.56,
+    "totalTrades": 37139
+  },
+  {
+    "id": "S3",
+    "name": "冷却20日",
+    "totalReturnPct": 8906,
+    "maxDrawdownPct": 4,
+    "sharpeRatio": 4.04,
+    "winRatePct": 62,
+    "avgRR": 1.57,
+    "totalTrades": 34990
+  },
+  {
+    "id": "S4",
+    "name": "只躲大雷(>4ATR)冷却10日",
+    "totalReturnPct": 9520,
+    "maxDrawdownPct": 6,
+    "sharpeRatio": 4.14,
+    "winRatePct": 62,
+    "avgRR": 1.55,
+    "totalTrades": 39534
+  },
+  {
+    "id": "S5",
+    "name": "只躲极端雷(>6ATR)冷却10日",
+    "totalReturnPct": 9520,
+    "maxDrawdownPct": 6,
+    "sharpeRatio": 4.17,
+    "winRatePct": 62,
+    "avgRR": 1.53,
+    "totalTrades": 39974
+  },
+  {
+    "id": "S6",
+    "name": "冷却10+共振1.3",
+    "totalReturnPct": 10421,
+    "maxDrawdownPct": 8,
+    "sharpeRatio": 3.97,
+    "winRatePct": 62,
+    "avgRR": 1.57,
+    "totalTrades": 37139
+  },
+  {
+    "id": "S7",
+    "name": "冷却10+背离0.5",
+    "totalReturnPct": 7695.999999999999,
+    "maxDrawdownPct": 8,
+    "sharpeRatio": 3.87,
+    "winRatePct": 62,
+    "avgRR": 1.58,
+    "totalTrades": 37139
+  },
+  {
+    "id": "S8",
+    "name": "冷却10+共振1.3/背离0.5",
+    "totalReturnPct": 8863,
+    "maxDrawdownPct": 9,
+    "sharpeRatio": 3.81,
+    "winRatePct": 62,
+    "avgRR": 1.59,
+    "totalTrades": 37139
+  },
+  {
+    "id": "S9",
+    "name": "全组合:冷却10+增强+冲击平仓",
+    "totalReturnPct": 8084.999999999999,
+    "maxDrawdownPct": 10,
+    "sharpeRatio": 3.28,
+    "winRatePct": 60,
+    "avgRR": 1.51,
+    "totalTrades": 38372
+  },
+  {
+    "id": "S10",
+    "name": "全组合-只躲大雷(>4ATR)",
+    "totalReturnPct": 8815,
+    "maxDrawdownPct": 5,
+    "sharpeRatio": 3.98,
+    "winRatePct": 61,
+    "avgRR": 1.52,
+    "totalTrades": 39821
+  },
+  {
+    "id": "S11",
+    "name": "全组合-只躲极端雷(>6ATR)",
+    "totalReturnPct": 9457,
+    "maxDrawdownPct": 6,
+    "sharpeRatio": 4.15,
+    "winRatePct": 62,
+    "avgRR": 1.53,
+    "totalTrades": 40043
+  },
+  {
+    "id": "S12",
+    "name": "事件库驱动冷却10日",
+    "totalReturnPct": 9287,
+    "maxDrawdownPct": 6,
+    "sharpeRatio": 4.19,
+    "winRatePct": 62,
+    "avgRR": 1.53,
+    "totalTrades": 39744
+  }
+]
