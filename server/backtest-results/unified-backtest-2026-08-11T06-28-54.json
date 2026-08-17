@@ -1,0 +1,170 @@
+[
+  {
+    "config": {
+      "name": "V15_Baseline",
+      "description": "基础策略（固定参数，无评分过滤）",
+      "shockAtrMult": 4,
+      "gradualMinBars": 3,
+      "gradualAtrMult": 2.5,
+      "useWhitelist": true,
+      "useSectorCorrelation": true,
+      "sectorCorrelationThreshold": 0.5,
+      "useSeasonal": true,
+      "useNext1Confirmation": false,
+      "maxHoldDays": 20,
+      "stopLossPct": 0.01,
+      "applyCosts": true,
+      "slippage": 0.001,
+      "commission": 0.0003,
+      "useAdaptiveParams": false,
+      "minSignalGrade": "D"
+    },
+    "metrics": {
+      "totalTrades": 1087,
+      "winRate": 0.23367065317387303,
+      "profitFactor": 0.6640143826034357,
+      "netPnl": -845.7108073049521,
+      "maxDrawdown": 99.9965019961603,
+      "avgHoldDays": 8.247470101195953,
+      "avgWin": 0.07087751341014162,
+      "avgLoss": 0.03254765483700541,
+      "sharpeRatio": -2.152962369389487,
+      "sortinoRatio": -3.594816071305187
+    },
+    "funnel": {
+      "totalSignals": 8540,
+      "afterWhitelist": 3829,
+      "afterSector": 2511,
+      "afterSeasonal": 1089,
+      "afterNext1": 1089,
+      "afterGrade": 1089
+    },
+    "tradeCount": 1087
+  },
+  {
+    "config": {
+      "name": "V16_Scoring",
+      "description": "评分过滤策略（仅交易A/B级信号）",
+      "shockAtrMult": 4,
+      "gradualMinBars": 3,
+      "gradualAtrMult": 2.5,
+      "useWhitelist": true,
+      "useSectorCorrelation": true,
+      "sectorCorrelationThreshold": 0.5,
+      "useSeasonal": true,
+      "useNext1Confirmation": false,
+      "maxHoldDays": 20,
+      "stopLossPct": 0.01,
+      "applyCosts": true,
+      "slippage": 0.001,
+      "commission": 0.0003,
+      "useAdaptiveParams": false,
+      "minSignalGrade": "B"
+    },
+    "metrics": {
+      "totalTrades": 1037,
+      "winRate": 0.22950819672131148,
+      "profitFactor": 0.6569245406127121,
+      "netPnl": -838.8255236209488,
+      "maxDrawdown": 99.99608233074724,
+      "avgHoldDays": 8.051108968177434,
+      "avgWin": 0.07249292258294815,
+      "avgLoss": 0.03287080201620923,
+      "sharpeRatio": -2.2138546323143817,
+      "sortinoRatio": -3.6949808393920285
+    },
+    "funnel": {
+      "totalSignals": 8540,
+      "afterWhitelist": 3829,
+      "afterSector": 2511,
+      "afterSeasonal": 1089,
+      "afterNext1": 1089,
+      "afterGrade": 1039
+    },
+    "tradeCount": 1037
+  },
+  {
+    "config": {
+      "name": "V17_Adaptive",
+      "description": "自适应参数策略（波动率状态自适应）",
+      "shockAtrMult": 3.5,
+      "gradualMinBars": 3,
+      "gradualAtrMult": 2.2,
+      "useWhitelist": true,
+      "useSectorCorrelation": true,
+      "sectorCorrelationThreshold": 0.45,
+      "useSeasonal": true,
+      "useNext1Confirmation": false,
+      "maxHoldDays": 22,
+      "stopLossPct": 0.009,
+      "applyCosts": true,
+      "slippage": 0.001,
+      "commission": 0.0003,
+      "useAdaptiveParams": true,
+      "minSignalGrade": "B"
+    },
+    "metrics": {
+      "totalTrades": 1462,
+      "winRate": 0.22024623803009577,
+      "profitFactor": 0.743057470620558,
+      "netPnl": -825.5180047573573,
+      "maxDrawdown": 99.9983743688562,
+      "avgHoldDays": 8.350205198358413,
+      "avgWin": 0.08201900844578473,
+      "avgLoss": 0.031177632251856404,
+      "sharpeRatio": -1.47928751695776,
+      "sortinoRatio": -2.723792680489585
+    },
+    "funnel": {
+      "totalSignals": 11917,
+      "afterWhitelist": 5329,
+      "afterSector": 3546,
+      "afterSeasonal": 1565,
+      "afterNext1": 1565,
+      "afterGrade": 1464
+    },
+    "tradeCount": 1462
+  },
+  {
+    "config": {
+      "name": "V18_Full",
+      "description": "完整策略（自适应+评分+风控）",
+      "shockAtrMult": 3.5,
+      "gradualMinBars": 3,
+      "gradualAtrMult": 2.2,
+      "useWhitelist": true,
+      "useSectorCorrelation": true,
+      "sectorCorrelationThreshold": 0.45,
+      "useSeasonal": true,
+      "useNext1Confirmation": true,
+      "maxHoldDays": 22,
+      "stopLossPct": 0.009,
+      "applyCosts": true,
+      "slippage": 0.001,
+      "commission": 0.0003,
+      "useAdaptiveParams": true,
+      "minSignalGrade": "B"
+    },
+    "metrics": {
+      "totalTrades": 1462,
+      "winRate": 0.22024623803009577,
+      "profitFactor": 0.743057470620558,
+      "netPnl": -825.5180047573573,
+      "maxDrawdown": 99.9983743688562,
+      "avgHoldDays": 8.350205198358413,
+      "avgWin": 0.08201900844578473,
+      "avgLoss": 0.031177632251856404,
+      "sharpeRatio": -1.47928751695776,
+      "sortinoRatio": -2.723792680489585
+    },
+    "funnel": {
+      "totalSignals": 11917,
+      "afterWhitelist": 5329,
+      "afterSector": 3546,
+      "afterSeasonal": 1565,
+      "afterNext1": 1565,
+      "afterGrade": 1464
+    },
+    "tradeCount": 1462
+  }
+]

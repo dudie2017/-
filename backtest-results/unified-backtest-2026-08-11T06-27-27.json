@@ -1,0 +1,170 @@
+[
+  {
+    "config": {
+      "name": "V15_Baseline",
+      "description": "基础策略（固定参数，无评分过滤）",
+      "shockAtrMult": 4,
+      "gradualMinBars": 3,
+      "gradualAtrMult": 2.5,
+      "useWhitelist": true,
+      "useSectorCorrelation": true,
+      "sectorCorrelationThreshold": 0.5,
+      "useSeasonal": true,
+      "useNext1Confirmation": false,
+      "maxHoldDays": 20,
+      "stopLossPct": 0.01,
+      "applyCosts": true,
+      "slippage": 0.001,
+      "commission": 0.0003,
+      "useAdaptiveParams": false,
+      "minSignalGrade": "D"
+    },
+    "metrics": {
+      "totalTrades": 0,
+      "winRate": 0,
+      "profitFactor": 0,
+      "netPnl": 0,
+      "maxDrawdown": 0,
+      "avgHoldDays": 0,
+      "avgWin": 0,
+      "avgLoss": 0,
+      "sharpeRatio": 0,
+      "sortinoRatio": 0
+    },
+    "funnel": {
+      "totalSignals": 0,
+      "afterWhitelist": 0,
+      "afterSector": 0,
+      "afterSeasonal": 0,
+      "afterNext1": 0,
+      "afterGrade": 0
+    },
+    "tradeCount": 0
+  },
+  {
+    "config": {
+      "name": "V16_Scoring",
+      "description": "评分过滤策略（仅交易A/B级信号）",
+      "shockAtrMult": 4,
+      "gradualMinBars": 3,
+      "gradualAtrMult": 2.5,
+      "useWhitelist": true,
+      "useSectorCorrelation": true,
+      "sectorCorrelationThreshold": 0.5,
+      "useSeasonal": true,
+      "useNext1Confirmation": false,
+      "maxHoldDays": 20,
+      "stopLossPct": 0.01,
+      "applyCosts": true,
+      "slippage": 0.001,
+      "commission": 0.0003,
+      "useAdaptiveParams": false,
+      "minSignalGrade": "B"
+    },
+    "metrics": {
+      "totalTrades": 0,
+      "winRate": 0,
+      "profitFactor": 0,
+      "netPnl": 0,
+      "maxDrawdown": 0,
+      "avgHoldDays": 0,
+      "avgWin": 0,
+      "avgLoss": 0,
+      "sharpeRatio": 0,
+      "sortinoRatio": 0
+    },
+    "funnel": {
+      "totalSignals": 0,
+      "afterWhitelist": 0,
+      "afterSector": 0,
+      "afterSeasonal": 0,
+      "afterNext1": 0,
+      "afterGrade": 0
+    },
+    "tradeCount": 0
+  },
+  {
+    "config": {
+      "name": "V17_Adaptive",
+      "description": "自适应参数策略（波动率状态自适应）",
+      "shockAtrMult": 3.5,
+      "gradualMinBars": 3,
+      "gradualAtrMult": 2.2,
+      "useWhitelist": true,
+      "useSectorCorrelation": true,
+      "sectorCorrelationThreshold": 0.45,
+      "useSeasonal": true,
+      "useNext1Confirmation": false,
+      "maxHoldDays": 22,
+      "stopLossPct": 0.009,
+      "applyCosts": true,
+      "slippage": 0.001,
+      "commission": 0.0003,
+      "useAdaptiveParams": true,
+      "minSignalGrade": "B"
+    },
+    "metrics": {
+      "totalTrades": 0,
+      "winRate": 0,
+      "profitFactor": 0,
+      "netPnl": 0,
+      "maxDrawdown": 0,
+      "avgHoldDays": 0,
+      "avgWin": 0,
+      "avgLoss": 0,
+      "sharpeRatio": 0,
+      "sortinoRatio": 0
+    },
+    "funnel": {
+      "totalSignals": 0,
+      "afterWhitelist": 0,
+      "afterSector": 0,
+      "afterSeasonal": 0,
+      "afterNext1": 0,
+      "afterGrade": 0
+    },
+    "tradeCount": 0
+  },
+  {
+    "config": {
+      "name": "V18_Full",
+      "description": "完整策略（自适应+评分+风控）",
+      "shockAtrMult": 3.5,
+      "gradualMinBars": 3,
+      "gradualAtrMult": 2.2,
+      "useWhitelist": true,
+      "useSectorCorrelation": true,
+      "sectorCorrelationThreshold": 0.45,
+      "useSeasonal": true,
+      "useNext1Confirmation": true,
+      "maxHoldDays": 22,
+      "stopLossPct": 0.009,
+      "applyCosts": true,
+      "slippage": 0.001,
+      "commission": 0.0003,
+      "useAdaptiveParams": true,
+      "minSignalGrade": "B"
+    },
+    "metrics": {
+      "totalTrades": 0,
+      "winRate": 0,
+      "profitFactor": 0,
+      "netPnl": 0,
+      "maxDrawdown": 0,
+      "avgHoldDays": 0,
+      "avgWin": 0,
+      "avgLoss": 0,
+      "sharpeRatio": 0,
+      "sortinoRatio": 0
+    },
+    "funnel": {
+      "totalSignals": 0,
+      "afterWhitelist": 0,
+      "afterSector": 0,
+      "afterSeasonal": 0,
+      "afterNext1": 0,
+      "afterGrade": 0
+    },
+    "tradeCount": 0
+  }
+]

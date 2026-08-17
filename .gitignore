@@ -1,0 +1,40 @@
+# 依赖
+node_modules/
+**/node_modules/
+
+# 构建产物
+dist/
+**/dist/
+.expo/
+**/.expo/
+
+# 运行时数据缓存（部署后自动重新生成）
+data-cache*/
+**/data-cache*/
+
+# 回测实验数据（大文件，非运行时必需）
+server/data/*.json
+server/src/data/*.json
+!server/data/brooks_signals.db
+
+# 数据库运行时副本（/tmp 运行时生成）
+/tmp/data/
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+.DS_Store
+*.tsbuildinfo
+
+# 环境变量（含密钥，不入库）
+.env
+.env.*
+!.env.example
+
+# Coze 本地开发脚本（Railway 不需要）
+.cozeproj/
+.coze
+
+# 交付物
+*.apk
+*.tar.gz

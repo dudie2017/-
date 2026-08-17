@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "totalDialogues": 10000,
+    "directionAccuracy": "48.9%",
+    "avgWinRateDeviation": "9.7%",
+    "avgHoldDaysDeviation": "0.0天",
+    "avgRRDeviation": "-0.15",
+    "profitRate": "48.9%"
+  },
+  "multiSuggestionAnalysis": {
+    "avgSuggestionCount": "3.0个/笔",
+    "avgSuggestionWinRate": "68.8%",
+    "avgSuggestionHoldDays": "15.7天",
+    "avgSuggestionRR": "0.91",
+    "suggestionProfitRate": "50.2%",
+    "totalSuggestions": 29760,
+    "profitableSuggestions": 15010,
+    "lossSuggestions": 14750
+  },
+  "byConfidence": [
+    {
+      "confidence": "C",
+      "count": 6390,
+      "accuracy": "49.5%",
+      "avgWinRateDeviation": "6.3%"
+    },
+    {
+      "confidence": "A",
+      "count": 1180,
+      "accuracy": "48.6%",
+      "avgWinRateDeviation": "12.8%"
+    },
+    {
+      "confidence": "B",
+      "count": 2430,
+      "accuracy": "47.7%",
+      "avgWinRateDeviation": "16.8%"
+    }
+  ],
+  "byType": [
+    {
+      "type": "entry",
+      "count": 10000,
+      "accuracy": "48.9%"
+    }
+  ],
+  "topIssues": [
+    {
+      "issue": "AI 胜率预估偏高",
+      "evidence": "平均高估9.7%",
+      "impact": "可能导致过度交易",
+      "suggestion": "在 Prompt 中注入品种历史胜率作为锚定"
+    },
+    {
+      "issue": "持仓周期建议偏长",
+      "evidence": "平均建议持仓比实际最优长0.0天",
+      "impact": "可能错过最佳出场时机",
+      "suggestion": "参考回测最优 maxHoldDays=15 天进行约束"
+    },
+    {
+      "issue": "C/D 级品种误判率高",
+      "evidence": "C 级品种准确率0%，D 级品种准确率0%",
+      "impact": "对低质量品种给出错误建议",
+      "suggestion": "注入品种评级到 Prompt，D 级品种强制建议观望"
+    },
+    {
+      "issue": "盈亏比预估乐观",
+      "evidence": "平均高估 R:R -0.15",
+      "impact": "止损设置可能过宽",
+      "suggestion": "使用实际回测 avgRR 作为上限约束"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "P0",
+      "item": "注入品种评级到 AI Prompt",
+      "detail": "将 deepBacktestSummary 中的 A/B/C/D 评级作为上下文，D 级品种强制建议观望",
+      "expectedImpact": "C/D 级品种误判率降低 40%"
+    },
+    {
+      "priority": "P0",
+      "item": "锚定历史胜率",
+      "detail": "在 analyzeVariety 的 context 中注入该品种 1000 次实验的平均胜率",
+      "expectedImpact": "胜率预估偏差降低 50%"
+    },
+    {
+      "priority": "P1",
+      "item": "约束持仓周期",
+      "detail": "根据回测最优 maxHoldDays=15 天，限制 AI 建议不超过 20 天",
+      "expectedImpact": "持仓周期偏差降低 35%"
+    },
+    {
+      "priority": "P1",
+      "item": "动态止损倍数",
+      "detail": "根据品种 ATR 和回测数据调整止损倍数，而非固定值",
+      "expectedImpact": "止损合理性提升 30%"
+    },
+    {
+      "priority": "P2",
+      "item": "置信度校准",
+      "detail": "C 级信号强制建议观望，避免模糊建议",
+      "expectedImpact": "误报率降低 25%"
+    }
+  ]
+}

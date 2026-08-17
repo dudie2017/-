@@ -1,0 +1,3738 @@
+{
+  "meta": {
+    "generatedAt": "2026-08-16T04-44-02",
+    "codes": 59,
+    "windows": [
+      "W1_2012-2015",
+      "W2_2016-2018",
+      "W3_2019-2021",
+      "W4_2022-2024",
+      "W5_2025-now"
+    ],
+    "note": "参数为全样本寻优，衡量时间稳健性而非严格样本外"
+  },
+  "summary": {
+    "high": 40,
+    "mid": 12,
+    "low": 7
+  },
+  "results": {
+    "A0": {
+      "code": "A0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 13,
+          "pnl": -520921.49400000006,
+          "dd": 0.7207588088400015,
+          "winRate": 0.23076923076923078,
+          "pf": 0.5809331424059092,
+          "capture": -0.07680824954069429,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 7,
+          "pnl": 674209.9240000001,
+          "dd": 0.1057143004778178,
+          "winRate": 0.5714285714285714,
+          "pf": 2.8372002755214862,
+          "capture": 0.046141906679823194,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 15,
+          "pnl": -450403.3290000001,
+          "dd": 0.6821922033720941,
+          "winRate": 0.3333333333333333,
+          "pf": 0.8533483423423053,
+          "capture": 0.009870098110626203,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 3,
+          "pnl": -116061.769,
+          "dd": 0.11606176900000009,
+          "winRate": 0.3333333333333333,
+          "pf": 0.14760121923336042,
+          "capture": -0.019197163604884143,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 5,
+          "pnl": 603146.631,
+          "dd": 0.09252634166963639,
+          "winRate": 0.4,
+          "pf": 3.8903161795939556,
+          "capture": 0.07037401655746585,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 4,
+      "profitableWindows": 2,
+      "robustRate": 0.5
+    },
+    "AG0": {
+      "code": "AG0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 889,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 9,
+          "pnl": 372308,
+          "dd": 0.212773,
+          "winRate": 0.4444444444444444,
+          "pf": 1.8083003695132065,
+          "capture": 0.019360276285435796,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 15,
+          "pnl": 9089456,
+          "dd": 0.12227015495793957,
+          "winRate": 0.7333333333333333,
+          "pf": 9.325385427047307,
+          "capture": 0.12083208774100747,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "AL0": {
+      "code": "AL0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 0,
+      "profitableWindows": 0,
+      "robustRate": 0
+    },
+    "AO0": {
+      "code": "AO0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 374,
+          "trades": 20,
+          "pnl": 630466,
+          "dd": 0.215772,
+          "winRate": 0.5,
+          "pf": 2.5229456637792347,
+          "capture": 0.10076735283611422,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 6,
+          "pnl": 989573,
+          "dd": 0.14539358448370132,
+          "winRate": 0.8333333333333334,
+          "pf": 4.904873332807197,
+          "capture": 0.0708988808350604,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "AP0": {
+      "code": "AP0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 249,
+          "trades": 6,
+          "pnl": 1753782.8359999997,
+          "dd": 0.17293633635996608,
+          "winRate": 0.8333333333333334,
+          "pf": 4.045781982931567,
+          "capture": 0.1327578331146596,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 5,
+          "pnl": 283498.602,
+          "dd": 0.16908931149356984,
+          "winRate": 0.6,
+          "pf": 2.225642831218639,
+          "capture": 0.005939433489584854,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 13,
+          "pnl": -359777.14800000004,
+          "dd": 0.4406557130439006,
+          "winRate": 0.23076923076923078,
+          "pf": 0.33197881919730654,
+          "capture": -0.0837374262228769,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 11,
+          "pnl": 18448.188,
+          "dd": 0.010125414966379474,
+          "winRate": 0.6363636363636364,
+          "pf": 1.8496246086507195,
+          "capture": 0.09088336809292348,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 4,
+      "profitableWindows": 3,
+      "robustRate": 0.75
+    },
+    "AU0": {
+      "code": "AU0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 4,
+          "pnl": 207271,
+          "dd": 0,
+          "winRate": 1,
+          "pf": 99,
+          "capture": 0.052054653344425314,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 18,
+          "pnl": 2910907,
+          "dd": 0.05941782968914266,
+          "winRate": 0.7222222222222222,
+          "pf": 21.687572845893623,
+          "capture": 0.1667971887815678,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 1,
+      "profitableWindows": 1,
+      "robustRate": 1
+    },
+    "BC0": {
+      "code": "BC0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 274,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 2,
+          "pnl": -18433,
+          "dd": 0.018433,
+          "winRate": 0,
+          "pf": 0,
+          "capture": -0.01126263070630604,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 18,
+          "pnl": 243664,
+          "dd": 0.02011445717688685,
+          "winRate": 0.6111111111111112,
+          "pf": 4.604763665951624,
+          "capture": 0.1338698360922388,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 1,
+      "profitableWindows": 1,
+      "robustRate": 1
+    },
+    "BU0": {
+      "code": "BU0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 549,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 9,
+          "pnl": 382562,
+          "dd": 0.243671,
+          "winRate": 0.7777777777777778,
+          "pf": 2.4398106156121684,
+          "capture": 0.02710760821459827,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 11,
+          "pnl": 1571071,
+          "dd": 0.2621208161281105,
+          "winRate": 0.6363636363636364,
+          "pf": 2.1332958230089774,
+          "capture": 0.03816165523323862,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 11,
+          "pnl": 827687,
+          "dd": 0.551171,
+          "winRate": 0.5454545454545454,
+          "pf": 1.5827747470167266,
+          "capture": 0.03901782354203971,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 5,
+          "pnl": 1249384,
+          "dd": 0,
+          "winRate": 1,
+          "pf": 99,
+          "capture": 0.06832137396603506,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 4,
+      "profitableWindows": 4,
+      "robustRate": 1
+    },
+    "C0": {
+      "code": "C0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 16,
+          "pnl": -2624.6709999999766,
+          "dd": 0.3257573371864894,
+          "winRate": 0.375,
+          "pf": 0.9953734858083472,
+          "capture": -0.013797402625159595,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 16,
+          "pnl": 313541.73900000006,
+          "dd": 0.30867050025724896,
+          "winRate": 0.5625,
+          "pf": 1.2262111724616673,
+          "capture": 0.05864303993312092,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 16,
+          "pnl": 1900220.1170000003,
+          "dd": 0.4137904320584942,
+          "winRate": 0.6875,
+          "pf": 2.28844646178528,
+          "capture": 0.11373542693165212,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 10,
+          "pnl": 368323.078,
+          "dd": 0.3603407869912965,
+          "winRate": 0.4,
+          "pf": 1.3953231006219216,
+          "capture": 0.013020461504034745,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 10,
+          "pnl": 183501.15999999997,
+          "dd": 0.32357167300000006,
+          "winRate": 0.5,
+          "pf": 1.2279635736587695,
+          "capture": 0.06442170178170366,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 5,
+      "profitableWindows": 4,
+      "robustRate": 0.8
+    },
+    "CF0": {
+      "code": "CF0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 33,
+          "pnl": 3043396.5325000007,
+          "dd": 0.7671631776850485,
+          "winRate": 0.5757575757575758,
+          "pf": 1.8102508711301664,
+          "capture": 0.09856357293074208,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 26,
+          "pnl": 2029682.4224999996,
+          "dd": 0.8826400639787224,
+          "winRate": 0.46153846153846156,
+          "pf": 1.2408873519865025,
+          "capture": 0.0360454760437669,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 22,
+          "pnl": 4172563.8775000013,
+          "dd": 1.1856475528962866,
+          "winRate": 0.5,
+          "pf": 1.5321353950590937,
+          "capture": 0.040005116079163454,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 24,
+          "pnl": 17433106.862499997,
+          "dd": 0.8259279984167872,
+          "winRate": 0.6666666666666666,
+          "pf": 2.1358038500249066,
+          "capture": 0.13124905866844763,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 15,
+          "pnl": 3354834.7899999986,
+          "dd": 1.2577487570150316,
+          "winRate": 0.4666666666666667,
+          "pf": 1.3321279695318848,
+          "capture": 0.05624122785363173,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 5,
+      "profitableWindows": 5,
+      "robustRate": 1
+    },
+    "CJ0": {
+      "code": "CJ0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 652,
+          "trades": 13,
+          "pnl": 238814.21,
+          "dd": 0.11300301987130064,
+          "winRate": 0.46153846153846156,
+          "pf": 2.222964253110064,
+          "capture": -0.0006421332979769457,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 17,
+          "pnl": 615301.335,
+          "dd": 0.1470945514936529,
+          "winRate": 0.6470588235294118,
+          "pf": 1.9224598125362742,
+          "capture": 0.05256095138149576,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 13,
+          "pnl": 190485.23999999996,
+          "dd": 0.23890543580363802,
+          "winRate": 0.5384615384615384,
+          "pf": 1.3478163919595927,
+          "capture": 0.032850351191116525,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 3,
+      "robustRate": 1
+    },
+    "CU0": {
+      "code": "CU0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 32,
+          "pnl": 425253.5,
+          "dd": 0.27178144310181196,
+          "winRate": 0.5,
+          "pf": 1.234308494118259,
+          "capture": 0.030657213060760934,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 8,
+          "pnl": -111746.86000000003,
+          "dd": 0.2269049650000001,
+          "winRate": 0.375,
+          "pf": 0.6552408047902234,
+          "capture": -0.018544647691235986,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 8,
+          "pnl": 141604.45500000005,
+          "dd": 0.132514584856603,
+          "winRate": 0.25,
+          "pf": 1.5483569066138654,
+          "capture": -0.04744857318248186,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 8,
+          "pnl": 905374.295,
+          "dd": 0.23015914603413526,
+          "winRate": 0.625,
+          "pf": 2.358558474514297,
+          "capture": 0.06541726939178184,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 1,
+          "pnl": -167359.38,
+          "dd": 0.16735938,
+          "winRate": 0,
+          "pf": 0,
+          "capture": -0.0217113201351576,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 4,
+      "profitableWindows": 3,
+      "robustRate": 0.75
+    },
+    "EB0": {
+      "code": "EB0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 550,
+          "trades": 11,
+          "pnl": 121381.902,
+          "dd": 0.12786344448098796,
+          "winRate": 0.45454545454545453,
+          "pf": 1.3726831544354803,
+          "capture": 0.023547215052119683,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 18,
+          "pnl": 174920.28199999998,
+          "dd": 0.10941389681449464,
+          "winRate": 0.5555555555555556,
+          "pf": 1.4972499198600837,
+          "capture": 0.046732642761438396,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 5,
+          "pnl": 175894.519,
+          "dd": 0.07330761733041384,
+          "winRate": 0.4,
+          "pf": 2.126977680808973,
+          "capture": 0.0345426769975227,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 3,
+      "robustRate": 1
+    },
+    "EC0": {
+      "code": "EC0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 332,
+          "trades": 12,
+          "pnl": 772076.2749999999,
+          "dd": 0.26544712983308166,
+          "winRate": 0.6666666666666666,
+          "pf": 2.3361288475537654,
+          "capture": 0.09335133038037322,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 8,
+          "pnl": -14501.130599999997,
+          "dd": 0.0995882726760792,
+          "winRate": 0.5,
+          "pf": 0.84821352020559,
+          "capture": 0.009122687177350763,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 1,
+      "robustRate": 0.5
+    },
+    "EG0": {
+      "code": "EG0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 15,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 6,
+          "pnl": 1141444.296,
+          "dd": 0.00003752933658720312,
+          "winRate": 0.6666666666666666,
+          "pf": 14203.367749160136,
+          "capture": 0.002902928290029625,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 16,
+          "pnl": -265936.192,
+          "dd": 0.26660912,
+          "winRate": 0.375,
+          "pf": 0.26914783417925675,
+          "capture": -0.051558094444693565,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 8,
+          "pnl": -19837.136000000006,
+          "dd": 0.04832072169080699,
+          "winRate": 0.375,
+          "pf": 0.6526072785920269,
+          "capture": 0.07311346961366763,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 1,
+      "robustRate": 0.3333333333333333
+    },
+    "FG0": {
+      "code": "FG0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 748,
+          "trades": 5,
+          "pnl": -199513,
+          "dd": 0.199513,
+          "winRate": 0,
+          "pf": 0,
+          "capture": -0.05123576175858483,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 26,
+          "pnl": 258455.5,
+          "dd": 0.09189610017458597,
+          "winRate": 0.5384615384615384,
+          "pf": 1.6674013218628996,
+          "capture": 0.051096912316385856,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 28,
+          "pnl": 977330,
+          "dd": 0.10037043811062915,
+          "winRate": 0.6071428571428571,
+          "pf": 2.66945669589934,
+          "capture": 0.07531815553045981,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 1,
+          "pnl": -65231,
+          "dd": 0.065231,
+          "winRate": 0,
+          "pf": 0,
+          "capture": -0.003503236039433318,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 2,
+      "robustRate": 0.6666666666666666
+    },
+    "FU0": {
+      "code": "FU0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 5,
+          "pnl": -20949.437999999995,
+          "dd": 0.17234531081661095,
+          "winRate": 0.4,
+          "pf": 0.8972416873787448,
+          "capture": -0.00027329440350687287,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 718,
+          "trades": 2,
+          "pnl": 391833.103,
+          "dd": 0,
+          "winRate": 1,
+          "pf": 99,
+          "capture": 0.026590627261523718,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 1,
+      "profitableWindows": 0,
+      "robustRate": 0
+    },
+    "HC0": {
+      "code": "HC0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 438,
+          "trades": 18,
+          "pnl": 1115576,
+          "dd": 0.18900599205480598,
+          "winRate": 0.6111111111111112,
+          "pf": 1.9259628776849433,
+          "capture": 0.17605196791014466,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 24,
+          "pnl": 3043424,
+          "dd": 0.5983921654106175,
+          "winRate": 0.5416666666666666,
+          "pf": 1.322953122716868,
+          "capture": 0.05283750233883577,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 27,
+          "pnl": 9565263,
+          "dd": 0.5340878265866362,
+          "winRate": 0.5925925925925926,
+          "pf": 1.4310757452943732,
+          "capture": 0.10130320380771786,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 23,
+          "pnl": 5445699,
+          "dd": 1.3762624326668953,
+          "winRate": 0.5217391304347826,
+          "pf": 1.2139237488991903,
+          "capture": 0.03310266036728779,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 12,
+          "pnl": 471168,
+          "dd": 1.174885533826603,
+          "winRate": 0.4166666666666667,
+          "pf": 1.0435788751669004,
+          "capture": 0.047394890055611254,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 5,
+      "profitableWindows": 5,
+      "robustRate": 1
+    },
+    "I0": {
+      "code": "I0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 542,
+          "trades": 30,
+          "pnl": 1108568.87,
+          "dd": 0.22454609967938152,
+          "winRate": 0.7,
+          "pf": 1.5936884359307013,
+          "capture": 0.11874371819789066,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 14,
+          "pnl": -182063.16000000003,
+          "dd": 0.427334459503833,
+          "winRate": 0.5,
+          "pf": 0.8189623278936463,
+          "capture": -0.0026513193892203565,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 8,
+          "pnl": 412436.20999999996,
+          "dd": 0.3159538453516761,
+          "winRate": 0.625,
+          "pf": 1.7976951689485696,
+          "capture": 0.014819772283676064,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 4,
+          "pnl": -342341.33999999997,
+          "dd": 0.5272454175695332,
+          "winRate": 0.75,
+          "pf": 0.3967582499559077,
+          "capture": -0.006653714592147565,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 2,
+      "robustRate": 0.6666666666666666
+    },
+    "IC0": {
+      "code": "IC0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 177,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 2,
+          "pnl": -11837,
+          "dd": 0.011837,
+          "winRate": 0,
+          "pf": 0,
+          "capture": -0.0004651935593802477,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 14,
+          "pnl": 236718,
+          "dd": 0.03268234994567354,
+          "winRate": 0.6428571428571429,
+          "pf": 3.078734764129404,
+          "capture": 0.10109647136786445,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 1,
+      "profitableWindows": 1,
+      "robustRate": 1
+    },
+    "IF0": {
+      "code": "IF0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 12,
+          "pnl": 711315.2080000001,
+          "dd": 0.04770603677022442,
+          "winRate": 0.8333333333333334,
+          "pf": 9.242771106396571,
+          "capture": 0.07525027075148064,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 15,
+          "pnl": 31276.084000000006,
+          "dd": 0.06461484319469626,
+          "winRate": 0.4,
+          "pf": 1.1313466650652237,
+          "capture": 0.008672976155061385,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 15,
+          "pnl": 186219.93600000002,
+          "dd": 0.14903853432018632,
+          "winRate": 0.6,
+          "pf": 1.6410776508687022,
+          "capture": 0.027182553277708917,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 3,
+      "robustRate": 1
+    },
+    "IH0": {
+      "code": "IH0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 177,
+          "trades": 7,
+          "pnl": 256782.81200000003,
+          "dd": 0.2890581289639403,
+          "winRate": 0.42857142857142855,
+          "pf": 1.498742699699203,
+          "capture": 0.05687534607490095,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 21,
+          "pnl": 159915.85600000003,
+          "dd": 0.2688557949886325,
+          "winRate": 0.5238095238095238,
+          "pf": 1.1603275598583396,
+          "capture": 0.028014838984634027,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 18,
+          "pnl": -401582.6759999999,
+          "dd": 0.40158267599999997,
+          "winRate": 0.4444444444444444,
+          "pf": 0.5790441547054981,
+          "capture": -0.03791545026952178,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 17,
+          "pnl": -134508.66400000002,
+          "dd": 0.1933238090593497,
+          "winRate": 0.35294117647058826,
+          "pf": 0.7554505720062662,
+          "capture": -0.02042990783059204,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 4,
+      "profitableWindows": 2,
+      "robustRate": 0.5
+    },
+    "IM0": {
+      "code": "IM0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 594,
+          "trades": 17,
+          "pnl": 223712,
+          "dd": 0.10920924025248839,
+          "winRate": 0.7058823529411765,
+          "pf": 1.9283849789806988,
+          "capture": 0.029842654449326753,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 12,
+          "pnl": 92370,
+          "dd": 0.136099,
+          "winRate": 0.5833333333333334,
+          "pf": 1.3142478056746274,
+          "capture": 0.016292659020374696,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "J0": {
+      "code": "J0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 44,
+          "pnl": 861090.5549999999,
+          "dd": 0.099097125715883,
+          "winRate": 0.7045454545454546,
+          "pf": 3.14011745747579,
+          "capture": 0.1360219793758552,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 3,
+          "pnl": -49341.69499999999,
+          "dd": 0.15390273756138884,
+          "winRate": 0.6666666666666666,
+          "pf": 0.7140149038673316,
+          "capture": -0.0037886829296214573,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 11,
+          "pnl": 92747.215,
+          "dd": 0.1167766465782721,
+          "winRate": 0.6363636363636364,
+          "pf": 1.3457094316856442,
+          "capture": 0.009767872522767793,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "JD0": {
+      "code": "JD0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 527,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 8,
+          "pnl": -10359.101999999997,
+          "dd": 0.06030985270082476,
+          "winRate": 0.625,
+          "pf": 0.7015588964650332,
+          "capture": 0.008359403245811232,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 13,
+          "pnl": 36487.80500000001,
+          "dd": 0.023380157842991068,
+          "winRate": 0.6923076923076923,
+          "pf": 3.109903316205409,
+          "capture": 0.08419676665129913,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 1,
+      "robustRate": 0.5
+    },
+    "JM0": {
+      "code": "JM0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 677,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 13,
+          "pnl": 1958251.232,
+          "dd": 0.3276734418440966,
+          "winRate": 0.5384615384615384,
+          "pf": 1.9260442528787818,
+          "capture": 0.04243862291432105,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 11,
+          "pnl": 918171.026,
+          "dd": 0.2589527053052025,
+          "winRate": 0.6363636363636364,
+          "pf": 3.1108893051731354,
+          "capture": 0.07553052946002031,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 2,
+          "pnl": 921438.534,
+          "dd": 0.04716666089460456,
+          "winRate": 0.5,
+          "pf": 10.68772241981658,
+          "capture": 0.02055118739558119,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "L0": {
+      "code": "L0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 15,
+          "pnl": 15733,
+          "dd": 0.031724683158218366,
+          "winRate": 0.5333333333333333,
+          "pf": 1.294267277658281,
+          "capture": 0.018735382961583488,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 13,
+          "pnl": 84388,
+          "dd": 0.02571205277888527,
+          "winRate": 0.6153846153846154,
+          "pf": 2.9608699693280043,
+          "capture": 0.06502842066554221,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "LC0": {
+      "code": "LC0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 352,
+          "trades": 12,
+          "pnl": 1287800.6500000004,
+          "dd": 0.2661289159768371,
+          "winRate": 0.5833333333333334,
+          "pf": 1.7170669504271066,
+          "capture": 0.09773052862226315,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 16,
+          "pnl": 4983095.380000001,
+          "dd": 0.40226711848725494,
+          "winRate": 0.5,
+          "pf": 2.4549335838889474,
+          "capture": 0.11792435099455323,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "LH0": {
+      "code": "LH0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 239,
+          "trades": 1,
+          "pnl": -25273.112,
+          "dd": 0.025273111999999966,
+          "winRate": 0,
+          "pf": 0,
+          "capture": -0.018951897449146313,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 17,
+          "pnl": -12123.312000000005,
+          "dd": 0.18213207758488598,
+          "winRate": 0.4117647058823529,
+          "pf": 0.9637605463273154,
+          "capture": 0.007773652605342707,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 1,
+      "profitableWindows": 0,
+      "robustRate": 0
+    },
+    "LU0": {
+      "code": "LU0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 374,
+          "trades": 12,
+          "pnl": 608978.0279999998,
+          "dd": 0.12073455555316707,
+          "winRate": 0.75,
+          "pf": 2.857614704815563,
+          "capture": 0.07028730771040342,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 14,
+          "pnl": 1426334.528,
+          "dd": 0.1713058534869311,
+          "winRate": 0.5,
+          "pf": 2.8550372259879615,
+          "capture": 0.03477277805949168,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "M0": {
+      "code": "M0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 16,
+          "pnl": 312806.731,
+          "dd": 0.06945567659982844,
+          "winRate": 0.6875,
+          "pf": 2.8231664354215154,
+          "capture": 0.09555526122760422,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 6,
+          "pnl": -92795.424,
+          "dd": 0.09279542400000011,
+          "winRate": 0.16666666666666666,
+          "pf": 0.14094291163801104,
+          "capture": -0.037593807075356915,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 1,
+      "robustRate": 0.5
+    },
+    "MA0": {
+      "code": "MA0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 21,
+          "pnl": 582223,
+          "dd": 0.2244626080934547,
+          "winRate": 0.5714285714285714,
+          "pf": 1.7787623758403266,
+          "capture": 0.04035376162946743,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 17,
+          "pnl": 980584,
+          "dd": 0.314411,
+          "winRate": 0.6470588235294118,
+          "pf": 3.4776988306162258,
+          "capture": 0.013316430675289022,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 14,
+          "pnl": -358952,
+          "dd": 0.375034,
+          "winRate": 0.2857142857142857,
+          "pf": 0.12718749012179673,
+          "capture": -0.0618277095190161,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 7,
+          "pnl": -77110,
+          "dd": 0.11573555521275179,
+          "winRate": 0.14285714285714285,
+          "pf": 0.5683014220132124,
+          "capture": -0.025383630917400944,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 4,
+      "profitableWindows": 2,
+      "robustRate": 0.5
+    },
+    "NI0": {
+      "code": "NI0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 190,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 19,
+          "pnl": 670315.956,
+          "dd": 0.1151949746328096,
+          "winRate": 0.631578947368421,
+          "pf": 2.8052784903411356,
+          "capture": 0.07028779033131506,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 10,
+          "pnl": 271797.158,
+          "dd": 0.17092763063134098,
+          "winRate": 0.6,
+          "pf": 1.860937620793456,
+          "capture": 0.016426092199343552,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 4,
+          "pnl": 90204.95400000001,
+          "dd": 0.14381311289699214,
+          "winRate": 0.5,
+          "pf": 1.492597636172339,
+          "capture": 0.019543415620339392,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "NR0": {
+      "code": "NR0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 581,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 13,
+          "pnl": 232401.02,
+          "dd": 0.051430516834699624,
+          "winRate": 0.6153846153846154,
+          "pf": 2.1138366760268794,
+          "capture": 0.04689100854697214,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 9,
+          "pnl": 98626.91500000001,
+          "dd": 0.05813845286055911,
+          "winRate": 0.5555555555555556,
+          "pf": 1.5994764157640915,
+          "capture": 0.007012006783859709,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "OI0": {
+      "code": "OI0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 10,
+          "pnl": -166431.584,
+          "dd": 0.2846787920631158,
+          "winRate": 0.2,
+          "pf": 0.4983041799681262,
+          "capture": -0.06522642628028727,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 14,
+          "pnl": -47845.630000000005,
+          "dd": 0.09611455154786115,
+          "winRate": 0.42857142857142855,
+          "pf": 0.7735529623752635,
+          "capture": -0.00011390211376385402,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 14,
+          "pnl": 23912.486,
+          "dd": 0.052957928208382264,
+          "winRate": 0.5714285714285714,
+          "pf": 1.2727833087751212,
+          "capture": 0.01868026930970779,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 1,
+      "robustRate": 0.3333333333333333
+    },
+    "P0": {
+      "code": "P0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 34,
+          "pnl": -1161926.594,
+          "dd": 1.4149099740358353,
+          "winRate": 0.35294117647058826,
+          "pf": 0.8581222719469056,
+          "capture": 0.006882307226127874,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 27,
+          "pnl": 2103718.21,
+          "dd": 0.6612483720847083,
+          "winRate": 0.5555555555555556,
+          "pf": 1.461783502413814,
+          "capture": 0.07706197110604733,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 19,
+          "pnl": 4821948.424000001,
+          "dd": 0.6842035696425597,
+          "winRate": 0.5263157894736842,
+          "pf": 1.663673001087652,
+          "capture": 0.05033267119898031,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 2,
+      "robustRate": 0.6666666666666666
+    },
+    "PB0": {
+      "code": "PB0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 14,
+          "pnl": 97211,
+          "dd": 0.03313382236994416,
+          "winRate": 0.6428571428571429,
+          "pf": 4.064224810477707,
+          "capture": 0.10311686165083045,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 7,
+          "pnl": 15485,
+          "dd": 0.046673311594382434,
+          "winRate": 0.5714285714285714,
+          "pf": 1.4708547450360325,
+          "capture": 0.03919767804681256,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "PG0": {
+      "code": "PG0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 430,
+          "trades": 15,
+          "pnl": 361516.11199999996,
+          "dd": 0.06853167090728571,
+          "winRate": 0.6,
+          "pf": 4.006035717662825,
+          "capture": 0.09116080630027626,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 10,
+          "pnl": 58694.13200000004,
+          "dd": 0.2745391997816618,
+          "winRate": 0.4,
+          "pf": 1.2373554461916487,
+          "capture": 0.008855843760860287,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 8,
+          "pnl": 109391.50399999999,
+          "dd": 0.19486019060955873,
+          "winRate": 0.5,
+          "pf": 1.5893101820237168,
+          "capture": 0.02636963076985958,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 3,
+      "robustRate": 1
+    },
+    "PP0": {
+      "code": "PP0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 453,
+          "trades": 11,
+          "pnl": 1013554,
+          "dd": 0.10431587790321242,
+          "winRate": 0.7272727272727273,
+          "pf": 7.888692543481068,
+          "capture": 0.13610971721109408,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 26,
+          "pnl": -67123.5,
+          "dd": 0.4797644911403832,
+          "winRate": 0.4230769230769231,
+          "pf": 0.9663604669897972,
+          "capture": 0.005918640132054946,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 24,
+          "pnl": -260115,
+          "dd": 0.4151667607350278,
+          "winRate": 0.4166666666666667,
+          "pf": 0.8032002142656107,
+          "capture": -0.059705166763394706,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 8,
+          "pnl": 130115,
+          "dd": 0.09999233861097148,
+          "winRate": 0.5,
+          "pf": 2.0122529951765986,
+          "capture": 0.041080334404524785,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 4,
+      "profitableWindows": 2,
+      "robustRate": 0.5
+    },
+    "PX0": {
+      "code": "PX0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 312,
+          "trades": 6,
+          "pnl": 7325,
+          "dd": 0.09952389401466762,
+          "winRate": 0.6666666666666666,
+          "pf": 1.0534219201260246,
+          "capture": 0.00040466357495598705,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 18,
+          "pnl": 149084,
+          "dd": 0.11992028546504102,
+          "winRate": 0.4444444444444444,
+          "pf": 1.541412908872353,
+          "capture": 0.04644337134940219,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "RB0": {
+      "code": "RB0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 30,
+          "pnl": 1415107,
+          "dd": 0.3307592357050799,
+          "winRate": 0.6666666666666666,
+          "pf": 1.5739018114053853,
+          "capture": 0.11147910766728976,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 6,
+          "pnl": -691817,
+          "dd": 0.851839,
+          "winRate": 0.3333333333333333,
+          "pf": 0.518736,
+          "capture": -0.012199636929525384,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 7,
+          "pnl": -221643,
+          "dd": 0.46445192736400015,
+          "winRate": 0.42857142857142855,
+          "pf": 0.7727160393814071,
+          "capture": -0.0071775725122559895,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 15,
+          "pnl": 1721438,
+          "dd": 0.2714649229412461,
+          "winRate": 0.5333333333333333,
+          "pf": 2.283150873118158,
+          "capture": 0.07442649103501815,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 6,
+          "pnl": -61330,
+          "dd": 0.5273421039324422,
+          "winRate": 0.3333333333333333,
+          "pf": 0.9183197821150555,
+          "capture": 0.002117333213322343,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 5,
+      "profitableWindows": 2,
+      "robustRate": 0.4
+    },
+    "RM0": {
+      "code": "RM0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 729,
+          "trades": 7,
+          "pnl": 9965,
+          "dd": 0.11301661279997502,
+          "winRate": 0.42857142857142855,
+          "pf": 1.0842584998351188,
+          "capture": 0.0066150859480314335,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 10,
+          "pnl": 82401.5,
+          "dd": 0.172696192374633,
+          "winRate": 0.4,
+          "pf": 1.473052568732024,
+          "capture": 0.039646276599502685,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 12,
+          "pnl": 11234,
+          "dd": 0.20924761882131884,
+          "winRate": 0.5833333333333334,
+          "pf": 1.0576306487936757,
+          "capture": 0.019919682256714418,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 3,
+          "pnl": 30372,
+          "dd": 0.14206636395841454,
+          "winRate": 0.3333333333333333,
+          "pf": 1.3458240819812126,
+          "capture": 0.002333919589008727,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 3,
+      "robustRate": 1
+    },
+    "RU0": {
+      "code": "RU0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 45,
+          "pnl": 8965273,
+          "dd": 1.731122,
+          "winRate": 0.5555555555555556,
+          "pf": 1.4112676566760494,
+          "capture": 0.058444075296691794,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 34,
+          "pnl": -10607338.5,
+          "dd": 5.822795,
+          "winRate": 0.4117647058823529,
+          "pf": 0.6901602797599521,
+          "capture": -0.017206696212655644,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 1,
+      "robustRate": 0.5
+    },
+    "SA0": {
+      "code": "SA0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 504,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 12,
+          "pnl": 300371.564,
+          "dd": 0.20758101522219882,
+          "winRate": 0.5833333333333334,
+          "pf": 1.5678645303592145,
+          "capture": 0.03786543782722691,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 9,
+          "pnl": 195041.44,
+          "dd": 0.10150744799999997,
+          "winRate": 0.6666666666666666,
+          "pf": 1.961939932068919,
+          "capture": 0.08624302578145586,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "SC0": {
+      "code": "SC0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 189,
+          "trades": 4,
+          "pnl": 201934.38,
+          "dd": 0.14990880895042982,
+          "winRate": 0.75,
+          "pf": 1.9527256761572938,
+          "capture": 0.09426946463166068,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 14,
+          "pnl": 1035714.3000000002,
+          "dd": 0.12790070367812895,
+          "winRate": 0.7857142857142857,
+          "pf": 2.7921741092228607,
+          "capture": 0.03762685610162532,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 8,
+          "pnl": 839627.38,
+          "dd": 0.22834530060422245,
+          "winRate": 0.75,
+          "pf": 2.1840488660605746,
+          "capture": 0.02145872032975855,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "SF0": {
+      "code": "SF0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 303,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 636,
+          "trades": 15,
+          "pnl": 392963.0400000001,
+          "dd": 0.09581843276445517,
+          "winRate": 0.5333333333333333,
+          "pf": 3.3835279308056325,
+          "capture": 0.05003680766846052,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 17,
+          "pnl": 784203.58,
+          "dd": 0.22915688,
+          "winRate": 0.5294117647058824,
+          "pf": 4.534432489645945,
+          "capture": 0.009413889078788177,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 10,
+          "pnl": 0.8279999999995198,
+          "dd": 0.0326826338679622,
+          "winRate": 0.4,
+          "pf": 1.0000149829216407,
+          "capture": -0.004589205764710445,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 6,
+          "pnl": -7179.336000000001,
+          "dd": 0.02177280000000016,
+          "winRate": 0.16666666666666666,
+          "pf": 0.3405224867724867,
+          "capture": -0.048908077710104234,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 4,
+      "profitableWindows": 3,
+      "robustRate": 0.75
+    },
+    "SI0": {
+      "code": "SI0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 491,
+          "trades": 10,
+          "pnl": 768668.71,
+          "dd": 0.009789413292488147,
+          "winRate": 0.9,
+          "pf": 46.543896665004695,
+          "capture": 0.13984968516753757,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 12,
+          "pnl": 802412.4549999998,
+          "dd": 0.2553178906925853,
+          "winRate": 0.5,
+          "pf": 2.0482836131188566,
+          "capture": 0.02662397982051857,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "SM0": {
+      "code": "SM0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 197,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 693,
+          "trades": 1,
+          "pnl": 8189,
+          "dd": 0,
+          "winRate": 1,
+          "pf": 99,
+          "capture": 0.001033837790953149,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 14,
+          "pnl": 268503,
+          "dd": 0.09046613345222401,
+          "winRate": 0.5714285714285714,
+          "pf": 2.617575651691959,
+          "capture": 0.03539381670657809,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 7,
+          "pnl": -4588,
+          "dd": 0.039801059591277686,
+          "winRate": 0.42857142857142855,
+          "pf": 0.8849231232285736,
+          "capture": 0.010179689020231138,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 6,
+          "pnl": -8186,
+          "dd": 0.01657461850415952,
+          "winRate": 0.3333333333333333,
+          "pf": 0.7450559033292846,
+          "capture": -0.018345030950416705,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 1,
+      "robustRate": 0.3333333333333333
+    },
+    "SP0": {
+      "code": "SP0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 24,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 13,
+          "pnl": 428769.49399999995,
+          "dd": 0.08869950212056252,
+          "winRate": 0.6153846153846154,
+          "pf": 2.1534877413784295,
+          "capture": 0.04498718750736578,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 16,
+          "pnl": 381978.196,
+          "dd": 0.3917282857982293,
+          "winRate": 0.5625,
+          "pf": 1.4131104954168439,
+          "capture": 0.025463888071996784,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 13,
+          "pnl": 643817.3200000001,
+          "dd": 0.23572193457999976,
+          "winRate": 0.7692307692307693,
+          "pf": 2.00157249184806,
+          "capture": 0.08807601792039388,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 3,
+      "robustRate": 1
+    },
+    "SR0": {
+      "code": "SR0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 33,
+          "pnl": -93299,
+          "dd": 0.31387296444358165,
+          "winRate": 0.36363636363636365,
+          "pf": 0.870497375912809,
+          "capture": -0.023575510412691694,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 21,
+          "pnl": 82141,
+          "dd": 0.2631723592237848,
+          "winRate": 0.6190476190476191,
+          "pf": 1.2774686947915295,
+          "capture": 0.09930013519803664,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 25,
+          "pnl": -218121,
+          "dd": 0.4380693983166742,
+          "winRate": 0.28,
+          "pf": 0.4507124185969207,
+          "capture": -0.07228265886632397,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 27,
+          "pnl": -30660,
+          "dd": 0.20641710868267674,
+          "winRate": 0.4074074074074074,
+          "pf": 0.8673605793565301,
+          "capture": -0.017741017299379425,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 12,
+          "pnl": 31162,
+          "dd": 0.04647,
+          "winRate": 0.6666666666666666,
+          "pf": 1.6480742034772482,
+          "capture": 0.16191073078204307,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 5,
+      "profitableWindows": 2,
+      "robustRate": 0.4
+    },
+    "SS0": {
+      "code": "SS0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 551,
+          "trades": 1,
+          "pnl": -58647.555,
+          "dd": 0.05864755500000005,
+          "winRate": 0,
+          "pf": 0,
+          "capture": -0.011384089528441131,
+          "profitable": false
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 34,
+          "pnl": 339128.04500000004,
+          "dd": 0.07882938714287961,
+          "winRate": 0.5882352941176471,
+          "pf": 1.6841653354688981,
+          "capture": 0.06940465041327258,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 10,
+          "pnl": -38198.095,
+          "dd": 0.09086138997064722,
+          "winRate": 0.4,
+          "pf": 0.6521554370862139,
+          "capture": -0.025876745061796012,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 1,
+      "robustRate": 0.5
+    },
+    "T0": {
+      "code": "T0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 195,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 2,
+          "pnl": 606276.84887,
+          "dd": 0,
+          "winRate": 1,
+          "pf": 99,
+          "capture": 0.12061660535749187,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 17,
+          "pnl": 4425303.9127400005,
+          "dd": 0.21830217438,
+          "winRate": 0.6470588235294118,
+          "pf": 3.3044898541103187,
+          "capture": 0.7020368569800851,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 26,
+          "pnl": 1646599.9171799999,
+          "dd": 1.68944424188,
+          "winRate": 0.5769230769230769,
+          "pf": 1.4303963483288662,
+          "capture": 0,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 9,
+          "pnl": -1353782.87493,
+          "dd": 1.4582849180600002,
+          "winRate": 0.4444444444444444,
+          "pf": 0.11454045496712183,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 2,
+      "robustRate": 0.6666666666666666
+    },
+    "TA0": {
+      "code": "TA0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 31,
+          "pnl": 4684553.439,
+          "dd": 0.2543634270949839,
+          "winRate": 0.6451612903225806,
+          "pf": 2.6663077742580663,
+          "capture": 0.10193829870485732,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 8,
+          "pnl": -1990602.894,
+          "dd": 1.990602894,
+          "winRate": 0.25,
+          "pf": 0.11091359311663711,
+          "capture": -0.046702876538472576,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 13,
+          "pnl": 2886366.593000001,
+          "dd": 0.39091661836520664,
+          "winRate": 0.7692307692307693,
+          "pf": 1.8552180423619995,
+          "capture": 0.052808220823813826,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 2,
+      "robustRate": 0.6666666666666666
+    },
+    "TF0": {
+      "code": "TF0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 565,
+          "trades": 19,
+          "pnl": 1030889.006446,
+          "dd": 0.16328956128254005,
+          "winRate": 0.6842105263157895,
+          "pf": 2.5728714466477283,
+          "capture": 0.315571464827605,
+          "profitable": true
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 21,
+          "pnl": 55322.46449999996,
+          "dd": 0.35743006795000004,
+          "winRate": 0.5714285714285714,
+          "pf": 1.0703470096936467,
+          "capture": 0,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 27,
+          "pnl": 1042013.2086799999,
+          "dd": 0.1635279928368369,
+          "winRate": 0.6296296296296297,
+          "pf": 1.9934612321305065,
+          "capture": 0.4500158531442522,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 6,
+          "pnl": -440413.67128,
+          "dd": 0.609220981122783,
+          "winRate": 0.3333333333333333,
+          "pf": 0.5339688043402929,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 4,
+      "profitableWindows": 3,
+      "robustRate": 0.75
+    },
+    "UR0": {
+      "code": "UR0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 0,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 583,
+          "trades": 25,
+          "pnl": 903675,
+          "dd": 0.17759866821601933,
+          "winRate": 0.52,
+          "pf": 1.8459039871945484,
+          "capture": 0.031283155514821755,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 20,
+          "pnl": 372018,
+          "dd": 0.32972648453937226,
+          "winRate": 0.4,
+          "pf": 1.3226555697023734,
+          "capture": 0.035476329904156376,
+          "profitable": true
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 2,
+      "robustRate": 1
+    },
+    "V0": {
+      "code": "V0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 2,
+          "pnl": -111713.47499999999,
+          "dd": 0.11171347499999998,
+          "winRate": 0,
+          "pf": 0,
+          "capture": -0.03231465423898882,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 15,
+          "pnl": 164279.37249999994,
+          "dd": 0.17589215747284448,
+          "winRate": 0.5333333333333333,
+          "pf": 1.3168840535809427,
+          "capture": 0.028951736311505123,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 18,
+          "pnl": 1701864.9125,
+          "dd": 0.10356769706660188,
+          "winRate": 0.8333333333333334,
+          "pf": 10.606562065179657,
+          "capture": 0.05533406023326658,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 8,
+          "pnl": -340886.98900000006,
+          "dd": 0.4035295630000001,
+          "winRate": 0.375,
+          "pf": 0.4429348487545809,
+          "capture": -0.026480535961447622,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 6,
+          "pnl": 177523.143,
+          "dd": 0.07561918449999998,
+          "winRate": 0.3333333333333333,
+          "pf": 2.324110873928919,
+          "capture": 0.0044950225179478396,
+          "profitable": true
+        }
+      ],
+      "activeWindows": 4,
+      "profitableWindows": 3,
+      "robustRate": 0.75
+    },
+    "WR0": {
+      "code": "WR0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 3,
+          "pnl": 13717.96,
+          "dd": 0.000012324000000022352,
+          "winRate": 0.3333333333333333,
+          "pf": 572.5816666666667,
+          "capture": -0.01949820245046899,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 706,
+          "trades": 6,
+          "pnl": -29824.407,
+          "dd": 0.02982440699999989,
+          "winRate": 0,
+          "pf": 0,
+          "capture": -0.02691413765508382,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 12,
+          "pnl": 205977.867,
+          "dd": 0.10043994994274642,
+          "winRate": 0.5833333333333334,
+          "pf": 2.0931598763564896,
+          "capture": 0.12828246479884756,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 2,
+      "profitableWindows": 1,
+      "robustRate": 0.5
+    },
+    "Y0": {
+      "code": "Y0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 6,
+          "pnl": -526501,
+          "dd": 0.526501,
+          "winRate": 0.16666666666666666,
+          "pf": 0.032498079700690574,
+          "capture": -0.04635108158297871,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 19,
+          "pnl": -13212,
+          "dd": 0.35961654400288656,
+          "winRate": 0.3157894736842105,
+          "pf": 0.9860301791271082,
+          "capture": 0.009702766311068667,
+          "profitable": false
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 6,
+          "pnl": 592652,
+          "dd": 0.0706260470359254,
+          "winRate": 0.6666666666666666,
+          "pf": 9.182636549400785,
+          "capture": 0.01734844811306532,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 1,
+      "robustRate": 0.3333333333333333
+    },
+    "ZN0": {
+      "code": "ZN0",
+      "windows": [
+        {
+          "name": "W1_2012-2015",
+          "bars": 970,
+          "trades": 23,
+          "pnl": -89944,
+          "dd": 0.1934894677092168,
+          "winRate": 0.391304347826087,
+          "pf": 0.8552738073975384,
+          "capture": -0.011585486499682713,
+          "profitable": false
+        },
+        {
+          "name": "W2_2016-2018",
+          "bars": 731,
+          "trades": 5,
+          "pnl": 11959,
+          "dd": 0.084404,
+          "winRate": 0.6,
+          "pf": 1.081824650710894,
+          "capture": -0.0007399072107317738,
+          "profitable": true
+        },
+        {
+          "name": "W3_2019-2021",
+          "bars": 730,
+          "trades": 13,
+          "pnl": 400993,
+          "dd": 0.04719502607475034,
+          "winRate": 0.6153846153846154,
+          "pf": 3.3119583955535825,
+          "capture": 0.0596188244248253,
+          "profitable": true
+        },
+        {
+          "name": "W4_2022-2024",
+          "bars": 726,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        },
+        {
+          "name": "W5_2025-now",
+          "bars": 387,
+          "trades": 0,
+          "pnl": 0,
+          "dd": 0,
+          "winRate": 0,
+          "pf": 0,
+          "capture": 0,
+          "profitable": false
+        }
+      ],
+      "activeWindows": 3,
+      "profitableWindows": 2,
+      "robustRate": 0.6666666666666666
+    }
+  }
+}

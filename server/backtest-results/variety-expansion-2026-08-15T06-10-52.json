@@ -1,0 +1,1379 @@
+[
+  {
+    "code": "IH0",
+    "recipeIndex": 0,
+    "recipe": {
+      "minSignalGrade": "L3",
+      "trendFilter": false,
+      "cooldownBars": 2,
+      "edgeLookback": 100,
+      "allowRangeTrading": false,
+      "equationMode": "strict",
+      "pThreshold": 0.4,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 2,
+      "targetAtrMult": 4,
+      "maxHoldDays": 15,
+      "minRR": 1,
+      "maxPositionPct": 0.3,
+      "directionMode": "shortOnly",
+      "dataWindow": "last2y",
+      "nonGreenMul": 0.5,
+      "counterCampMul": 0.8,
+      "campWindow": 40,
+      "bsMode": "full",
+      "circuitBreaker": "3x10",
+      "volReduce": "off",
+      "dailyLossLimit": "8pct",
+      "feeMult": 3,
+      "startCapital": 500000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2015-04-16",
+        "endDate": "2017-07-14",
+        "totalPnl": -120576.60399999999,
+        "totalTrades": 7,
+        "winRate": 0.5714285714285714
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2017-07-17",
+        "endDate": "2019-10-18",
+        "totalPnl": -6525.079999999998,
+        "totalTrades": 8,
+        "winRate": 0.375
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2019-10-21",
+        "endDate": "2022-01-19",
+        "totalPnl": -70120.39199999999,
+        "totalTrades": 7,
+        "winRate": 0.2857142857142857
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2022-01-20",
+        "endDate": "2024-04-30",
+        "totalPnl": -124642.25199999998,
+        "totalTrades": 21,
+        "winRate": 0.38095238095238093
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2024-05-06",
+        "endDate": "2026-08-07",
+        "totalPnl": -15599.236,
+        "totalTrades": 5,
+        "winRate": 0.4
+      }
+    ],
+    "fullSample": {
+      "totalPnl": -15599.236,
+      "totalTrades": 5,
+      "winRate": 0.4,
+      "maxDrawdown": 0,
+      "profitFactor": 0.1513642161942435
+    },
+    "robustSegments": 0,
+    "verdict": "loss"
+  },
+  {
+    "code": "IH0",
+    "recipeIndex": 1,
+    "recipe": {
+      "minSignalGrade": "L3",
+      "trendFilter": false,
+      "cooldownBars": 2,
+      "edgeLookback": 100,
+      "allowRangeTrading": false,
+      "equationMode": "strict",
+      "pThreshold": 0.4,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 2,
+      "targetAtrMult": 4,
+      "maxHoldDays": 15,
+      "minRR": 1,
+      "maxPositionPct": 0.3,
+      "directionMode": "shortOnly",
+      "dataWindow": "last2y",
+      "nonGreenMul": 0.5,
+      "counterCampMul": 0.8,
+      "campWindow": 40,
+      "bsMode": "full",
+      "circuitBreaker": "3x10",
+      "volReduce": "off",
+      "dailyLossLimit": "8pct",
+      "feeMult": 3,
+      "startCapital": 500000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2015-04-16",
+        "endDate": "2017-07-14",
+        "totalPnl": -120576.60399999999,
+        "totalTrades": 7,
+        "winRate": 0.5714285714285714
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2017-07-17",
+        "endDate": "2019-10-18",
+        "totalPnl": -6525.079999999998,
+        "totalTrades": 8,
+        "winRate": 0.375
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2019-10-21",
+        "endDate": "2022-01-19",
+        "totalPnl": -70120.39199999999,
+        "totalTrades": 7,
+        "winRate": 0.2857142857142857
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2022-01-20",
+        "endDate": "2024-04-30",
+        "totalPnl": -124642.25199999998,
+        "totalTrades": 21,
+        "winRate": 0.38095238095238093
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2024-05-06",
+        "endDate": "2026-08-07",
+        "totalPnl": -15599.236,
+        "totalTrades": 5,
+        "winRate": 0.4
+      }
+    ],
+    "fullSample": {
+      "totalPnl": -15599.236,
+      "totalTrades": 5,
+      "winRate": 0.4,
+      "maxDrawdown": 0,
+      "profitFactor": 0.1513642161942435
+    },
+    "robustSegments": 0,
+    "verdict": "loss"
+  },
+  {
+    "code": "IH0",
+    "recipeIndex": 2,
+    "recipe": {
+      "minSignalGrade": "L3",
+      "trendFilter": false,
+      "cooldownBars": 2,
+      "edgeLookback": 70,
+      "allowRangeTrading": true,
+      "equationMode": "off",
+      "pThreshold": 0.4,
+      "softEquationMul": 0.5,
+      "stopAtrMult": 2.5,
+      "targetAtrMult": 4,
+      "maxHoldDays": 25,
+      "minRR": 0.8,
+      "maxPositionPct": 0.25,
+      "directionMode": "split",
+      "dataWindow": "front70",
+      "nonGreenMul": 1.5,
+      "counterCampMul": 0.5,
+      "campWindow": 20,
+      "bsMode": "riskOff",
+      "circuitBreaker": "5x20",
+      "volReduce": "off",
+      "dailyLossLimit": "5pct",
+      "feeMult": 3,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2015-04-16",
+        "endDate": "2017-07-14",
+        "totalPnl": 290504.00800000003,
+        "totalTrades": 17,
+        "winRate": 0.47058823529411764
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2017-07-17",
+        "endDate": "2019-10-18",
+        "totalPnl": 54959.53999999998,
+        "totalTrades": 12,
+        "winRate": 0.5
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2019-10-21",
+        "endDate": "2022-01-19",
+        "totalPnl": -12662.15999999998,
+        "totalTrades": 7,
+        "winRate": 0.42857142857142855
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2022-01-20",
+        "endDate": "2024-04-30",
+        "totalPnl": -200766.86400000003,
+        "totalTrades": 26,
+        "winRate": 0.38461538461538464
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2024-05-06",
+        "endDate": "2026-08-07",
+        "totalPnl": -7241.888000000003,
+        "totalTrades": 7,
+        "winRate": 0.42857142857142855
+      }
+    ],
+    "fullSample": {
+      "totalPnl": -119392.67200000005,
+      "totalTrades": 63,
+      "winRate": 0.4444444444444444,
+      "maxDrawdown": 0,
+      "profitFactor": 0.9604174686461485
+    },
+    "robustSegments": 2,
+    "verdict": "loss"
+  },
+  {
+    "code": "IC0",
+    "recipeIndex": 0,
+    "recipe": {
+      "minSignalGrade": "L2",
+      "trendFilter": false,
+      "cooldownBars": 1,
+      "edgeLookback": 100,
+      "allowRangeTrading": false,
+      "equationMode": "off",
+      "pThreshold": 0.6,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 2,
+      "targetAtrMult": 5,
+      "maxHoldDays": 25,
+      "minRR": 1.2,
+      "maxPositionPct": 0.25,
+      "directionMode": "longOnly",
+      "dataWindow": "last2y",
+      "nonGreenMul": 1.5,
+      "counterCampMul": 1,
+      "campWindow": 40,
+      "bsMode": "full",
+      "circuitBreaker": "3x10",
+      "volReduce": "atr15xHalf",
+      "dailyLossLimit": "off",
+      "feeMult": 1,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2015-04-16",
+        "endDate": "2017-07-14",
+        "totalPnl": -251156,
+        "totalTrades": 10,
+        "winRate": 0.2
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2017-07-17",
+        "endDate": "2019-10-18",
+        "totalPnl": -58787,
+        "totalTrades": 7,
+        "winRate": 0.42857142857142855
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2019-10-21",
+        "endDate": "2022-01-19",
+        "totalPnl": -169805,
+        "totalTrades": 20,
+        "winRate": 0.4
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2022-01-20",
+        "endDate": "2024-04-30",
+        "totalPnl": -33278,
+        "totalTrades": 2,
+        "winRate": 0
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2024-05-06",
+        "endDate": "2026-08-07",
+        "totalPnl": 480865,
+        "totalTrades": 16,
+        "winRate": 0.6875
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 480865,
+      "totalTrades": 16,
+      "winRate": 0.6875,
+      "maxDrawdown": 0,
+      "profitFactor": 3.6645074956848904
+    },
+    "robustSegments": 1,
+    "verdict": "fragile"
+  },
+  {
+    "code": "IC0",
+    "recipeIndex": 1,
+    "recipe": {
+      "minSignalGrade": "L2",
+      "trendFilter": false,
+      "cooldownBars": 1,
+      "edgeLookback": 100,
+      "allowRangeTrading": false,
+      "equationMode": "off",
+      "pThreshold": 0.6,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 2,
+      "targetAtrMult": 5,
+      "maxHoldDays": 25,
+      "minRR": 1.2,
+      "maxPositionPct": 0.25,
+      "directionMode": "longOnly",
+      "dataWindow": "last2y",
+      "nonGreenMul": 1.5,
+      "counterCampMul": 1,
+      "campWindow": 40,
+      "bsMode": "full",
+      "circuitBreaker": "3x10",
+      "volReduce": "atr15xHalf",
+      "dailyLossLimit": "off",
+      "feeMult": 1,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2015-04-16",
+        "endDate": "2017-07-14",
+        "totalPnl": -251156,
+        "totalTrades": 10,
+        "winRate": 0.2
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2017-07-17",
+        "endDate": "2019-10-18",
+        "totalPnl": -58787,
+        "totalTrades": 7,
+        "winRate": 0.42857142857142855
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2019-10-21",
+        "endDate": "2022-01-19",
+        "totalPnl": -169805,
+        "totalTrades": 20,
+        "winRate": 0.4
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2022-01-20",
+        "endDate": "2024-04-30",
+        "totalPnl": -33278,
+        "totalTrades": 2,
+        "winRate": 0
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2024-05-06",
+        "endDate": "2026-08-07",
+        "totalPnl": 480865,
+        "totalTrades": 16,
+        "winRate": 0.6875
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 480865,
+      "totalTrades": 16,
+      "winRate": 0.6875,
+      "maxDrawdown": 0,
+      "profitFactor": 3.6645074956848904
+    },
+    "robustSegments": 1,
+    "verdict": "fragile"
+  },
+  {
+    "code": "IC0",
+    "recipeIndex": 2,
+    "recipe": {
+      "minSignalGrade": "L3",
+      "trendFilter": true,
+      "cooldownBars": 2,
+      "edgeLookback": 70,
+      "allowRangeTrading": false,
+      "equationMode": "off",
+      "pThreshold": 0.5,
+      "softEquationMul": 0.85,
+      "stopAtrMult": 1.5,
+      "targetAtrMult": 5,
+      "maxHoldDays": 15,
+      "minRR": 1.5,
+      "maxPositionPct": 0.25,
+      "directionMode": "split",
+      "dataWindow": "last3y",
+      "nonGreenMul": 1,
+      "counterCampMul": 1,
+      "campWindow": 30,
+      "bsMode": "riskOff",
+      "circuitBreaker": "3x10",
+      "volReduce": "atr15xHalf",
+      "dailyLossLimit": "5pct",
+      "feeMult": 2,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2015-04-16",
+        "endDate": "2017-07-14",
+        "totalPnl": -245230.62799999997,
+        "totalTrades": 10,
+        "winRate": 0.2
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2017-07-17",
+        "endDate": "2019-10-18",
+        "totalPnl": -64245.652,
+        "totalTrades": 12,
+        "winRate": 0.4166666666666667
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2019-10-21",
+        "endDate": "2022-01-19",
+        "totalPnl": -27050.444000000018,
+        "totalTrades": 25,
+        "winRate": 0.44
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2022-01-20",
+        "endDate": "2024-04-30",
+        "totalPnl": -38990.856,
+        "totalTrades": 2,
+        "winRate": 0
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2024-05-06",
+        "endDate": "2026-08-07",
+        "totalPnl": 393410.78400000004,
+        "totalTrades": 17,
+        "winRate": 0.6470588235294118
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 393410.78400000004,
+      "totalTrades": 17,
+      "winRate": 0.6470588235294118,
+      "maxDrawdown": 0,
+      "profitFactor": 2.934726611738986
+    },
+    "robustSegments": 1,
+    "verdict": "fragile"
+  },
+  {
+    "code": "I0",
+    "recipeIndex": 0,
+    "recipe": {
+      "minSignalGrade": "L2",
+      "trendFilter": false,
+      "cooldownBars": 4,
+      "edgeLookback": 100,
+      "allowRangeTrading": true,
+      "equationMode": "soft",
+      "pThreshold": 0.6,
+      "softEquationMul": 0.85,
+      "stopAtrMult": 2.5,
+      "targetAtrMult": 5,
+      "maxHoldDays": 15,
+      "minRR": 0.8,
+      "maxPositionPct": 0.25,
+      "directionMode": "shortOnly",
+      "dataWindow": "front70",
+      "nonGreenMul": 1,
+      "counterCampMul": 0.8,
+      "campWindow": 40,
+      "bsMode": "full",
+      "circuitBreaker": "5x20",
+      "volReduce": "off",
+      "dailyLossLimit": "5pct",
+      "feeMult": 3,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2013-10-18",
+        "endDate": "2016-05-04",
+        "totalPnl": 1249540.73,
+        "totalTrades": 26,
+        "winRate": 0.7307692307692307
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2016-05-05",
+        "endDate": "2018-11-21",
+        "totalPnl": 203927.38,
+        "totalTrades": 7,
+        "winRate": 0.7142857142857143
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2018-11-22",
+        "endDate": "2021-06-17",
+        "totalPnl": -450079.7100000001,
+        "totalTrades": 6,
+        "winRate": 0.3333333333333333
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2021-06-18",
+        "endDate": "2024-01-08",
+        "totalPnl": 40209.42000000004,
+        "totalTrades": 11,
+        "winRate": 0.7272727272727273
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2024-01-09",
+        "endDate": "2026-08-07",
+        "totalPnl": -666270.54,
+        "totalTrades": 13,
+        "winRate": 0.46153846153846156
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 996600.5799999995,
+      "totalTrades": 56,
+      "winRate": 0.6428571428571429,
+      "maxDrawdown": 0,
+      "profitFactor": 1.2518283992052213
+    },
+    "robustSegments": 3,
+    "verdict": "fragile"
+  },
+  {
+    "code": "I0",
+    "recipeIndex": 1,
+    "recipe": {
+      "minSignalGrade": "L2",
+      "trendFilter": false,
+      "cooldownBars": 4,
+      "edgeLookback": 100,
+      "allowRangeTrading": true,
+      "equationMode": "soft",
+      "pThreshold": 0.6,
+      "softEquationMul": 0.85,
+      "stopAtrMult": 2.5,
+      "targetAtrMult": 5,
+      "maxHoldDays": 15,
+      "minRR": 0.8,
+      "maxPositionPct": 0.25,
+      "directionMode": "shortOnly",
+      "dataWindow": "front70",
+      "nonGreenMul": 1,
+      "counterCampMul": 0.8,
+      "campWindow": 40,
+      "bsMode": "full",
+      "circuitBreaker": "5x20",
+      "volReduce": "off",
+      "dailyLossLimit": "5pct",
+      "feeMult": 3,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2013-10-18",
+        "endDate": "2016-05-04",
+        "totalPnl": 1249540.73,
+        "totalTrades": 26,
+        "winRate": 0.7307692307692307
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2016-05-05",
+        "endDate": "2018-11-21",
+        "totalPnl": 203927.38,
+        "totalTrades": 7,
+        "winRate": 0.7142857142857143
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2018-11-22",
+        "endDate": "2021-06-17",
+        "totalPnl": -450079.7100000001,
+        "totalTrades": 6,
+        "winRate": 0.3333333333333333
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2021-06-18",
+        "endDate": "2024-01-08",
+        "totalPnl": 40209.42000000004,
+        "totalTrades": 11,
+        "winRate": 0.7272727272727273
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2024-01-09",
+        "endDate": "2026-08-07",
+        "totalPnl": -666270.54,
+        "totalTrades": 13,
+        "winRate": 0.46153846153846156
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 996600.5799999995,
+      "totalTrades": 56,
+      "winRate": 0.6428571428571429,
+      "maxDrawdown": 0,
+      "profitFactor": 1.2518283992052213
+    },
+    "robustSegments": 3,
+    "verdict": "fragile"
+  },
+  {
+    "code": "I0",
+    "recipeIndex": 2,
+    "recipe": {
+      "minSignalGrade": "L2",
+      "trendFilter": true,
+      "cooldownBars": 2,
+      "edgeLookback": 100,
+      "allowRangeTrading": false,
+      "equationMode": "strict",
+      "pThreshold": 0.5,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 3,
+      "targetAtrMult": 4,
+      "maxHoldDays": 15,
+      "minRR": 1,
+      "maxPositionPct": 0.15,
+      "directionMode": "shortOnly",
+      "dataWindow": "front70",
+      "nonGreenMul": 1,
+      "counterCampMul": 1,
+      "campWindow": 40,
+      "bsMode": "riskOff",
+      "circuitBreaker": "5x20",
+      "volReduce": "off",
+      "dailyLossLimit": "8pct",
+      "feeMult": 2,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2013-10-18",
+        "endDate": "2016-05-04",
+        "totalPnl": 309844.025,
+        "totalTrades": 22,
+        "winRate": 0.6363636363636364
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2016-05-05",
+        "endDate": "2018-11-21",
+        "totalPnl": 86379,
+        "totalTrades": 5,
+        "winRate": 0.8
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2018-11-22",
+        "endDate": "2021-06-17",
+        "totalPnl": -70095.035,
+        "totalTrades": 2,
+        "winRate": 0.5
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2021-06-18",
+        "endDate": "2024-01-08",
+        "totalPnl": -32296.46000000005,
+        "totalTrades": 10,
+        "winRate": 0.5
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2024-01-09",
+        "endDate": "2026-08-07",
+        "totalPnl": 24670.484999999993,
+        "totalTrades": 11,
+        "winRate": 0.7272727272727273
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 467839.79000000015,
+      "totalTrades": 42,
+      "winRate": 0.6190476190476191,
+      "maxDrawdown": 0,
+      "profitFactor": 1.259535800839557
+    },
+    "robustSegments": 3,
+    "verdict": "fragile"
+  },
+  {
+    "code": "M0",
+    "recipeIndex": 0,
+    "recipe": {
+      "minSignalGrade": "L3",
+      "trendFilter": true,
+      "cooldownBars": 4,
+      "edgeLookback": 100,
+      "allowRangeTrading": false,
+      "equationMode": "strict",
+      "pThreshold": 0.45,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 3,
+      "targetAtrMult": 4,
+      "maxHoldDays": 40,
+      "minRR": 1,
+      "maxPositionPct": 0.25,
+      "directionMode": "shortOnly",
+      "dataWindow": "last3y",
+      "nonGreenMul": 0.5,
+      "counterCampMul": 1,
+      "campWindow": 30,
+      "bsMode": "none",
+      "circuitBreaker": "off",
+      "volReduce": "off",
+      "dailyLossLimit": "8pct",
+      "feeMult": 2,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2000-07-17",
+        "endDate": "2005-10-11",
+        "totalPnl": 166317.78000000003,
+        "totalTrades": 3,
+        "winRate": 0.6666666666666666
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2005-10-12",
+        "endDate": "2010-12-17",
+        "totalPnl": -49141.591,
+        "totalTrades": 7,
+        "winRate": 0.42857142857142855
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2010-12-20",
+        "endDate": "2016-03-07",
+        "totalPnl": -54469.09500000005,
+        "totalTrades": 15,
+        "winRate": 0.4666666666666667
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2016-03-08",
+        "endDate": "2021-05-18",
+        "totalPnl": 88300.77399999999,
+        "totalTrades": 4,
+        "winRate": 0.75
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2021-05-19",
+        "endDate": "2026-08-07",
+        "totalPnl": 319733.30400000006,
+        "totalTrades": 10,
+        "winRate": 0.7
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 319733.30400000006,
+      "totalTrades": 10,
+      "winRate": 0.7,
+      "maxDrawdown": 0,
+      "profitFactor": 2.764654443272896
+    },
+    "robustSegments": 3,
+    "verdict": "fragile"
+  },
+  {
+    "code": "M0",
+    "recipeIndex": 1,
+    "recipe": {
+      "minSignalGrade": "L3",
+      "trendFilter": true,
+      "cooldownBars": 4,
+      "edgeLookback": 100,
+      "allowRangeTrading": false,
+      "equationMode": "strict",
+      "pThreshold": 0.45,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 3,
+      "targetAtrMult": 4,
+      "maxHoldDays": 40,
+      "minRR": 1,
+      "maxPositionPct": 0.25,
+      "directionMode": "shortOnly",
+      "dataWindow": "last3y",
+      "nonGreenMul": 0.5,
+      "counterCampMul": 1,
+      "campWindow": 30,
+      "bsMode": "none",
+      "circuitBreaker": "off",
+      "volReduce": "off",
+      "dailyLossLimit": "8pct",
+      "feeMult": 2,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2000-07-17",
+        "endDate": "2005-10-11",
+        "totalPnl": 166317.78000000003,
+        "totalTrades": 3,
+        "winRate": 0.6666666666666666
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2005-10-12",
+        "endDate": "2010-12-17",
+        "totalPnl": -49141.591,
+        "totalTrades": 7,
+        "winRate": 0.42857142857142855
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2010-12-20",
+        "endDate": "2016-03-07",
+        "totalPnl": -54469.09500000005,
+        "totalTrades": 15,
+        "winRate": 0.4666666666666667
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2016-03-08",
+        "endDate": "2021-05-18",
+        "totalPnl": 88300.77399999999,
+        "totalTrades": 4,
+        "winRate": 0.75
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2021-05-19",
+        "endDate": "2026-08-07",
+        "totalPnl": 319733.30400000006,
+        "totalTrades": 10,
+        "winRate": 0.7
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 319733.30400000006,
+      "totalTrades": 10,
+      "winRate": 0.7,
+      "maxDrawdown": 0,
+      "profitFactor": 2.764654443272896
+    },
+    "robustSegments": 3,
+    "verdict": "fragile"
+  },
+  {
+    "code": "M0",
+    "recipeIndex": 2,
+    "recipe": {
+      "minSignalGrade": "L3",
+      "trendFilter": true,
+      "cooldownBars": 0,
+      "edgeLookback": 70,
+      "allowRangeTrading": true,
+      "equationMode": "strict",
+      "pThreshold": 0.4,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 2.5,
+      "targetAtrMult": 3,
+      "maxHoldDays": 40,
+      "minRR": 0.8,
+      "maxPositionPct": 0.25,
+      "directionMode": "shortOnly",
+      "dataWindow": "last3y",
+      "nonGreenMul": 1.5,
+      "counterCampMul": 0.8,
+      "campWindow": 40,
+      "bsMode": "none",
+      "circuitBreaker": "5x20",
+      "volReduce": "off",
+      "dailyLossLimit": "off",
+      "feeMult": 1,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2000-07-17",
+        "endDate": "2005-10-11",
+        "totalPnl": 444983,
+        "totalTrades": 5,
+        "winRate": 0.6
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2005-10-12",
+        "endDate": "2010-12-17",
+        "totalPnl": -295636,
+        "totalTrades": 8,
+        "winRate": 0.375
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2010-12-20",
+        "endDate": "2016-03-07",
+        "totalPnl": 292335,
+        "totalTrades": 18,
+        "winRate": 0.5555555555555556
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2016-03-08",
+        "endDate": "2021-05-18",
+        "totalPnl": 263397,
+        "totalTrades": 4,
+        "winRate": 0.75
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2021-05-19",
+        "endDate": "2026-08-07",
+        "totalPnl": 1582068,
+        "totalTrades": 11,
+        "winRate": 0.6363636363636364
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 1582068,
+      "totalTrades": 11,
+      "winRate": 0.6363636363636364,
+      "maxDrawdown": 0,
+      "profitFactor": 2.260451257210236
+    },
+    "robustSegments": 4,
+    "verdict": "robust"
+  },
+  {
+    "code": "PB0",
+    "recipeIndex": 0,
+    "recipe": {
+      "minSignalGrade": "L2",
+      "trendFilter": true,
+      "cooldownBars": 1,
+      "edgeLookback": 50,
+      "allowRangeTrading": false,
+      "equationMode": "soft",
+      "pThreshold": 0.6,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 1.5,
+      "targetAtrMult": 5,
+      "maxHoldDays": 60,
+      "minRR": 0.8,
+      "maxPositionPct": 0.15,
+      "directionMode": "longOnly",
+      "dataWindow": "last3y",
+      "nonGreenMul": 1.5,
+      "counterCampMul": 0.5,
+      "campWindow": 40,
+      "bsMode": "none",
+      "circuitBreaker": "3x10",
+      "volReduce": "atr15xHalf",
+      "dailyLossLimit": "5pct",
+      "feeMult": 1,
+      "startCapital": 500000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2011-03-24",
+        "endDate": "2014-04-23",
+        "totalPnl": -49197,
+        "totalTrades": 7,
+        "winRate": 0.2857142857142857
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2014-04-24",
+        "endDate": "2017-05-16",
+        "totalPnl": 98768.5,
+        "totalTrades": 22,
+        "winRate": 0.4090909090909091
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2017-05-17",
+        "endDate": "2020-06-09",
+        "totalPnl": -88666.5,
+        "totalTrades": 13,
+        "winRate": 0.3076923076923077
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2020-06-10",
+        "endDate": "2023-07-07",
+        "totalPnl": -100682,
+        "totalTrades": 24,
+        "winRate": 0.375
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2023-07-10",
+        "endDate": "2026-08-07",
+        "totalPnl": 116038,
+        "totalTrades": 21,
+        "winRate": 0.6190476190476191
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 112696,
+      "totalTrades": 21,
+      "winRate": 0.6190476190476191,
+      "maxDrawdown": 0,
+      "profitFactor": 2.744209622126092
+    },
+    "robustSegments": 2,
+    "verdict": "fragile"
+  },
+  {
+    "code": "PB0",
+    "recipeIndex": 1,
+    "recipe": {
+      "minSignalGrade": "L2",
+      "trendFilter": true,
+      "cooldownBars": 1,
+      "edgeLookback": 50,
+      "allowRangeTrading": false,
+      "equationMode": "soft",
+      "pThreshold": 0.6,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 1.5,
+      "targetAtrMult": 5,
+      "maxHoldDays": 60,
+      "minRR": 0.8,
+      "maxPositionPct": 0.15,
+      "directionMode": "longOnly",
+      "dataWindow": "last3y",
+      "nonGreenMul": 1.5,
+      "counterCampMul": 0.5,
+      "campWindow": 40,
+      "bsMode": "none",
+      "circuitBreaker": "3x10",
+      "volReduce": "atr15xHalf",
+      "dailyLossLimit": "5pct",
+      "feeMult": 1,
+      "startCapital": 500000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2011-03-24",
+        "endDate": "2014-04-23",
+        "totalPnl": -49197,
+        "totalTrades": 7,
+        "winRate": 0.2857142857142857
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2014-04-24",
+        "endDate": "2017-05-16",
+        "totalPnl": 98768.5,
+        "totalTrades": 22,
+        "winRate": 0.4090909090909091
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2017-05-17",
+        "endDate": "2020-06-09",
+        "totalPnl": -88666.5,
+        "totalTrades": 13,
+        "winRate": 0.3076923076923077
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2020-06-10",
+        "endDate": "2023-07-07",
+        "totalPnl": -100682,
+        "totalTrades": 24,
+        "winRate": 0.375
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2023-07-10",
+        "endDate": "2026-08-07",
+        "totalPnl": 116038,
+        "totalTrades": 21,
+        "winRate": 0.6190476190476191
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 112696,
+      "totalTrades": 21,
+      "winRate": 0.6190476190476191,
+      "maxDrawdown": 0,
+      "profitFactor": 2.744209622126092
+    },
+    "robustSegments": 2,
+    "verdict": "fragile"
+  },
+  {
+    "code": "PB0",
+    "recipeIndex": 2,
+    "recipe": {
+      "minSignalGrade": "L2",
+      "trendFilter": true,
+      "cooldownBars": 2,
+      "edgeLookback": 100,
+      "allowRangeTrading": false,
+      "equationMode": "off",
+      "pThreshold": 0.6,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 3,
+      "targetAtrMult": 5,
+      "maxHoldDays": 40,
+      "minRR": 0.8,
+      "maxPositionPct": 0.15,
+      "directionMode": "longOnly",
+      "dataWindow": "last3y",
+      "nonGreenMul": 1.5,
+      "counterCampMul": 0.8,
+      "campWindow": 20,
+      "bsMode": "none",
+      "circuitBreaker": "5x20",
+      "volReduce": "off",
+      "dailyLossLimit": "5pct",
+      "feeMult": 2,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2011-03-24",
+        "endDate": "2014-04-23",
+        "totalPnl": -130615.86499999999,
+        "totalTrades": 7,
+        "winRate": 0.2857142857142857
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2014-04-24",
+        "endDate": "2017-05-16",
+        "totalPnl": 182019.34999999998,
+        "totalTrades": 22,
+        "winRate": 0.5
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2017-05-17",
+        "endDate": "2020-06-09",
+        "totalPnl": -161262.9525,
+        "totalTrades": 13,
+        "winRate": 0.38461538461538464
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2020-06-10",
+        "endDate": "2023-07-07",
+        "totalPnl": -362440.95,
+        "totalTrades": 23,
+        "winRate": 0.30434782608695654
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2023-07-10",
+        "endDate": "2026-08-07",
+        "totalPnl": 137864.575,
+        "totalTrades": 21,
+        "winRate": 0.6190476190476191
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 137864.575,
+      "totalTrades": 21,
+      "winRate": 0.6190476190476191,
+      "maxDrawdown": 0,
+      "profitFactor": 1.732694652528262
+    },
+    "robustSegments": 2,
+    "verdict": "fragile"
+  },
+  {
+    "code": "AL0",
+    "recipeIndex": 0,
+    "recipe": {
+      "minSignalGrade": "L2",
+      "trendFilter": false,
+      "cooldownBars": 1,
+      "edgeLookback": 70,
+      "allowRangeTrading": false,
+      "equationMode": "strict",
+      "pThreshold": 0.6,
+      "softEquationMul": 0.5,
+      "stopAtrMult": 3,
+      "targetAtrMult": 3,
+      "maxHoldDays": 15,
+      "minRR": 1.5,
+      "maxPositionPct": 0.3,
+      "directionMode": "longOnly",
+      "dataWindow": "last2y",
+      "nonGreenMul": 1,
+      "counterCampMul": 0.5,
+      "campWindow": 20,
+      "bsMode": "riskOff",
+      "circuitBreaker": "off",
+      "volReduce": "atr15xHalf",
+      "dailyLossLimit": "off",
+      "feeMult": 1,
+      "startCapital": 500000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2000-01-04",
+        "endDate": "2005-05-12",
+        "totalPnl": 56405.5,
+        "totalTrades": 16,
+        "winRate": 0.625
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2005-05-13",
+        "endDate": "2010-08-20",
+        "totalPnl": 56280.5,
+        "totalTrades": 8,
+        "winRate": 0.375
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2010-08-23",
+        "endDate": "2015-12-17",
+        "totalPnl": -77097,
+        "totalTrades": 4,
+        "winRate": 0.25
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2015-12-18",
+        "endDate": "2021-04-08",
+        "totalPnl": 276356,
+        "totalTrades": 14,
+        "winRate": 0.6428571428571429
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2021-04-09",
+        "endDate": "2026-08-07",
+        "totalPnl": 312487.5,
+        "totalTrades": 14,
+        "winRate": 0.7142857142857143
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 312487.5,
+      "totalTrades": 14,
+      "winRate": 0.7142857142857143,
+      "maxDrawdown": 0,
+      "profitFactor": 1.6439098119296018
+    },
+    "robustSegments": 4,
+    "verdict": "robust"
+  },
+  {
+    "code": "IM0",
+    "recipeIndex": 0,
+    "recipe": {
+      "minSignalGrade": "L3",
+      "trendFilter": true,
+      "cooldownBars": 2,
+      "edgeLookback": 100,
+      "allowRangeTrading": true,
+      "equationMode": "strict",
+      "pThreshold": 0.6,
+      "softEquationMul": 0.7,
+      "stopAtrMult": 2.5,
+      "targetAtrMult": 3,
+      "maxHoldDays": 25,
+      "minRR": 1.5,
+      "maxPositionPct": 0.3,
+      "directionMode": "both",
+      "dataWindow": "back70",
+      "nonGreenMul": 1.5,
+      "counterCampMul": 0.8,
+      "campWindow": 30,
+      "bsMode": "full",
+      "circuitBreaker": "5x20",
+      "volReduce": "atr15xHalf",
+      "dailyLossLimit": "8pct",
+      "feeMult": 1,
+      "startCapital": 1000000
+    },
+    "segments": [
+      {
+        "segmentIndex": 0,
+        "startDate": "2022-07-22",
+        "endDate": "2023-05-15",
+        "totalPnl": -60839,
+        "totalTrades": 4,
+        "winRate": 0.25
+      },
+      {
+        "segmentIndex": 1,
+        "startDate": "2023-05-16",
+        "endDate": "2024-03-05",
+        "totalPnl": 146316,
+        "totalTrades": 4,
+        "winRate": 0.75
+      },
+      {
+        "segmentIndex": 2,
+        "startDate": "2024-03-06",
+        "endDate": "2024-12-23",
+        "totalPnl": 558975,
+        "totalTrades": 5,
+        "winRate": 1
+      },
+      {
+        "segmentIndex": 3,
+        "startDate": "2024-12-24",
+        "endDate": "2025-10-17",
+        "totalPnl": 340784,
+        "totalTrades": 3,
+        "winRate": 0.6666666666666666
+      },
+      {
+        "segmentIndex": 4,
+        "startDate": "2025-10-20",
+        "endDate": "2026-08-07",
+        "totalPnl": 45909.5,
+        "totalTrades": 3,
+        "winRate": 0.6666666666666666
+      }
+    ],
+    "fullSample": {
+      "totalPnl": 894117,
+      "totalTrades": 17,
+      "winRate": 0.7647058823529411,
+      "maxDrawdown": 0,
+      "profitFactor": 2.2080735774565676
+    },
+    "robustSegments": 4,
+    "verdict": "robust"
+  }
+]

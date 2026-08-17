@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-08-16T04-44-02",
+  "triplePass": [
+    {
+      "code": "CF0",
+      "grade": "A",
+      "robustPct": 0.5014985014985015,
+      "crashPct": 0.16483516483516483,
+      "profitablePct": 0.8351648351648352,
+      "top1Pnl": 204432.08,
+      "top1Dd": 0.0153,
+      "top1Calmar": 26.7231477124183,
+      "oldDd": 0.0153,
+      "oosRate": 1,
+      "oosWins": 5,
+      "oosTotal": 5
+    },
+    {
+      "code": "CU0",
+      "grade": "A",
+      "robustPct": 0.5914085914085914,
+      "crashPct": 0.18181818181818182,
+      "profitablePct": 0.8181818181818182,
+      "top1Pnl": 299235.7,
+      "top1Dd": 0.0275,
+      "top1Calmar": 21.762596363636366,
+      "oldDd": 0.0509,
+      "oosRate": 0.75,
+      "oosWins": 3,
+      "oosTotal": 4
+    },
+    {
+      "code": "HC0",
+      "grade": "B",
+      "robustPct": 0.3676323676323676,
+      "crashPct": 0.3966033966033966,
+      "profitablePct": 0.6033966033966034,
+      "top1Pnl": 61341,
+      "top1Dd": 0.0091,
+      "top1Calmar": 13.481538461538461,
+      "oldDd": 0.0091,
+      "oosRate": 1,
+      "oosWins": 5,
+      "oosTotal": 5
+    }
+  ],
+  "sensitiveParams": [
+    {
+      "param": "directionMode",
+      "sensitivity": 0.944,
+      "best": "longOnly"
+    },
+    {
+      "param": "maxHoldDays",
+      "sensitivity": 0.562,
+      "best": "15"
+    },
+    {
+      "param": "targetAtrMult",
+      "sensitivity": 0.553,
+      "best": "2"
+    },
+    {
+      "param": "cooldownBars",
+      "sensitivity": 0.519,
+      "best": "2"
+    },
+    {
+      "param": "maxPositionPct",
+      "sensitivity": 0.515,
+      "best": "0.3"
+    },
+    {
+      "param": "pThreshold",
+      "sensitivity": 0.511,
+      "best": "0.45"
+    },
+    {
+      "param": "stopAtrMult",
+      "sensitivity": 0.509,
+      "best": "2.5"
+    }
+  ],
+  "noiseParams": [
+    {
+      "param": "trendFilter",
+      "sensitivity": 0.104,
+      "best": "true"
+    },
+    {
+      "param": "edgeLookback",
+      "sensitivity": 0.091,
+      "best": "50"
+    }
+  ],
+  "neighborhood": {
+    "plateauCount": 2,
+    "totalVars": 59
+  },
+  "oosSummary": {
+    "high": 40,
+    "mid": 12,
+    "low": 7
+  },
+  "rescoreSummary": {
+    "total": 59,
+    "A": 6,
+    "B": 9,
+    "C": 43,
+    "D": 1,
+    "AList": [
+      "AG0",
+      "AU0",
+      "CF0",
+      "CU0",
+      "RU0",
+      "SI0"
+    ],
+    "BList": [
+      "C0",
+      "HC0",
+      "IF0",
+      "IM0",
+      "J0",
+      "JM0",
+      "LH0",
+      "RB0",
+      "TA0"
+    ],
+    "CList": [
+      "A0",
+      "AL0",
+      "AO0",
+      "AP0",
+      "BC0",
+      "BU0",
+      "CJ0",
+      "EB0",
+      "EC0",
+      "EG0",
+      "FG0",
+      "FU0",
+      "I0",
+      "IC0",
+      "IH0",
+      "JD0",
+      "L0",
+      "LC0",
+      "LU0",
+      "M0",
+      "MA0",
+      "NI0",
+      "NR0",
+      "OI0",
+      "P0",
+      "PB0",
+      "PG0",
+      "PP0",
+      "PX0",
+      "RM0",
+      "SA0",
+      "SC0",
+      "SF0",
+      "SM0",
+      "SP0",
+      "SS0",
+      "T0",
+      "TF0",
+      "UR0",
+      "V0",
+      "WR0",
+      "Y0",
+      "ZN0"
+    ],
+    "DList": [
+      "SR0"
+    ]
+  }
+}

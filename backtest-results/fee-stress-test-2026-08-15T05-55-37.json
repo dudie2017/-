@@ -1,0 +1,366 @@
+[
+  {
+    "code": "RB0",
+    "baselineFeeMult": 3,
+    "baseline": {
+      "totalPnl": 1678377.6959999995,
+      "totalReturn": 1.6783776959999996,
+      "mdd": 0.18685544649727379,
+      "sharpe": 0.5052659560140172,
+      "profitFactor": 1.44599038382104,
+      "totalTrades": 99
+    },
+    "feeStress": [
+      {
+        "multiplier": 1,
+        "totalPnl": 1678377.6959999995,
+        "totalReturn": 1.6783776959999996,
+        "mdd": 0.18685544649727379,
+        "sharpe": 0.5052659560140172,
+        "profitFactor": 1.44599038382104,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 1.5,
+        "totalPnl": 1677875.3699999987,
+        "totalReturn": 1.6778753699999986,
+        "mdd": 0.18689201367448283,
+        "sharpe": 0.5051162142355285,
+        "profitFactor": 1.4458279712952213,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 2,
+        "totalPnl": 1677373.0440000016,
+        "totalReturn": 1.6773730440000016,
+        "mdd": 0.18692859259449943,
+        "sharpe": 0.5049664714464169,
+        "profitFactor": 1.4456655798453917,
+        "pnlChangePct": -0.1,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 3,
+        "totalPnl": 1676368.392000001,
+        "totalReturn": 1.676368392000001,
+        "mdd": 0.1870017856855911,
+        "sharpe": 0.5046669828367555,
+        "profitFactor": 1.445340860157289,
+        "pnlChangePct": -0.1,
+        "verdict": "survive"
+      }
+    ],
+    "slippageStress": [
+      {
+        "extraTicks": 0,
+        "totalPnl": 1678377.6959999995,
+        "totalReturn": 1.6783776959999996,
+        "mdd": 0.18685544649727379,
+        "sharpe": 0.5052659560140172,
+        "profitFactor": 1.44599038382104,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "extraTicks": 1,
+        "totalPnl": 1677387.6959999995,
+        "totalReturn": 1.6773876959999996,
+        "mdd": 0.18692633118644794,
+        "sharpe": 0.5049698823459579,
+        "profitFactor": 1.4456704692045628,
+        "pnlChangePct": -0.1,
+        "verdict": "survive"
+      },
+      {
+        "extraTicks": 2,
+        "totalPnl": 1676397.6959999995,
+        "totalReturn": 1.6763976959999995,
+        "mdd": 0.18699726039156517,
+        "sharpe": 0.5046738059733716,
+        "profitFactor": 1.4453506361768467,
+        "pnlChangePct": -0.1,
+        "verdict": "survive"
+      }
+    ],
+    "summary": {
+      "feeBreakPoint": ">3x",
+      "slippageBreakPoint": ">+2tick",
+      "overallVerdict": "survive"
+    }
+  },
+  {
+    "code": "SC0",
+    "baselineFeeMult": 3,
+    "baseline": {
+      "totalPnl": 2197568.339999999,
+      "totalReturn": 2.197568339999999,
+      "mdd": 0.28217318413582293,
+      "sharpe": 0.9719698239829458,
+      "profitFactor": 1.8790063664241223,
+      "totalTrades": 33
+    },
+    "feeStress": [
+      {
+        "multiplier": 1,
+        "totalPnl": 2197568.339999999,
+        "totalReturn": 2.197568339999999,
+        "mdd": 0.28217318413582293,
+        "sharpe": 0.9719698239829458,
+        "profitFactor": 1.8790063664241223,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 1.5,
+        "totalPnl": 2194889.1750000003,
+        "totalReturn": 2.194889175,
+        "mdd": 0.28242815578180513,
+        "sharpe": 0.97080650210167,
+        "profitFactor": 1.8776104005162289,
+        "pnlChangePct": -0.1,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 2,
+        "totalPnl": 2192210.0100000002,
+        "totalReturn": 2.19221001,
+        "mdd": 0.282683446889758,
+        "sharpe": 0.9696431102297467,
+        "profitFactor": 1.8762154656191803,
+        "pnlChangePct": -0.2,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 3,
+        "totalPnl": 2186851.68,
+        "totalReturn": 2.18685168,
+        "mdd": 0.2831949898961717,
+        "sharpe": 0.9673161167508857,
+        "profitFactor": 1.8734286842921806,
+        "pnlChangePct": -0.5,
+        "verdict": "survive"
+      }
+    ],
+    "slippageStress": [
+      {
+        "extraTicks": 0,
+        "totalPnl": 2197568.339999999,
+        "totalReturn": 2.197568339999999,
+        "mdd": 0.28217318413582293,
+        "sharpe": 0.9719698239829458,
+        "profitFactor": 1.8790063664241223,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "extraTicks": 1,
+        "totalPnl": 2164568.339999999,
+        "totalReturn": 2.164568339999999,
+        "mdd": 0.2852716113914394,
+        "sharpe": 0.957809750292565,
+        "profitFactor": 1.862357334266368,
+        "pnlChangePct": -1.5,
+        "verdict": "survive"
+      },
+      {
+        "extraTicks": 2,
+        "totalPnl": 2131568.339999999,
+        "totalReturn": 2.131568339999999,
+        "mdd": 0.28841975285536636,
+        "sharpe": 0.9436351426568759,
+        "profitFactor": 1.8456496909742406,
+        "pnlChangePct": -3,
+        "verdict": "survive"
+      }
+    ],
+    "summary": {
+      "feeBreakPoint": ">3x",
+      "slippageBreakPoint": ">+2tick",
+      "overallVerdict": "survive"
+    }
+  },
+  {
+    "code": "CF0",
+    "baselineFeeMult": 2,
+    "baseline": {
+      "totalPnl": 33930367.075,
+      "totalReturn": 33.930367075,
+      "mdd": 0.3883214601993095,
+      "sharpe": 0.5611292103403053,
+      "profitFactor": 1.7075830844439237,
+      "totalTrades": 189
+    },
+    "feeStress": [
+      {
+        "multiplier": 1,
+        "totalPnl": 33930367.075,
+        "totalReturn": 33.930367075,
+        "mdd": 0.3883214601993095,
+        "sharpe": 0.5611292103403053,
+        "profitFactor": 1.7075830844439237,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 1.5,
+        "totalPnl": 33928150.112500004,
+        "totalReturn": 33.928150112500006,
+        "mdd": 0.38869928212687943,
+        "sharpe": 0.5610929472421257,
+        "profitFactor": 1.707521966273296,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 2,
+        "totalPnl": 33925933.15,
+        "totalReturn": 33.92593315,
+        "mdd": 0.38907711699424263,
+        "sharpe": 0.5610566840821105,
+        "profitFactor": 1.7074608506743127,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 3,
+        "totalPnl": 33921499.225,
+        "totalReturn": 33.921499225,
+        "mdd": 0.38983282555100945,
+        "sharpe": 0.5609841575765803,
+        "profitFactor": 1.7073386271906332,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      }
+    ],
+    "slippageStress": [
+      {
+        "extraTicks": 0,
+        "totalPnl": 33930367.075,
+        "totalReturn": 33.930367075,
+        "mdd": 0.3883214601993095,
+        "sharpe": 0.5611292103403053,
+        "profitFactor": 1.7075830844439237,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "extraTicks": 1,
+        "totalPnl": 33925642.075,
+        "totalReturn": 33.925642075000006,
+        "mdd": 0.3892022484477557,
+        "sharpe": 0.561051921008897,
+        "profitFactor": 1.7074524612002244,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "extraTicks": 2,
+        "totalPnl": 33920917.075,
+        "totalReturn": 33.920917075000006,
+        "mdd": 0.39008311672615026,
+        "sharpe": 0.5609746314117388,
+        "profitFactor": 1.7073218498049119,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      }
+    ],
+    "summary": {
+      "feeBreakPoint": ">3x",
+      "slippageBreakPoint": ">+2tick",
+      "overallVerdict": "survive"
+    }
+  },
+  {
+    "code": "NI0",
+    "baselineFeeMult": 3,
+    "baseline": {
+      "totalPnl": 2304569.303999999,
+      "totalReturn": 4.6091386079999985,
+      "mdd": 0.29219029880417297,
+      "sharpe": 1.2414255589719867,
+      "profitFactor": 2.6411225457353398,
+      "totalTrades": 44
+    },
+    "feeStress": [
+      {
+        "multiplier": 1,
+        "totalPnl": 2304569.303999999,
+        "totalReturn": 4.6091386079999985,
+        "mdd": 0.29219029880417297,
+        "sharpe": 1.2414255589719867,
+        "profitFactor": 2.6411225457353398,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 1.5,
+        "totalPnl": 2303700.630000001,
+        "totalReturn": 4.607401260000001,
+        "mdd": 0.29230548806500645,
+        "sharpe": 1.2409542689613111,
+        "profitFactor": 2.640117356391407,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 2,
+        "totalPnl": 2302831.956,
+        "totalReturn": 4.605663912,
+        "mdd": 0.2924206818274184,
+        "sharpe": 1.2404829794060261,
+        "profitFactor": 2.6391126406904535,
+        "pnlChangePct": -0.1,
+        "verdict": "survive"
+      },
+      {
+        "multiplier": 3,
+        "totalPnl": 2301094.608000001,
+        "totalReturn": 4.602189216000002,
+        "mdd": 0.29265108285803293,
+        "sharpe": 1.2395404016712135,
+        "profitFactor": 2.6371046288790434,
+        "pnlChangePct": -0.2,
+        "verdict": "survive"
+      }
+    ],
+    "slippageStress": [
+      {
+        "extraTicks": 0,
+        "totalPnl": 2304569.303999999,
+        "totalReturn": 4.6091386079999985,
+        "mdd": 0.29219029880417297,
+        "sharpe": 1.2414255589719867,
+        "profitFactor": 2.6411225457353398,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "extraTicks": 1,
+        "totalPnl": 2304129.303999999,
+        "totalReturn": 4.608258607999998,
+        "mdd": 0.29227861263835275,
+        "sharpe": 1.241185682794502,
+        "profitFactor": 2.640622283984388,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      },
+      {
+        "extraTicks": 2,
+        "totalPnl": 2303689.303999999,
+        "totalReturn": 4.6073786079999985,
+        "mdd": 0.2923669294200696,
+        "sharpe": 1.2409458072043238,
+        "profitFactor": 2.6401221362058016,
+        "pnlChangePct": 0,
+        "verdict": "survive"
+      }
+    ],
+    "summary": {
+      "feeBreakPoint": ">3x",
+      "slippageBreakPoint": ">+2tick",
+      "overallVerdict": "survive"
+    }
+  }
+]
