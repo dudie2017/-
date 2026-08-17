@@ -32,7 +32,10 @@ const DATA_FILE = path.join('/tmp', 'data', 'variety_cost_data.json');
 
 // 内置兜底数据文件（代码仓库内，部署时存在）
 const _moduleDir = path.dirname(fileURLToPath(import.meta.url));
-const SEED_FILE = path.join(_moduleDir, '..', '..', 'data', 'variety_cost_data.json');
+const SEED_FILE = [
+  path.join(_moduleDir, '..', '..', 'data', 'variety_cost_data.json'),
+  path.join(_moduleDir, '..', 'data', 'variety_cost_data.json'),
+].find((p) => fs.existsSync(p)) ?? path.join(_moduleDir, '..', 'data', 'variety_cost_data.json');
 
 // 内存缓存
 let varietyDataCache: Map<string, VarietyCostData> = new Map();

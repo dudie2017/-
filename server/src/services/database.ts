@@ -11,7 +11,11 @@ const DB_PATH = join(DB_DIR, 'brooks_signals.db');
 // 持久化备份路径（部署目录，重启不丢失；/tmp 为运行时缓存）
 // 写入 /tmp 的同时备份一份到 server/data，启动时优先从备份恢复，避免重启丢数据
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const PERSIST_DIR = join(__dirname, '../../data');
+// 兼容开发（src/services → ../../data）与生产（dist → ../data）两种目录结构
+const PERSIST_DIR = [
+  join(__dirname, '../../data'),
+  join(__dirname, '../data'),
+].find((p) => existsSync(p)) ?? join(__dirname, '../data');
 const PERSIST_PATH = join(PERSIST_DIR, 'brooks_signals.db');
 
 // 备份失败静默降级（只读环境无妨），成功则数据持久化

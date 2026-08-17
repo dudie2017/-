@@ -15,7 +15,10 @@ const DATA_FILE = path.join(DATA_DIR, 'backtest_results.json');
 // 因为服务可能从项目根目录启动，cwd 不可靠）
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const SERVER_ROOT = path.resolve(__dirname, '..', '..');
+const SERVER_ROOT = [
+  path.resolve(__dirname, '..', '..'),
+  path.resolve(__dirname, '..'),
+].find((p) => fs.existsSync(path.join(p, 'package.json'))) ?? path.resolve(__dirname, '..');
 
 // 品种周期表现数据
 export interface TimeframePerformance {

@@ -2109,7 +2109,12 @@ export async function analyzeVariety(
   let calibrationNote = '';
 
   try {
-    const deepBacktestPath = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..', 'src', 'data', 'deepBacktestSummary.json');
+    const _aiModuleDir = path.dirname(fileURLToPath(import.meta.url));
+    const deepBacktestPath = [
+      path.join(_aiModuleDir, '..', '..', 'src', 'data', 'deepBacktestSummary.json'),
+      path.join(_aiModuleDir, '..', 'data', 'deepBacktestSummary.json'),
+      path.join(_aiModuleDir, '..', '..', 'data', 'deepBacktestSummary.json'),
+    ].find((p) => fs.existsSync(p)) ?? path.join(_aiModuleDir, '..', 'data', 'deepBacktestSummary.json');
     const deepBacktestData = JSON.parse(fs.readFileSync(deepBacktestPath, 'utf-8'));
     const rescoreSummary = deepBacktestData.rescoreSummary;
 
