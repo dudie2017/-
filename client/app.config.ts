@@ -68,7 +68,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       "backendBaseURL": process.env.EXPO_PUBLIC_BACKEND_BASE_URL || 
         process.env.COZE_PROJECT_DOMAIN_DEFAULT || 
         (projectId ? `https://app${projectId}.dev.coze.site` : '') ||
-        'https://dfb897ac-1152-4896-90bc-d8ee26de5450.dev.coze.site'
+        'https://76v38zn6kw.coze.site'
     }
   }
 }
