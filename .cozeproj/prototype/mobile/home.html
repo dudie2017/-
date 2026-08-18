@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <script src="https://lf-code-agent.coze.cn/obj/x-ai-cn/cdn/jquery/jquery-3.7.1.min.js"></script>
+  <script src="https://lf-code-agent.coze.cn/obj/x-ai-cn/cdn/lucide/lucide-1.11.0.min.js"></script>
+  <script src="https://lf-code-agent.coze.cn/obj/x-ai-cn/cdn/tailwindcss/tailwindcss-browser-4.2.4.min.js"></script>
+
+  <style type="text/tailwindcss">
+    @theme {
+      /* === 品牌色 === */
+      --color-primary:              #00E5FF;
+      --color-primary-container:    #003540;
+      --color-on-primary:           #0A0A0F;
+      /* === 背景 / 表面（暗黑科技风 — 极深底色 + 微妙层级差） === */
+      --color-background:                 #0A0A0F;
+      --color-surface-container-lowest:   #111118;
+      --color-surface:                    #181820;
+      --color-surface-container:          #1E1E28;
+      --color-surface-container-high:     #252530;
+      --color-surface-container-highest:  #2D2D38;
+      /* === 文字 === */
+      --color-on-surface:           #E4E4EB;
+      --color-on-surface-variant:   #8E8E9A;
+      /* === 功能色 === */
+      --color-success:  #22c55e;
+      --color-error:    #ef4444;
+      --color-warning:  #f59e0b;
+      /* === 边框（幽灵边框） === */
+      --color-outline:          #3A3A45;
+      --color-outline-variant:  #252530;
+      /* === 圆角 === */
+      --radius-sm:   0.375rem;
+      --radius-md:   0.5rem;
+      --radius-lg:   0.75rem;
+      --radius-xl:   1rem;
+      --radius-2xl:  1.25rem;
+      --radius-full: 9999px;
+      /* === 阴影（暗黑主题用深色投影） === */
+      --shadow-card:   0 4px 12px rgba(0,0,0,0.40);
+      --shadow-float:  0 10px 30px rgba(0,0,0,0.50);
+      --shadow-dialog: 0 25px 60px rgba(0,0,0,0.60);
+      /* === 字体 === */
+      --font-sans: "Noto Sans SC", "JetBrains Mono", system-ui, sans-serif;
+    }
+  </style>
+
+  <style>
+    body {
+      min-height: max(812px, 100dvh);
+      font-family: system-ui, sans-serif;
+    }
+    #contract-selector {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%238E8E9A' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+      padding-right: 40px;
+    }
+  </style>
+
+  <!-- 图片兜底 -->
+  <script>
+    document.addEventListener('error', function (e) {
+      const img = e.target;
+      if (img.tagName !== 'IMG' || img.dataset.fallback) return;
+      img.dataset.fallback = '1';
+      const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      const cat = img.getAttribute('data-category') || '其他';
+      const alt = img.getAttribute('alt') || '';
+      const label = esc(alt.length > 8 ? alt.slice(0, 8) + '…' : alt);
+      const icons = { '人物': '👤', '自然风景': '🏞', '动物': '🐾', '建筑城市': '🏙', '运动体育': '⚽', '交通工具': '🚗', '食物': '🍽', '服饰时尚': '👗', '商业科技': '💼', '游戏娱乐': '🎮', '艺术': '🎨', '其他': '🖼' };
+      const icon = icons[cat] || '🖼';
+      const w = img.width || 400, h = img.height || 300;
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}"><rect width="100%" height="100%" fill="%23f3f4f6"/><text x="50%" y="45%" text-anchor="middle" font-size="${Math.min(w, h) * 0.18}" dominant-baseline="central">${icon}</text><text x="50%" y="68%" text-anchor="middle" font-size="${Math.min(w, h) * 0.07}" fill="%239ca3af" font-family="system-ui,sans-serif" dominant-baseline="central">${label}</text></svg>`;
+      img.src = 'data:image/svg+xml,' + svg;
+    }, true);
+  </script>
+</head>
+
+<body class="bg-background text-on-surface font-sans">
+
+  <!-- @nav:start 导航组件 -->
+  <header class="bg-background sticky top-0 z-40 h-14 flex items-center justify-between px-4">
+    <div class="flex items-center gap-2">
+      <div class="w-7 h-7 rounded-md bg-primary flex items-center justify-center">
+        <span class="text-on-primary text-xs font-bold">B</span>
+      </div>
+      <h1 class="text-base font-semibold text-on-surface">BRK Radar</h1>
+    </div>
+    <button id="btn-refresh" class="w-10 h-10 flex items-center justify-center text-on-surface-variant rounded-full
+                   hover:bg-surface-container active:bg-surface-container-high transition-colors">
+      <i data-lucide="refresh-cw" class="w-5 h-5"></i>
+    </button>
+  </header>
+  <!-- @nav:end 导航组件 -->
+
+  <main class="flex-1 overflow-y-auto px-4 pb-6">
+    <!-- @main-content:start -->
+
+    <!-- ===== 持仓看板 ===== -->
+    <div id="position-board" class="mb-6">
+      <div id="position-header" class="flex items-center justify-between cursor-pointer py-2" style="min-height:48px;">
+        <h2 class="text-lg font-bold text-on-surface">持仓 (2)</h2>
+        <i id="position-chevron" data-lucide="chevron-down" class="w-5 h-5 text-on-surface-variant transition-transform duration-200"></i>
+      </div>
+      <div id="position-list">
+        <!-- 持仓卡片1：EB2509 苯乙烯 多 -->
+        <div id="position-card-1" class="bg-surface-container rounded-xl p-3 mb-2">
+          <div class="flex items-start justify-between gap-2">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-sm font-semibold text-on-surface">EB2509</span>
+                <span class="text-xs text-on-surface-variant">苯乙烯</span>
+                <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-success/15 text-success">多</span>
+              </div>
+              <div class="flex items-center gap-2 text-xs text-on-surface-variant mb-1">
+                <span>入场 <span class="text-on-surface font-medium">8331</span></span>
+                <i data-lucide="arrow-right" class="w-3 h-3"></i>
+                <span>现价 <span class="text-on-surface font-medium">8412</span></span>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="text-sm font-bold text-success">+81点 (+0.97%)</span>
+                <span class="text-xs text-on-surface-variant">止损 <span class="text-on-surface">8200</span></span>
+              </div>
+            </div>
+            <button id="btn-close-position-1" class="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface-container-high active:bg-surface-container-highest transition-colors" style="min-width:48px;min-height:48px;margin:-8px;">
+              <i data-lucide="x" class="w-4 h-4 text-error"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 持仓卡片2：LU2509 LU燃油 空 -->
+        <div id="position-card-2" class="bg-surface-container rounded-xl p-3 mb-2">
+          <div class="flex items-start justify-between gap-2">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-sm font-semibold text-on-surface">LU2509</span>
+                <span class="text-xs text-on-surface-variant">LU燃油</span>
+                <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-error/15 text-error">空</span>
+              </div>
+              <div class="flex items-center gap-2 text-xs text-on-surface-variant mb-1">
+                <span>入场 <span class="text-on-surface font-medium">4613</span></span>
+                <i data-lucide="arrow-right" class="w-3 h-3"></i>
+                <span>现价 <span class="text-on-surface font-medium">4648</span></span>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="text-sm font-bold text-error">-35点 (-0.76%)</span>
+                <span class="text-xs text-on-surface-variant">止损 <span class="text-on-surface">4700</span></span>
+              </div>
+            </div>
+            <button id="btn-close-position-2" class="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface-container-high active:bg-surface-container-highest transition-colors" style="min-width:48px;min-height:48px;margin:-8px;">
+              <i data-lucide="x" class="w-4 h-4 text-error"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- @pos-end -->
+
+    <!-- ===== 扫描概览条 ===== -->
+    <div id="scan-overview" class="bg-surface-container rounded-xl p-3 mb-6">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-1">
+            <i data-lucide="radio" class="w-4 h-4 text-primary"></i>
+            <span class="text-sm text-on-surface">扫描 <span class="font-semibold">65</span> 品种</span>
+          </div>
+          <div class="w-px h-4 bg-outline-variant"></div>
+          <div class="flex items-center gap-1">
+            <span class="text-sm text-success">可交易 <span class="font-semibold">7</span></span>
+          </div>
+          <div class="w-px h-4 bg-outline-variant"></div>
+          <div class="flex items-center gap-1">
+            <span class="text-sm text-on-surface-variant">过滤 <span class="font-semibold">58</span></span>
+          </div>
+        </div>
+        <span class="text-xs text-on-surface-variant">10:32:15</span>
+      </div>
+    </div>
+    <!-- @scan-end -->
+
+    <!-- ===== 交易信号列表 ===== -->
+    <div id="signal-section">
+      <h2 class="text-lg font-bold text-on-surface mb-3">交易信号</h2>
+
+      <!-- 品种卡片1：EB0 苯乙烯 -->
+      <div id="variety-card-1" class="bg-surface rounded-xl p-3 mb-2 flex items-center justify-between">
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-sm font-semibold text-on-surface">EB0</span>
+            <span class="text-xs text-on-surface-variant">苯乙烯</span>
+            <span class="text-sm font-bold text-error">-2.71%</span>
+          </div>
+          <div class="flex items-center gap-3 text-xs text-on-surface-variant">
+            <span>Gate4: <span class="text-on-surface font-medium">5/5</span></span>
+            <span class="w-px h-3 bg-outline-variant/50"></span>
+            <span>Edge: <span class="inline-flex items-center justify-center w-4 h-4 rounded-full bg-success/15 text-success text-[10px] font-bold">B</span></span>
+          </div>
+        </div>
+        <button id="btn-open-position-1" class="flex-shrink-0 w-10 h-10 bg-primary-container rounded-full flex items-center justify-center hover:opacity-80 active:scale-95 transition-all" style="min-width:48px;min-height:48px;">
+          <i data-lucide="plus" class="w-5 h-5 text-primary"></i>
+        </button>
+      </div>
+
+      <!-- 品种卡片2：L0 L塑料 -->
+      <div id="variety-card-2" class="bg-surface rounded-xl p-3 mb-2 flex items-center justify-between">
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-sm font-semibold text-on-surface">L0</span>
+            <span class="text-xs text-on-surface-variant">L塑料</span>
+            <span class="text-sm font-bold text-error">-1.83%</span>
+          </div>
+          <div class="flex items-center gap-3 text-xs text-on-surface-variant">
+            <span>Gate4: <span class="text-on-surface font-medium">5/5</span></span>
+            <span class="w-px h-3 bg-outline-variant/50"></span>
+            <span>Edge: <span class="inline-flex items-center justify-center w-4 h-4 rounded-full bg-warning/15 text-warning text-[10px] font-bold">C</span></span>
+          </div>
+        </div>
+        <button id="btn-open-position-2" class="flex-shrink-0 w-10 h-10 bg-primary-container rounded-full flex items-center justify-center hover:opacity-80 active:scale-95 transition-all" style="min-width:48px;min-height:48px;">
+          <i data-lucide="plus" class="w-5 h-5 text-primary"></i>
+        </button>
+      </div>
+
+      <!-- 品种卡片3：JD0 鸡蛋 -->
+      <div id="variety-card-3" class="bg-surface rounded-xl p-3 mb-2 flex items-center justify-between">
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-sm font-semibold text-on-surface">JD0</span>
+            <span class="text-xs text-on-surface-variant">鸡蛋</span>
+            <span class="text-sm font-bold text-success">+0.52%</span>
+          </div>
+          <div class="flex items-center gap-3 text-xs text-on-surface-variant">
+            <span>Gate4: <span class="text-on-surface font-medium">4/5</span></span>
+            <span class="w-px h-3 bg-outline-variant/50"></span>
+            <span>Edge: <span class="inline-flex items-center justify-center w-4 h-4 rounded-full bg-success/15 text-success text-[10px] font-bold">B</span></span>
+          </div>
+        </div>
+        <button id="btn-open-position-3" class="flex-shrink-0 w-10 h-10 bg-primary-container rounded-full flex items-center justify-center hover:opacity-80 active:scale-95 transition-all" style="min-width:48px;min-height:48px;">
+          <i data-lucide="plus" class="w-5 h-5 text-primary"></i>
+        </button>
+      </div>
+
+      <!-- 品种卡片4：EG0 乙二醇 -->
+      <div id="variety-card-4" class="bg-surface rounded-xl p-3 mb-2 flex items-center justify-between">
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-sm font-semibold text-on-surface">EG0</span>
+            <span class="text-xs text-on-surface-variant">乙二醇</span>
+            <span class="text-sm font-bold text-error">-3.12%</span>
+          </div>
+          <div class="flex items-center gap-3 text-xs text-on-surface-variant">
+            <span>Gate4: <span class="text-on-surface font-medium">5/5</span></span>
+            <span class="w-px h-3 bg-outline-variant/50"></span>
+            <span>Edge: <span class="inline-flex items-center justify-center w-4 h-4 rounded-full bg-warning/15 text-warning text-[10px] font-bold">C</span></span>
+          </div>
+        </div>
+        <button id="btn-open-position-4" class="flex-shrink-0 w-10 h-10 bg-primary-container rounded-full flex items-center justify-center hover:opacity-80 active:scale-95 transition-all" style="min-width:48px;min-height:48px;">
+          <i data-lucide="plus" class="w-5 h-5 text-primary"></i>
+        </button>
+      </div>
+    </div>
+    <!-- @signal-end -->
+
+    <!-- @main-content:end -->
+  </main>
+
+  <!-- ===== 开仓底部面板（Bottom Sheet） ===== -->
+  <div id="open-panel-overlay" class="fixed inset-0 bg-black/50 z-50 hidden" style="transition:opacity 0.3s;">
+    <div id="open-panel" class="absolute bottom-0 left-0 right-0 bg-surface-container-highest rounded-t-2xl shadow-dialog max-h-[85vh] overflow-y-auto" style="transform:translateY(100%);transition:transform 0.3s ease-out;">
+      <!-- 面板标题栏 -->
+      <div class="flex items-center justify-between px-5 pt-5 pb-3">
+        <h2 id="open-panel-title" class="text-lg font-bold text-on-surface">开仓 — 苯乙烯</h2>
+        <button id="btn-close-open-panel" class="w-10 h-10 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container-high active:bg-surface-container-highest transition-colors">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <div class="px-5 pb-6 space-y-4">
+        <!-- 合约选择器 -->
+        <div>
+          <label class="text-xs text-on-surface-variant mb-1.5 block">合约</label>
+          <select id="contract-selector" class="w-full bg-surface-container border-none rounded-xl px-4 py-3 text-sm text-on-surface focus:outline-none focus:ring-2 focus:ring-primary/30 transition-colors appearance-none">
+            <option value="EB2509" selected>EB2509（主力）</option>
+            <option value="EB2508">EB2508</option>
+            <option value="EB2510">EB2510</option>
+          </select>
+        </div>
+
+        <!-- 方向切换 -->
+        <div>
+          <label class="text-xs text-on-surface-variant mb-1.5 block">方向</label>
+          <div class="flex gap-2">
+            <button id="btn-direction-long" class="flex-1 py-2.5 rounded-xl text-sm font-semibold bg-success/15 text-success border border-success/20 transition-all">多</button>
+            <button id="btn-direction-short" class="flex-1 py-2.5 rounded-xl text-sm font-semibold bg-surface-container text-on-surface-variant border border-outline-variant/20 transition-all">空</button>
+          </div>
+        </div>
+
+        <!-- 入场价 -->
+        <div>
+          <label class="text-xs text-on-surface-variant mb-1.5 block">入场价</label>
+          <input id="input-entry-price" type="number" class="w-full bg-surface-container border-none rounded-xl px-4 py-3 text-sm text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary/30 transition-colors" value="8412" placeholder="入场价"/>
+        </div>
+
+        <!-- 止损 -->
+        <div>
+          <label class="text-xs text-on-surface-variant mb-1.5 block">止损</label>
+          <input id="input-stop-loss" type="number" class="w-full bg-surface-container border-none rounded-xl px-4 py-3 text-sm text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary/30 transition-colors" value="8200" placeholder="止损价"/>
+        </div>
+
+        <!-- 目标 -->
+        <div>
+          <label class="text-xs text-on-surface-variant mb-1.5 block">目标</label>
+          <input id="input-target" type="number" class="w-full bg-surface-container border-none rounded-xl px-4 py-3 text-sm text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary/30 transition-colors" value="8600" placeholder="目标价"/>
+        </div>
+
+        <!-- 手数 -->
+        <div>
+          <label class="text-xs text-on-surface-variant mb-1.5 block">手数</label>
+          <input id="input-lots" type="number" class="w-full bg-surface-container border-none rounded-xl px-4 py-3 text-sm text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary/30 transition-colors" value="1" placeholder="手数" step="1" min="1"/>
+        </div>
+
+        <!-- 确认开仓按钮 -->
+        <button id="btn-confirm-open" class="w-full bg-primary text-on-primary py-3.5 rounded-xl text-base font-semibold hover:opacity-90 active:scale-[0.98] transition-all inline-flex items-center justify-center gap-2 mt-2">
+          <i data-lucide="check" class="w-5 h-5"></i>确认开仓
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 平仓确认弹窗（Modal） ===== -->
+  <div id="close-modal-overlay" class="fixed inset-0 bg-black/50 z-50 hidden flex items-center justify-center px-4">
+    <div id="close-modal" class="bg-surface-container-highest rounded-2xl shadow-dialog p-5 w-full max-w-sm">
+      <!-- 标题 -->
+      <h2 id="close-modal-title" class="text-base font-bold text-on-surface mb-4">平仓确认 — EB2509 苯乙烯</h2>
+
+      <!-- 交易信息 -->
+      <div class="space-y-2 mb-4">
+        <div class="flex justify-between text-sm">
+          <span class="text-on-surface-variant">入场价</span>
+          <span id="close-entry-price" class="text-on-surface font-medium">8331</span>
+        </div>
+        <div class="flex justify-between text-sm">
+          <span class="text-on-surface-variant">现价</span>
+          <span id="close-current-price" class="text-on-surface font-medium">8412</span>
+        </div>
+        <div class="flex justify-between text-sm">
+          <span class="text-on-surface-variant">预估盈亏</span>
+          <span id="close-pnl" class="text-success font-bold">+81点 (+0.97%)</span>
+        </div>
+      </div>
+
+      <!-- 平仓价输入 -->
+      <div class="mb-5">
+        <label class="text-xs text-on-surface-variant mb-1.5 block">平仓价</label>
+        <input id="input-close-price" type="number" class="w-full bg-surface-container border-none rounded-xl px-4 py-3 text-sm text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary/30 transition-colors" value="8412" placeholder="平仓价"/>
+      </div>
+
+      <!-- 按钮组 -->
+      <div class="flex gap-3">
+        <button id="btn-cancel-close" class="flex-1 bg-surface-container text-on-surface-variant py-3 rounded-xl text-sm font-semibold hover:bg-surface-container-high active:scale-[0.98] transition-all">取消</button>
+        <button id="btn-confirm-close" class="flex-1 bg-error text-white py-3 rounded-xl text-sm font-semibold hover:opacity-90 active:scale-[0.98] transition-all inline-flex items-center justify-center gap-2">
+          <i data-lucide="check" class="w-4 h-4"></i>确认平仓
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>lucide.createIcons();</script>
+
+  <script>
+    $(function() {
+
+      // ===== 平仓确认弹窗 =====
+
+      // 当前平仓的目标持仓数据
+      var currentClosePosition = { id: 1, contract: 'EB2509', name: '苯乙烯', direction: '多', entryPrice: 8331, currentPrice: 8412, pnl: 81, pnlPercent: '0.97%', stopLoss: 8200 };
+
+      function showCloseModal(positionId) {
+        if (positionId === 1) {
+          currentClosePosition = { id: 1, contract: 'EB2509', name: '苯乙烯', direction: '多', entryPrice: 8331, currentPrice: 8412, pnl: 81, pnlPercent: '0.97%', stopLoss: 8200 };
+          $('#close-modal-title').text('平仓确认 — EB2509 苯乙烯');
+          $('#close-entry-price').text('8331');
+          $('#close-current-price').text('8412');
+          $('#close-pnl').removeClass('text-error').addClass('text-success').text('+81点 (+0.97%)');
+          $('#input-close-price').val(8412);
+        } else if (positionId === 2) {
+          currentClosePosition = { id: 2, contract: 'LU2509', name: 'LU燃油', direction: '空', entryPrice: 4613, currentPrice: 4648, pnl: -35, pnlPercent: '0.76%', stopLoss: 4700 };
+          $('#close-modal-title').text('平仓确认 — LU2509 LU燃油');
+          $('#close-entry-price').text('4613');
+          $('#close-current-price').text('4648');
+          $('#close-pnl').removeClass('text-success').addClass('text-error').text('-35点 (-0.76%)');
+          $('#input-close-price').val(4648);
+        }
+        $('#close-modal-overlay').removeClass('hidden');
+      }
+
+      function hideCloseModal() {
+        $('#close-modal-overlay').addClass('hidden');
+      }
+
+      // 持仓卡片平仓按钮 → 弹出平仓弹窗
+      $('#btn-close-position-1').on('click', function(e) {
+        e.stopPropagation();
+        showCloseModal(1);
+      });
+
+      $('#btn-close-position-2').on('click', function(e) {
+        e.stopPropagation();
+        showCloseModal(2);
+      });
+
+      // 点击持仓卡片主体也弹出平仓弹窗
+      $('#position-card-1').on('click', function(e) {
+        if (!$(e.target).closest('#btn-close-position-1').length) {
+          showCloseModal(1);
+        }
+      });
+
+      $('#position-card-2').on('click', function(e) {
+        if (!$(e.target).closest('#btn-close-position-2').length) {
+          showCloseModal(2);
+        }
+      });
+
+      // 关闭平仓弹窗
+      $('#btn-cancel-close').on('click', hideCloseModal);
+      $('#close-modal-overlay').on('click', function(e) {
+        if (e.target === this) hideCloseModal();
+      });
+
+      // 确认平仓
+      // 实际实现时：调 closeTrade(id, closePrice)，成功后刷新持仓列表 + 自动创建复盘记录
+      $('#btn-confirm-close').on('click', function() {
+        var closePrice = $('#input-close-price').val();
+        var pos = currentClosePosition;
+        console.log('[原型演示] 确认平仓: 合约=' + pos.contract + ' 品种=' + pos.name + ' 平仓价=' + closePrice);
+        console.log('[原型演示] 应调 closeTrade(' + pos.id + ', ' + closePrice + ')，成功后刷新持仓列表 + 自动创建复盘记录');
+        alert('平仓成功！\n合约: ' + pos.contract + ' ' + pos.name + '\n平仓价: ' + closePrice + '\n盈亏: ' + pos.pnl + '点');
+        hideCloseModal();
+      });
+
+      // ===== 开仓面板数据联动：修改入场价时自动更新止损和目标 =====
+      $('#input-entry-price').on('input', function() {
+        var entryPrice = parseFloat($(this).val()) || 0;
+        if (entryPrice > 0) {
+          // 模拟：止损 = 入场价 - 212，目标 = 入场价 + 188
+          $('#input-stop-loss').val(Math.round(entryPrice - 212));
+          $('#input-target').val(Math.round(entryPrice + 188));
+        }
+      });
+
+    });
+  </script>
+
+  <script>
+    $(function() {
+
+      // ===== 导航辅助函数 =====
+      function navPush(route) {
+        console.log('[原型演示] PUSH 到: ' + route);
+        window.location.href = route;
+      }
+
+      function navReplace(route) {
+        console.log('[原型演示] REPLACE 为: ' + route);
+        window.location.replace(route);
+      }
+
+      function navReset(route) {
+        console.log('[原型演示] RESET 到: ' + route);
+        window.location.href = route;
+      }
+
+      function navBack() {
+        console.log('[原型演示] BACK 返回上一页');
+        if (window.history.length > 1) window.history.back();
+      }
+
+      // ===== 持仓看板折叠/展开 =====
+      var positionExpanded = true;
+
+      $('#position-header').on('click', function() {
+        positionExpanded = !positionExpanded;
+        if (positionExpanded) {
+          $('#position-list').slideDown(200);
+          $('#position-chevron').css('transform', 'rotate(0deg)');
+        } else {
+          $('#position-list').slideUp(200);
+          $('#position-chevron').css('transform', 'rotate(-90deg)');
+        }
+      });
+
+      // ===== 刷新按钮 =====
+      $('#btn-refresh').on('click', function() {
+        console.log('[原型演示] 触发刷新：调 refresh + 刷新持仓+扫描');
+        var $btn = $(this);
+        var $icon = $btn.find('i');
+        $icon.addClass('animate-spin');
+        setTimeout(function() {
+          $icon.removeClass('animate-spin');
+        }, 1000);
+      });
+
+      // ===== 开仓面板 =====
+      // 当前开仓的品种数据（模拟）
+      var currentOpenVariety = { code: 'EB0', name: '苯乙烯', contract: 'EB2509', direction: 'long', entryPrice: 8412, stopLoss: 8200, target: 8600, lots: 1 };
+
+      function showOpenPanel(varietyCode, varietyName) {
+        currentOpenVariety.code = varietyCode;
+        currentOpenVariety.name = varietyName;
+        $('#open-panel-title').text('开仓 — ' + varietyName);
+        // 重置表单
+        $('#contract-selector').val('EB2509');
+        $('#btn-direction-long').removeClass('bg-surface-container text-on-surface-variant border-outline-variant/20').addClass('bg-success/15 text-success border-success/20');
+        $('#btn-direction-short').removeClass('bg-error/15 text-error border-error/20').addClass('bg-surface-container text-on-surface-variant border-outline-variant/20');
+        currentOpenVariety.direction = 'long';
+        $('#input-entry-price').val(8412);
+        $('#input-stop-loss').val(8200);
+        $('#input-target').val(8600);
+        $('#input-lots').val(1);
+        // 显示面板
+        $('#open-panel-overlay').removeClass('hidden');
+        setTimeout(function() {
+          $('#open-panel').css('transform', 'translateY(0)');
+        }, 10);
+      }
+
+      function hideOpenPanel() {
+        $('#open-panel').css('transform', 'translateY(100%)');
+        setTimeout(function() {
+          $('#open-panel-overlay').addClass('hidden');
+        }, 300);
+      }
+
+      // 品种卡片 "+" 按钮 → 弹出开仓面板
+      $('#btn-open-position-1').on('click', function() { showOpenPanel('EB0', '苯乙烯'); });
+      $('#btn-open-position-2').on('click', function() { showOpenPanel('L0', 'L塑料'); });
+      $('#btn-open-position-3').on('click', function() { showOpenPanel('JD0', '鸡蛋'); });
+      $('#btn-open-position-4').on('click', function() { showOpenPanel('EG0', '乙二醇'); });
+
+      // 关闭开仓面板
+      $('#btn-close-open-panel').on('click', hideOpenPanel);
+      $('#open-panel-overlay').on('click', function(e) {
+        if (e.target === this) hideOpenPanel();
+      });
+
+      // 方向切换
+      $('#btn-direction-long').on('click', function() {
+        $(this).removeClass('bg-surface-container text-on-surface-variant border-outline-variant/20').addClass('bg-success/15 text-success border-success/20');
+        $('#btn-direction-short').removeClass('bg-error/15 text-error border-error/20').addClass('bg-surface-container text-on-surface-variant border-outline-variant/20');
+        currentOpenVariety.direction = 'long';
+      });
+
+      $('#btn-direction-short').on('click', function() {
+        $(this).removeClass('bg-surface-container text-on-surface-variant border-outline-variant/20').addClass('bg-error/15 text-error border-error/20');
+        $('#btn-direction-long').removeClass('bg-success/15 text-success border-success/20').addClass('bg-surface-container text-on-surface-variant border-outline-variant/20');
+        currentOpenVariety.direction = 'short';
+      });
+
+      // 合约切换 — 模拟拉取该合约最新价格并更新入场价/止损/目标
+      // 实际实现时：调 GET /api/v1/trading/contracts/:code/:contract 获取最新K线价格
+      // 然后用返回的现价更新入场价，止损/目标按价差偏移
+      $('#contract-selector').on('change', function() {
+        var contract = $(this).val();
+        console.log('[原型演示] 切换合约到: ' + contract + '，需拉取该合约最新价格并更新入场价/止损/目标');
+        // Mock：不同合约价格略有差异
+        var mockPrices = { 'EB2509': 8412, 'EB2508': 8398, 'EB2510': 8430 };
+        var price = mockPrices[contract] || 8412;
+        $('#input-entry-price').val(price);
+        $('#input-stop-loss').val(price - 212);
+        $('#input-target').val(price + 188);
+      });
+
+      // 确认开仓
+      $('#btn-confirm-open').on('click', function() {
+        var contract = $('#contract-selector').val();
+        var direction = currentOpenVariety.direction === 'long' ? '多' : '空';
+        var entryPrice = $('#input-entry-price').val();
+        var stopLoss = $('#input-stop-loss').val();
+        var target = $('#input-target').val();
+        var lots = $('#input-lots').val();
+        console.log('[原型演示] 确认开仓: 合约=' + contract + ' 方向=' + direction + ' 入场=' + entryPrice + ' 止损=' + stopLoss + ' 目标=' + target + ' 手数=' + lots);
+        console.log('[原型演示] 应调 createTrade()，成功后刷新持仓列表 + toast 提示 + 自动创建复盘记录');
+        alert('开仓成功！\n合约: ' + contract + '\n方向: ' + direction + '\n入场价: ' + entryPrice + '\n手数: ' + lots);
+        hideOpenPanel();
+      });
+
+    });
+  </script>
+
+</body>
+</html>

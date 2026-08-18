@@ -32,8 +32,6 @@ npm-debug.log*
 !.env.example
 
 # Coze 本地开发脚本（Railway 不需要）
-.cozeproj/
-.coze
 
 # 交付物
 *.apk
