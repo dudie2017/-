@@ -36,3 +36,4 @@ npm-debug.log*
 # 交付物
 *.apk
 *.tar.gz
+.preview

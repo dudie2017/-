@@ -1,0 +1,28 @@
+[project]
+sub_id = "61c516b5"
+name = "expo-express-monorepo"
+entrypoint = "server.js"
+requires = ["nodejs-24"]
+project_type = "app"
+version = "0.0.35"
+
+[preview]
+preview_enable = "enabled"
+
+[dev]
+build = ["bash", ".cozeproj/scripts/dev_run.sh"]
+run = ["bash", ".cozeproj/scripts/dev_run.sh"]
+
+[deploy]
+build = ["bash", ".cozeproj/scripts/prod_build.sh"]
+run = ["bash", ".cozeproj/scripts/prod_run.sh"]
+build_app_dir = "./client"
+
+[deploy.profile]
+kind = "android"
+
+[deploy.backend]
+enabled = true
+
+[subprojects]
+path = ["."]

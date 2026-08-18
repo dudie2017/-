@@ -259,3 +259,34 @@ import { Screen } from '../../../components/Screen';
 ## 本地开发
 
 `coze dev`：用来首次启动前后端服务，也可以用来重启前后端服务（该命令会先尝试杀掉占用端口的进程，再启动服务）
+
+## 项目概述
+
+期货/大宗商品交易分析与模拟交易平台，包含品种分析、策略回测、模拟交易、风险管理、训练游戏等功能模块。
+
+## 技术栈
+
+- **前端**：Expo SDK 54 + React Native + Expo Router + Tailwind/Uniwind
+- **后端**：Express.js + TypeScript + PostgreSQL (Supabase)
+- **包管理**：pnpm workspace monorepo
+- **运行时**：Node.js 24
+
+## 关键入口
+
+- 前端入口：`client/app/_layout.tsx`（根布局）→ `client/app/index.tsx`（首页）
+- 后端入口：`server/src/index.ts`
+- 后端 API 前缀：`/api/v1`
+- 样式 tokens：`client/global.css`
+
+## 运行与预览
+
+- 开发启动：`coze dev`（前端 5000 端口，后端 9091 端口）
+- 静态校验：`pnpm validate`（= lint:client + lint:server）
+- 部署构建：`bash .cozeproj/scripts/prod_build.sh`
+- 部署运行：`bash .cozeproj/scripts/prod_run.sh`（后端监听 5000 端口）
+
+## 注意事项
+
+- 后端依赖 `server/data-cache-60m-long/` 缓存目录，首次启动前需确保存在
+- 后端依赖 TUSHARE_TOKEN 环境变量（未配置时部分数据功能不可用）
+- 路由采用 Stack 导航（无 Tab Bar），页面数量较多（40+ 路由）
