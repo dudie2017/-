@@ -32,9 +32,16 @@ router.get('/', async (_req, res) => {
 
 // 60min回测（全部品种，分钟级出场精度）
 const CACHE_60M = path.join(process.cwd(), 'data-cache-60m-long');
-const ALL_60M_CODES = fs.readdirSync(CACHE_60M)
-  .filter((f: string) => f.endsWith('.json'))
-  .map((f: string) => f.replace('.json', ''));
+try {
+  fs.mkdirSync(CACHE_60M, { recursive: true });
+} catch (e: any) {
+  console.warn(`[Backtest] 无法创建缓存目录 ${CACHE_60M}: ${e.message}，回测功能可能不可用`);
+}
+const ALL_60M_CODES = fs.existsSync(CACHE_60M) 
+  ? fs.readdirSync(CACHE_60M)
+      .filter((f: string) => f.endsWith('.json'))
+      .map((f: string) => f.replace('.json', ''))
+  : [];
 
 router.get('/60m', async (_req, res) => {
   try {
